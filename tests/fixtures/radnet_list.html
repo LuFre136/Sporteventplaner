@@ -1,0 +1,530 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> 
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+<meta name="description" content="Alle Termine RTF, CTF, Marathon, Volksradfahren aus dem Breitensportkalender des BDR. Permanent aktualisiert und mit weiteren interaktiven Funktionen." /> 
+<meta name="keywords" content="Breitensport, Radsport, Radfahren, RTF, Tourenfahren, Volksradfahren, CTF, rad-net"> 
+  <link rel="stylesheet" href="/assets/components/smartoptimizer/connector.php?%2Ftemplates%2Fbreitensport%2Fdesign.css" type="text/css"> 
+   <!--[if IE  6]>
+   <link rel="stylesheet" href="/templates/breitensport/design_ie6.css" type="text/css">
+  <![endif]-->
+<title>Aktuelle Termine aus dem Breitensportkalender - RTF, CTF, Volksradfahren | Breitensport bei rad-net.de</title> 
+<meta name="author" content="rad-net GmbH"> 
+<meta name="language" content="de"> 
+<base href="https://breitensport.rad-net.de/" /> 
+  
+<script type="text/javascript" src="/assets/js/jquery-1.8.2.min.js"></script>  
+<script type="text/javascript" src="/assets/components/smartoptimizer/connector.php?%2Fassets%2Fslimbox%2Fjs%2Fslimbox2.js"></script> 
+<script type="text/javascript" src="/assets/cookie-bar/cookiebar-latest.min.js?theme=flying&tracking=1&thirdparty=1&noGeoIp=1&privacyPage=%2Fdatenschutzhinweise.html"></script>
+<link rel="stylesheet" href="/assets/components/smartoptimizer/connector.php?%2Fassets%2Fslimbox%2Fcss%2Fslimbox2.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/templates/js/colorbox-master/example1/colorbox.css" />
+<script type="text/javascript" src="/templates/js/piwikload_bs.js"></script>
+<script src="/templates/js/colorbox-master/jquery.colorbox-min.js"></script>
+<meta name="robots" content="index,follow"> 
+
+  
+  
+  <link rel="stylesheet" href="/templates/breitensport/search.css" type="text/css">  
+  <script type="text/javascript" src="/assets/datepicker2/jquery-ui-1.8.23.custom.min.js"></script>
+
+<link href="/assets/datepicker2/jquery-ui-1.8.23.custom.css" rel="stylesheet" type="text/css" />
+
+
+  <script type="text/javascript"  charset="utf-8">
+  $(document).ready(function(){
+    $("#startdate").datepicker({ dateFormat: 'dd.mm.yy' });
+    $('#startdate').datepicker('option', 'dayNamesMin', ['So', 'Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa']);
+    $('#startdate').datepicker('option', 'monthNames', ['Januar','Februar','M&auml;rz','April','Mai','Juni','Juli','August','September','Oktober','November','Dezember']);
+    $('#startdate').datepicker('option', 'firstDay', 1);
+    $('#startdate').datepicker('option', 'prevText', 'einen Monat zurück');
+    $('#startdate').datepicker('option', 'nextText', 'einen Monat vor');    
+    
+    $("#enddate").datepicker({ dateFormat: 'dd.mm.yy' });
+    $('#enddate').datepicker('option', 'dayNamesMin', ['So', 'Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa']);
+    $('#enddate').datepicker('option', 'monthNames', ['Januar','Februar','M&auml;rz','April','Mai','Juni','Juli','August','September','Oktober','November','Dezember']);
+    $('#enddate').datepicker('option', 'firstDay', 1);
+    $('#enddate').datepicker('option', 'prevText', 'einen Monat zurück');
+    $('#enddate').datepicker('option', 'nextText', 'einen Monat vor');  
+  });
+  </script>
+
+  <link rel="stylesheet" href="/assets/ed_functions/autosuggest.css" type="text/css"> 
+  <script type="text/javascript" src="/assets/ed_functions/autosuggest.js"></script>
+</head>   
+<body> 
+<div id="fullpage">
+  <div id="wrapper">
+
+    <div id="inner-wrap">
+      <div id="top">
+        <div id="metamenu">
+            <div style="float: left;" ><img src="/templates/breitensport/images/medienpartner_2025.png"></div>
+<a style="font-weight: bold;" href="http://www.rad-net.de" title="Zu rad-net.de">rad-net.de</a>   
+<a href="verwaltung/login.html" title="Zum Login f&uuml;r Administratoren und Organisation">Login</a>
+<a href="aktuelles/" title="Zur&uuml;ck zur Startseite Breitensport">Start</a>       
+        </div> <!-- Ende Metamenu -->
+        <div id="topimage">
+  <a style="float: left;" href="https://www.rad-net.de/breitensport.htm" title="Willkommen beim Breitensportportal von rad-net.de"><img src="/templates/breitensport/images/topimage2.jpg" border="0" alt="Willkommen beim Breitensportportal von rad-net.de"></a>
+   <a target="_blank" href="https://www.rad-net.de/" title="Zu rad-net.de"><img src="/templates/breitensport/images/logotopimage3.jpg" border="0" alt="Willkommen beim Breitensportportal von rad-net.de"></a>
+</div> <!-- Ende topimage -->
+        <div id="menu">
+          <ul><li class="first active"><a href="breitensportkalender/" title="Aktuelle Termine aus dem Breitensportkalender - RTF, CTF, Volksradfahren" >Breitensportkalender</a></li>
+</ul>
+
+        </div> <!-- Ende menu -->
+      </div> <!-- Ende top -->
+      <div id="inhaltlinks" class="inhaltlinks-wide">
+        <h1>rad-net Breitensportkalender</h1>   
+      
+ 
+<form id="terminsuche" action="breitensportkalender/" method="get">
+  
+  <div id="form"> 
+    <div class="skoda">
+        Unterst&uuml;tzt von<br>
+        <a href="http://www.skoda.de" target="_blank" alt="Skoda unterst&uuml;tzt den Breitensport" title="Skoda unterst&uuml;tzt den Breitensport">
+            <img src="/templates/breitensport/images/skoda-logo3.jpg" border="0">
+        </a>
+        
+    </div>
+    <br> 
+    <div style="float: left; width: 450px;">
+    <div class="formrow">
+      <label for="start-date"><span>Datum von</span></label><input style="float: left;" name="startdate" id="startdate" class="date-pick" value="13.10.2026" /><label style="width: 30px; margin: 5px 10px 0 10px; text-align: center;" for="enddate">bis</label><input name="enddate" id="enddate" class="date-pick" value="13.01.2027" />
+    </div>
+    
+    <div class="formrow">
+     <label for="art"><span>Kategorie</span></label>
+    <select name="art">
+       <option value="-1"  selected="selected" >Alle (außer Permanente)</option>
+       <option value="2"   >Radtourenfahrten (RTF)</option>
+       
+       <option value="4"   >Radmarathon</option>
+       <option value="23"   >CTF-Marathon</option>
+       <option value="24"   >Gravelride-Marathon</option>
+       <option value="5"   >Radmarathon-Cup Deutschland</option>
+       <option value="6"   >Country-Tourenfahrten (CTF)</option>
+       
+       <option value="10"   >CTF-Permanente</option>
+       <option value="1"   >RTF-Permanente</option>
+       <option value="3"   >Etappenfahrten</option>
+       
+       
+       
+       
+       
+       
+       
+       
+       <option value="17"   >Brevet</option>
+       <option value="20"   >Gravelride</option>
+       <option value="21"   >Permanent Gravelride</option>
+       <option value="22"   >vRTF</option>
+      </select>
+    </div>
+    
+    <div class="formrow"> 
+    <label for="titel"> 
+        Titel oder RTF-Nr.:        
+    </label> 
+      <input type="text" name="titel" id="titel" style="width: 242px;" value="" /> 
+    <span class="error"></span> 
+  </div>
+      
+      <div class="formrow">     
+    <label for="lv"> 
+        Landesverband:        
+    </label> 
+    <select name="lv" id="lv">
+       <option value="-1"  selected="selected" >Alle</option>
+       <option value="1"   >Baden</option>
+       <option value="2"   >Bayern</option>
+       <option value="14"   >Berlin</option>
+       <option value="3"   >Brandenburg</option>
+       <option value="16"   >Bremen</option>
+       <option value="4"   >Hamburg</option>
+       <option value="5"   >Hessen</option>
+       <option value="17"   >Mecklenburg-Vorpommern</option>
+       <option value="6"   >Niedersachsen</option>       
+       <option value="7"   >Nordrhein-Westfalen</option>
+       <option value="8"   >Rheinland-Pfalz</option>
+       <option value="9"   >Sachsen</option>
+       <option value="18"   >Sachsen-Anhalt</option>
+       <option value="10"   >Saarland</option>
+       <option value="11"   >Schleswig-Holstein</option>
+       <option value="19"   >Thüringen</option>    
+       <option value="12"   >Württemberg</option>
+      </select>
+    </div>
+      
+    
+    <div class="formrow">     
+    <label for="umkreis"> 
+        im Umkreis von:        
+    </label> 
+      <select name="umkreis" id="umkreis" style="float: left; width: 120px;">
+       <option value="-1"  selected="selected" >Alle</option>
+       <option value="20"   >20 km</option>
+       <option value="50"   >50 km</option>
+       <option value="100"   >100 km</option>
+       <option value="200"   >200 km</option>
+       <option value="400"   >400 km</option> 
+      </select>
+    <label for="plz" style="width: 60px; margin: 5px 10px 0 10px; text-align: center;"> 
+        um PLZ:        
+    </label>       
+      <input  style="float: left; width: 50px;" type="text" name="plz" id="plz" value="" /> 
+      <div class="error">&nbsp;</div>
+    </div>
+      
+      
+     <div class="formrow"> 
+    <label> 
+        &nbsp;  
+    </label> 
+       <input style="float: left; width: 20px; margin-right: 5px;" type="checkbox" id="updatet" name="updatet" value="1"  >
+       <label for="updatet"  style="width: 250px; margin-top: -1px;"> Nur Veranstaltungen mit &Auml;nderungen anzeigen</label>   
+      <br><div class="error">&nbsp;</div>
+    </div><br>
+    <input type="hidden" name="tid" value="">
+    <input type="hidden" id ="formproof" name="formproof" value="">  
+    <input type="submit" name="go" class="form-buttons" value="Termine suchen" /> 
+    </div>
+    <br class="clear">
+      </div> <!-- Ende form -->
+     
+</form>
+
+  <script type="text/javascript"> 
+     
+  var options = {
+    script:"/assets/ed_functions/termine.autosuggest.php?json=true&limit=6&",
+    varname:"titel",
+    json:true,
+    shownoresults:false,
+    maxresults:6,
+                            
+    callback: function (obj) { 
+                               document.getElementById('titel').value = obj.value;
+                             }
+  };
+  var as_json = new bsn.AutoSuggest('titel', options);
+  </script>  
+<div align="center" style="margin: 15px 0 15px 0;">Es wurden <strong>28</strong> Treffer zu Ihrer Anfrage gefunden.</div><ul id="tabellen_ul"><li class="tabheader">
+    <div class="zelle" style="width: 30px;"><h2>Art</h2></div>
+              <div class="zelle" style="width: 85px;"><a href="/breitensportkalender/?titel=&startdate=13.10.2026&sortby=&enddate=13.01.2027&art=&lv=&umkreis=&plz=&updatet=&sortbyn=date&sortdirdate=&lstart=0" title="Nach Datum sortieren"><h2>Datum</h2></a></div>
+              <div class="zelle" style="width: 170px;"><a href="/breitensportkalender/?titel=&startdate=13.10.2026&sortby=&enddate=13.01.2027&art=&lv=&umkreis=&plz=&updatet=&sortbyn=titel&sortdirtitel=&lstart=0" title="Nach Titel sortieren"><h2>Titel</h2></a></div>
+              <div class="zelle" style="width: 70px;"><h2>Strecken</h2></div>
+              <div class="zelle" style="width: 170px;"><a href="/breitensportkalender/?titel=&startdate=13.10.2026&sortby=&enddate=13.01.2027&art=&lv=&umkreis=&plz=&updatet=&sortbyn=verein&sortdirverein=&lstart=0" title="Nach Verein sortieren"><h2>Verein</h2></a></div>
+        </li><li class="tabzeile" style="clear: both;">
+      <a class="terminlink"  href="/breitensportkalender/termine/2026/german-cycling-vrtf-15-2026;9977007.html">
+              <div class="zelle" style="width: 30px;">
+                 <div class="a-wertung" ></div><div class="tooltip">vRTF</div>                                                               
+              </div>
+              <div class="zelle" style="width: 85px;">Do, 15.10.2026</div>
+              <div class="zelle" style="width: 170px;">German Cycling vRTF #15 2026</div>
+              <div class="zelle" style="width: 70px;">30/<wbr>60/<wbr>90</div>
+              <div class="zelle" style="width: 170px;">German Cycling e.V. (HES)</div>
+            </a>
+          </li><li class="tabzeile" style="clear: both;">
+      <a class="terminlink" style="height: 65px;" href="/breitensportkalender/termine/2026/13.-guetersloher-gravelday;9976560.html">
+              <div class="zelle" style="width: 30px;">
+                 <div class="sonstige" ></div><div class="tooltip">Gravelride</div>                                                               
+              </div>
+              <div class="zelle" style="width: 85px;">Sa, 17.10.2026</div>
+              <div class="zelle" style="width: 170px;">13. Gütersloher Gravelday</div>
+              <div class="zelle" style="width: 70px;">25/<wbr>46/<wbr>58/<wbr>82</div>
+              <div class="zelle" style="width: 170px;">RSV Gütersloh 1931 e.V. (NRW)</div>
+            </a>
+          </li>
+<!-- <div style="width: 468px; height: 60px; margin: -2px auto 2px auto;">
+
+</div> --><li class="tabzeile" style="clear: both;">
+      <a class="terminlink"  href="/breitensportkalender/termine/2026/gravellissimo-waffel-ride;9976397.html">
+              <div class="zelle" style="width: 30px;">
+                 <div class="sonstige" ></div><div class="tooltip">Gravelride</div>                                                               
+              </div>
+              <div class="zelle" style="width: 85px;">So, 18.10.2026</div>
+              <div class="zelle" style="width: 170px;">Gravellissimo Waffel Ride</div>
+              <div class="zelle" style="width: 70px;">53/<wbr>74/<wbr>95</div>
+              <div class="zelle" style="width: 170px;">RSG Mittelpunkt Nortorf (SCH)</div>
+            </a>
+          </li><li class="tabzeile" style="clear: both;">
+      <a class="terminlink" style="height: 65px;" href="/breitensportkalender/termine/2026/9.-ctf-vom-main-in-den-vordertaunus;9976446.html">
+              <div class="zelle" style="width: 30px;">
+                 <div class="ctf" ></div><div class="tooltip">CTF</div>                                                               
+              </div>
+              <div class="zelle" style="width: 85px;">So, 18.10.2026</div>
+              <div class="zelle" style="width: 170px;">9. CTF vom Main in den Vordertaunus</div>
+              <div class="zelle" style="width: 70px;">40/<wbr>58</div>
+              <div class="zelle" style="width: 170px;">RV Opel 1888 Rüsselsheim e.V. (HES)</div>
+            </a>
+          </li><li class="tabzeile" style="clear: both;">
+      <a class="terminlink"  href="/breitensportkalender/termine/2026/german-cycling-vrtf-16-2026;9977008.html">
+              <div class="zelle" style="width: 30px;">
+                 <div class="a-wertung" ></div><div class="tooltip">vRTF</div>                                                               
+              </div>
+              <div class="zelle" style="width: 85px;">Do, 22.10.2026</div>
+              <div class="zelle" style="width: 170px;">German Cycling vRTF #16 2026</div>
+              <div class="zelle" style="width: 70px;">30/<wbr>60/<wbr>90</div>
+              <div class="zelle" style="width: 170px;">German Cycling e.V. (HES)</div>
+            </a>
+          </li><li class="tabzeile" style="clear: both;">
+      <a class="terminlink"  href="/breitensportkalender/termine/2026/schiwy-ctf-burgdorfer-holz;9975881.html">
+              <div class="zelle" style="width: 30px;">
+                 <div class="ctf" ></div><div class="tooltip">CTF</div>                                                               
+              </div>
+              <div class="zelle" style="width: 85px;">Sa, 24.10.2026</div>
+              <div class="zelle" style="width: 170px;">Schiwy CTF- Burgdorfer Holz</div>
+              <div class="zelle" style="width: 70px;">44/<wbr>66</div>
+              <div class="zelle" style="width: 170px;">Radsportbezirk Hannover e.V. (NDS)</div>
+            </a>
+          </li><li class="tabzeile" style="clear: both;">
+      <a class="terminlink" style="height: 65px;" href="/breitensportkalender/termine/2026/47.-bitterfelder-goitzsche-gravelride;9976732.html">
+              <div class="zelle" style="width: 30px;">
+                 <div class="ctf" ></div><div class="tooltip">CTF</div>                                                               
+              </div>
+              <div class="zelle" style="width: 85px;">So, 25.10.2026</div>
+              <div class="zelle" style="width: 170px;">47. Bitterfelder Goitzsche Gravelride</div>
+              <div class="zelle" style="width: 70px;">20/<wbr>40/<wbr>60/<wbr>80</div>
+              <div class="zelle" style="width: 170px;">ESV Bitterfeld e.V. (SAH)</div>
+            </a>
+          </li><div align="center" style="margin: 5px 0px;"><!-- Placement: rotation.misc_468x60 (3745937) -->
+<div id="mf3745937" class="mfc1">
+	<script type="text/javascript">if (typeof getHeliosTag =='function') getHeliosTag(3745937, 1);</script>
+</div></div><li class="tabzeile" style="clear: both;">
+      <a class="terminlink" style="height: 65px;" href="/breitensportkalender/termine/2026/22.-rst-luebeck-o-ctf;9976749.html">
+              <div class="zelle" style="width: 30px;">
+                 <div class="ctf" ></div><div class="tooltip">CTF</div>                                                               
+              </div>
+              <div class="zelle" style="width: 85px;">So, 25.10.2026</div>
+              <div class="zelle" style="width: 170px;">22. RST Lübeck O-CTF</div>
+              <div class="zelle" style="width: 70px;">53/<wbr>76</div>
+              <div class="zelle" style="width: 170px;">Radsport Team Lübeck v. 1990 e.V. (SCH)</div>
+            </a>
+          </li><li class="tabzeile" style="clear: both;">
+      <a class="terminlink"  href="/breitensportkalender/termine/2026/german-cycling-vrtf-17-2026;9977009.html">
+              <div class="zelle" style="width: 30px;">
+                 <div class="a-wertung" ></div><div class="tooltip">vRTF</div>                                                               
+              </div>
+              <div class="zelle" style="width: 85px;">Do, 29.10.2026</div>
+              <div class="zelle" style="width: 170px;">German Cycling vRTF #17 2026</div>
+              <div class="zelle" style="width: 70px;">30/<wbr>60/<wbr>90</div>
+              <div class="zelle" style="width: 170px;">German Cycling e.V. (HES)</div>
+            </a>
+          </li><li class="tabzeile" style="clear: both;">
+      <a class="terminlink" style="height: 65px;" href="/breitensportkalender/termine/2026/rund-um-hannover;9976074.html">
+              <div class="zelle" style="width: 30px;">
+                 <div class="sonstige" ></div><div class="tooltip">Gravelride</div>                                                               
+              </div>
+              <div class="zelle" style="width: 85px;">Sa, 31.10.2026</div>
+              <div class="zelle" style="width: 170px;">Rund um Hannover</div>
+              <div class="zelle" style="width: 70px;">42/<wbr>85</div>
+              <div class="zelle" style="width: 170px;">RC Blau-Gelb Langenhagen v. 1927 e.V. (NDS)</div>
+            </a>
+          </li><li class="tabzeile" style="clear: both;">
+      <a class="terminlink"  href="/breitensportkalender/termine/2026/bungsberg-ctf;9976729.html">
+              <div class="zelle" style="width: 30px;">
+                 <div class="ctf" ></div><div class="tooltip">CTF</div>                                                               
+              </div>
+              <div class="zelle" style="width: 85px;">So, 01.11.2026</div>
+              <div class="zelle" style="width: 170px;">Bungsberg-CTF</div>
+              <div class="zelle" style="width: 70px;">50/<wbr>75</div>
+              <div class="zelle" style="width: 170px;">Rad-Sport-Team Malente (SCH)</div>
+            </a>
+          </li><li class="tabzeile" style="clear: both;">
+      <a class="terminlink"  href="/breitensportkalender/termine/2026/german-cycling-vrtf-18-2026;9977010.html">
+              <div class="zelle" style="width: 30px;">
+                 <div class="a-wertung" ></div><div class="tooltip">vRTF</div>                                                               
+              </div>
+              <div class="zelle" style="width: 85px;">Do, 05.11.2026</div>
+              <div class="zelle" style="width: 170px;">German Cycling vRTF #18 2026</div>
+              <div class="zelle" style="width: 70px;">30/<wbr>60/<wbr>90</div>
+              <div class="zelle" style="width: 170px;">German Cycling e.V. (HES)</div>
+            </a>
+          </li><li class="tabzeile" style="clear: both;">
+      <a class="terminlink" style="height: 65px;" href="/breitensportkalender/termine/2026/5.-o-ctf-winter-kartoffeltour;9975843.html">
+              <div class="zelle" style="width: 30px;">
+                 <div class="ctf" ></div><div class="tooltip">CTF</div>                                                               
+              </div>
+              <div class="zelle" style="width: 85px;">So, 08.11.2026</div>
+              <div class="zelle" style="width: 170px;">5. O-CTF Winter Kartoffeltour</div>
+              <div class="zelle" style="width: 70px;">46</div>
+              <div class="zelle" style="width: 170px;">RSV Concordia v. 1909 Hannover e.V. (NDS)</div>
+            </a>
+          </li><li class="tabzeile" style="clear: both;">
+      <a class="terminlink" style="height: 65px;" href="/breitensportkalender/termine/2026/freckenhorster-herbstmanoever-ctf;9975970.html">
+              <div class="zelle" style="width: 30px;">
+                 <div class="ctf" ></div><div class="tooltip">CTF</div>                                                               
+              </div>
+              <div class="zelle" style="width: 85px;">So, 08.11.2026</div>
+              <div class="zelle" style="width: 170px;">Freckenhorster Herbstmanöver CTF</div>
+              <div class="zelle" style="width: 70px;">31/<wbr>51</div>
+              <div class="zelle" style="width: 170px;">RSG Warendorf-Freckenhorst e.V. (NRW)</div>
+            </a>
+          </li><li class="tabzeile" style="clear: both;">
+      <a class="terminlink" style="height: 65px;" href="/breitensportkalender/termine/2026/viking-bike-winterchallenge,-o-ctf-und-gravelride-70-km;9976239.html">
+              <div class="zelle" style="width: 30px;">
+                 <div class="ctf" ></div><div class="tooltip">CTF</div>                                                               
+              </div>
+              <div class="zelle" style="width: 85px;">So, 08.11.2026</div>
+              <div class="zelle" style="width: 170px;">Viking Bike Winterchallenge, O-CTF und Grave......</div>
+              <div class="zelle" style="width: 70px;">35/<wbr>55/<wbr>70</div>
+              <div class="zelle" style="width: 170px;">RV Schleswig e.V. (SCH)</div>
+            </a>
+          </li><li class="tabzeile" style="clear: both;">
+      <a class="terminlink" style="height: 65px;" href="/breitensportkalender/termine/2026/viking-bike-winterchallenge-,-o-ctf-und-gravelride-70-km;9976386.html">
+              <div class="zelle" style="width: 30px;">
+                 <div class="sonstige" ></div><div class="tooltip">Gravelride</div>                                                               
+              </div>
+              <div class="zelle" style="width: 85px;">So, 08.11.2026</div>
+              <div class="zelle" style="width: 170px;">Viking Bike Winterchallenge , O-CTF und Grav......</div>
+              <div class="zelle" style="width: 70px;">35/<wbr>55/<wbr>70</div>
+              <div class="zelle" style="width: 170px;">RV Schleswig e.V. (SCH)</div>
+            </a>
+          </li><li class="tabzeile" style="clear: both;">
+      <a class="terminlink" style="height: 65px;" href="/breitensportkalender/termine/2026/mueggelheimer-runde;9976876.html">
+              <div class="zelle" style="width: 30px;">
+                 <div class="ctf" ></div><div class="tooltip">CTF</div>                                                               
+              </div>
+              <div class="zelle" style="width: 85px;">So, 08.11.2026</div>
+              <div class="zelle" style="width: 170px;">Müggelheimer Runde</div>
+              <div class="zelle" style="width: 70px;">48</div>
+              <div class="zelle" style="width: 170px;">BSV Akademie der Wissenschaften (BER)</div>
+            </a>
+          </li><li class="tabzeile" style="clear: both;">
+      <a class="terminlink"  href="/breitensportkalender/termine/2026/german-cycling-vrtf-19-2026-do.-oder-so.;9977011.html">
+              <div class="zelle" style="width: 30px;">
+                 <div class="a-wertung" ></div><div class="tooltip">vRTF</div>                                                               
+              </div>
+              <div class="zelle" style="width: 85px;">Do, 12.11.2026</div>
+              <div class="zelle" style="width: 170px;">German Cycling vRTF #19 2026 - Do. oder So.</div>
+              <div class="zelle" style="width: 70px;">30/<wbr>60/<wbr>90</div>
+              <div class="zelle" style="width: 170px;">German Cycling e.V. (HES)</div>
+            </a>
+          </li><li class="tabzeile" style="clear: both;">
+      <a class="terminlink"  href="/breitensportkalender/termine/2026/2.-gravelride-ds-vfl-stade;99757892.html">
+              <div class="zelle" style="width: 30px;">
+                 <div class="sonstige" ></div><div class="tooltip">Gravelride</div>                                                               
+              </div>
+              <div class="zelle" style="width: 85px;">Sa, 14.11.2026</div>
+              <div class="zelle" style="width: 170px;">2. Gravelride ds VFL Stade</div>
+              <div class="zelle" style="width: 70px;">52/<wbr>78</div>
+              <div class="zelle" style="width: 170px;">VfL Stade v. 1850 e.V. (NDS)</div>
+            </a>
+          </li><li class="tabzeile" style="clear: both;">
+      <a class="terminlink"  href="/breitensportkalender/termine/2026/german-cycling-vrtf-20-2026-do.-oder-so.;9977012.html">
+              <div class="zelle" style="width: 30px;">
+                 <div class="a-wertung" ></div><div class="tooltip">vRTF</div>                                                               
+              </div>
+              <div class="zelle" style="width: 85px;">Do, 19.11.2026</div>
+              <div class="zelle" style="width: 170px;">German Cycling vRTF #20 2026 - Do. oder So.</div>
+              <div class="zelle" style="width: 70px;">30/<wbr>60/<wbr>90</div>
+              <div class="zelle" style="width: 170px;">German Cycling e.V. (HES)</div>
+            </a>
+          </li><li class="tabzeile" style="clear: both;">
+      <a class="terminlink"  href="/breitensportkalender/termine/2026/german-cycling-vrtf-21-2026-do.-oder-so.;9977013.html">
+              <div class="zelle" style="width: 30px;">
+                 <div class="a-wertung" ></div><div class="tooltip">vRTF</div>                                                               
+              </div>
+              <div class="zelle" style="width: 85px;">Do, 26.11.2026</div>
+              <div class="zelle" style="width: 170px;">German Cycling vRTF #21 2026 - Do. oder So.</div>
+              <div class="zelle" style="width: 70px;">30/<wbr>60/<wbr>90</div>
+              <div class="zelle" style="width: 170px;">German Cycling e.V. (HES)</div>
+            </a>
+          </li><li class="tabzeile" style="clear: both;">
+      <a class="terminlink"  href="/breitensportkalender/termine/2026/nikolaus-expedition;9975895.html">
+              <div class="zelle" style="width: 30px;">
+                 <div class="ctf" ></div><div class="tooltip">CTF</div>                                                               
+              </div>
+              <div class="zelle" style="width: 85px;">So, 29.11.2026</div>
+              <div class="zelle" style="width: 170px;">Nikolaus Expedition</div>
+              <div class="zelle" style="width: 70px;">35/<wbr>56/<wbr>67</div>
+              <div class="zelle" style="width: 170px;">RSV Husum e.V. (SCH)</div>
+            </a>
+          </li><li class="tabzeile" style="clear: both;">
+      <a class="terminlink" style="height: 65px;" href="/breitensportkalender/termine/2026/stahlrad-laatzen-advents-ctf;99757893.html">
+              <div class="zelle" style="width: 30px;">
+                 <div class="ctf" ></div><div class="tooltip">CTF</div>                                                               
+              </div>
+              <div class="zelle" style="width: 85px;">So, 29.11.2026</div>
+              <div class="zelle" style="width: 170px;">Stahlrad Laatzen Advents-CTF</div>
+              <div class="zelle" style="width: 70px;">45/<wbr>60</div>
+              <div class="zelle" style="width: 170px;">Stahlrad Laatzen von 1897 e.V. (NDS)</div>
+            </a>
+          </li><li class="tabzeile" style="clear: both;">
+      <a class="terminlink"  href="/breitensportkalender/termine/2026/german-cycling-vrtf-22-2026-do.-oder-so.;9977014.html">
+              <div class="zelle" style="width: 30px;">
+                 <div class="a-wertung" ></div><div class="tooltip">vRTF</div>                                                               
+              </div>
+              <div class="zelle" style="width: 85px;">Do, 03.12.2026</div>
+              <div class="zelle" style="width: 170px;">German Cycling vRTF #22 2026 - Do. oder So.</div>
+              <div class="zelle" style="width: 70px;">30/<wbr>60/<wbr>90</div>
+              <div class="zelle" style="width: 170px;">German Cycling e.V. (HES)</div>
+            </a>
+          </li><li class="tabzeile" style="clear: both;">
+      <a class="terminlink" style="height: 65px;" href="/breitensportkalender/termine/2026/german-cycling-testevent-rtf;99757894.html">
+              <div class="zelle" style="width: 30px;">
+                 <div class="a-wertung" ></div><div class="tooltip">RTF</div>                                                               
+              </div>
+              <div class="zelle" style="width: 85px;">So, 06.12.2026</div>
+              <div class="zelle" style="width: 170px;">German Cycling Testevent - RTF</div>
+              <div class="zelle" style="width: 70px;">40/<wbr>80/<wbr>120/<wbr>160</div>
+              <div class="zelle" style="width: 170px;">German Cycling e.V. (HES)</div>
+            </a>
+          </li><li class="tabzeile" style="clear: both;">
+      <a class="terminlink"  href="/breitensportkalender/termine/2026/german-cycling-vrtf-23-2026-do.-oder-so.;9977015.html">
+              <div class="zelle" style="width: 30px;">
+                 <div class="a-wertung" ></div><div class="tooltip">vRTF</div>                                                               
+              </div>
+              <div class="zelle" style="width: 85px;">Do, 10.12.2026</div>
+              <div class="zelle" style="width: 170px;">German Cycling vRTF #23 2026 - Do. oder So.</div>
+              <div class="zelle" style="width: 70px;">30/<wbr>60/<wbr>90</div>
+              <div class="zelle" style="width: 170px;">German Cycling e.V. (HES)</div>
+            </a>
+          </li><li class="tabzeile" style="clear: both;">
+      <a class="terminlink"  href="/breitensportkalender/termine/2026/german-cycling-vrtf-24-2026-do.-oder-so.;9977016.html">
+              <div class="zelle" style="width: 30px;">
+                 <div class="a-wertung" ></div><div class="tooltip">vRTF</div>                                                               
+              </div>
+              <div class="zelle" style="width: 85px;">Do, 17.12.2026</div>
+              <div class="zelle" style="width: 170px;">German Cycling vRTF #24 2026 - Do. oder So.</div>
+              <div class="zelle" style="width: 70px;">30/<wbr>60/<wbr>90</div>
+              <div class="zelle" style="width: 170px;">German Cycling e.V. (HES)</div>
+            </a>
+          </li><li class="tabzeile" style="clear: both;">
+      <a class="terminlink" style="height: 65px;" href="/breitensportkalender/termine/2026/8.-silvester-gravelride;9976163.html">
+              <div class="zelle" style="width: 30px;">
+                 <div class="sonstige" ></div><div class="tooltip">Gravelride</div>                                                               
+              </div>
+              <div class="zelle" style="width: 85px;">Do, 31.12.2026</div>
+              <div class="zelle" style="width: 170px;">8. Silvester Gravelride</div>
+              <div class="zelle" style="width: 70px;">33/<wbr>53</div>
+              <div class="zelle" style="width: 170px;">Radsportgemeinschaft Hannover e.V. (NDS)</div>
+            </a>
+          </li></ul>
+       
+        
+      </div> <!-- Ende inhaltlinks -->
+      
+      
+      <div style="clear: both;"></div>
+        <div id="footer">
+  <p><a href="datenschutzhinweise.html" title="Datenschutzhinweise zu dieser Seite">Datenschutzhinweise</a>&nbsp;|&nbsp;<a href="https://www.rad-net.de/ajax.aspx/Impressum/D/Impressum.html" target="_blank" title="Impressum von rad-net.de">Impressum</a></p>
+  
+  
+</div>
+
+
+    </div> <!-- Ende inner-wrap -->
+  </div> <!-- Ende Wrapper -->
+<div id="mf3745936" class="mfc154">
+
+</div> 
+  
+  </div> <!-- Ende Fullpage -->
+ 
+</body>
+</html>

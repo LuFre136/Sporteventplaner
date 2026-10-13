@@ -1,0 +1,44 @@
+name: Events sammeln
+
+on:
+  schedule:
+    - cron: "17 3 * * 1"   # jeden Montag 03:17 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["data/curated.json", "scripts/collect.py"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt pytest
+      - run: python -m pytest -q tests
+      - name: Sammeln
+        run: |
+          if [ "${{ github.event_name }}" = "push" ] && [ -f docs/events.json ]; then
+            # Nur kuratierte Liste geändert: Kalender nicht neu abfragen
+            python scripts/collect.py --skip radnet --skip dlv
+          else
+            python scripts/collect.py
+          fi
+      - name: Ergebnis committen
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/events.json data/geocache.json
+          git diff --cached --quiet && echo "Keine Änderungen" && exit 0
+          git commit -m "Events aktualisiert ($(date -u +%F))"
+          git push
