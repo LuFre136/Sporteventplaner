@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Sporteventplaner</title>
+  <meta name="description" content="Rennrad- und Laufevents finden und in den Kalender übernehmen">
+  <meta name="theme-color" content="#0f766e">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Events">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="icon-180.png">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <h1>Sporteventplaner</h1>
+    <p id="meta" class="muted"></p>
+  </header>
+
+  <main>
+    <form id="filters" class="filters" autocomplete="off">
+      <div class="seg" role="radiogroup" aria-label="Sportart">
+        <input type="radio" name="sport" id="s-rennrad" value="rennrad" checked><label for="s-rennrad">🚴 Rennrad</label>
+        <input type="radio" name="sport" id="s-laufen" value="laufen"><label for="s-laufen">🏃 Laufen</label>
+      </div>
+
+      <fieldset>
+        <legend>Kategorie</legend>
+        <div id="cats" class="chips"></div>
+      </fieldset>
+
+      <div class="row">
+        <label>Von<input type="date" id="from"></label>
+        <label>Bis<input type="date" id="to"></label>
+      </div>
+
+      <fieldset>
+        <legend>Region</legend>
+        <div class="seg small" role="radiogroup" aria-label="Region">
+          <input type="radio" name="region" id="r-de" value="DE"><label for="r-de">Deutschland</label>
+          <input type="radio" name="region" id="r-dach" value="DACH"><label for="r-dach">DACH</label>
+          <input type="radio" name="region" id="r-all" value="ALL" checked><label for="r-all">International</label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Umkreis</legend>
+        <div class="row">
+          <input type="search" id="place" placeholder="Ort oder PLZ" enterkeyhint="search">
+          <button type="button" id="locate" class="icon-btn" title="Meinen Standort verwenden" aria-label="Meinen Standort verwenden">📍</button>
+        </div>
+        <div class="row">
+          <input type="range" id="radius" min="10" max="500" step="10" value="100" aria-label="Umkreis in km">
+          <output id="radius-out">100 km</output>
+          <label class="check"><input type="checkbox" id="radius-on"> aktiv</label>
+        </div>
+        <p id="origin" class="muted small"></p>
+      </fieldset>
+
+      <label>Suche<input type="search" id="q" placeholder="Name des Events"></label>
+    </form>
+
+    <p id="count" class="muted"></p>
+    <ul id="list" class="list"></ul>
+  </main>
+
+  <footer class="muted small">
+    Daten: <a href="https://breitensport.rad-net.de/breitensportkalender/">rad-net Breitensportkalender</a>,
+    <a href="https://www.laufen.de/laufkalender">DLV-Laufkalender</a> und eigene Recherche.
+    Ortssuche © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>.
+    Angaben ohne Gewähr, bitte immer auf der Veranstalterseite prüfen.
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
