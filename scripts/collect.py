@@ -322,7 +322,8 @@ def collect_dlv(delay: float, resolve_sites: bool, max_pages: int | None) -> lis
                 "categories": dlv_categories(row["codes"], kms),
                 "name": row["name"],
                 "date": row["date"],
-                "country": None,  # kommt aus der Geokodierung
+                # Fünfstellige PLZ = Deutschland; sonst kommt das Land aus der Geokodierung
+                "country": "DE" if row["plz"] and len(row["plz"]) == 5 else None,
                 "place": row["place"],
                 "address": " ".join(x for x in (row["plz"], row["place"]) if x),
                 "geo_query": " ".join(x for x in (row["plz"], row["place"]) if x),
@@ -379,6 +380,8 @@ class Geocoder:
             hits = r.json()
             if not hits and "," in query:  # Straße weglassen und mit Ort erneut versuchen
                 return self.lookup(query.split(",", 1)[1].strip(), country_hint)
+            if not hits and re.match(r"^\d{5} ", query):  # Ortsteil unbekannt: nur PLZ
+                return self.lookup(query[:5], country_hint)
             if hits:
                 h = hits[0]
                 res = {
