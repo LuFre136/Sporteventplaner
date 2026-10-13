@@ -1,1 +1,5663 @@
-{}
+{
+"01067 dresden|": {
+"country": "DE",
+"lat": 51.06023,
+"lon": 13.71795
+},
+"01445 radebeul|": {
+"country": "DE",
+"lat": 51.09998,
+"lon": 13.6768
+},
+"01640 coswig|": {
+"country": "DE",
+"lat": 51.12673,
+"lon": 13.5784
+},
+"01705 freital|": {
+"country": "DE",
+"lat": 51.01626,
+"lon": 13.65303
+},
+"01896 pulsnitz|": {
+"country": "DE",
+"lat": 51.20273,
+"lon": 13.99993
+},
+"02763 zittau|": {
+"country": "DE",
+"lat": 50.90446,
+"lon": 14.80574
+},
+"02826 görlitz|": {
+"country": "DE",
+"lat": 51.14679,
+"lon": 14.9783
+},
+"02943 weißwasser|": {
+"country": "DE",
+"lat": 51.50543,
+"lon": 14.63818
+},
+"04229 leipzig|": {
+"country": "DE",
+"lat": 51.32197,
+"lon": 12.33747
+},
+"04643 geithain|": {
+"country": "DE",
+"lat": 51.05432,
+"lon": 12.69468
+},
+"04849 bad düben|": {
+"country": "DE",
+"lat": 51.58794,
+"lon": 12.59882
+},
+"04924 bad liebenwerda|": {
+"country": "DE",
+"lat": 51.52678,
+"lon": 13.38924
+},
+"06108 halle (saale)|": {
+"country": "DE",
+"lat": 51.48725,
+"lon": 11.96159
+},
+"06242 braunsbedra|": {
+"country": "DE",
+"lat": 51.28764,
+"lon": 11.88891
+},
+"06242 roßbach (braunsbedra)|": null,
+"06313 ziegelrode (ahlsdorf)|": {
+"country": "DE",
+"lat": 51.54395,
+"lon": 11.47053
+},
+"06406 bernburg|": {
+"country": "DE",
+"lat": 51.79397,
+"lon": 11.73739
+},
+"06449 aschersleben|": {
+"country": "DE",
+"lat": 51.75595,
+"lon": 11.46213
+},
+"06484 quedlinburg|": {
+"country": "DE",
+"lat": 51.78504,
+"lon": 11.15194
+},
+"06493 harzgerode|": {
+"country": "DE",
+"lat": 51.6434,
+"lon": 11.14242
+},
+"06526 sangerhausen|": {
+"country": "DE",
+"lat": 51.47983,
+"lon": 11.29439
+},
+"06536 südharz|": {
+"country": "DE",
+"lat": 51.53351,
+"lon": 11.02895
+},
+"06542 allstedt ot othal|": null,
+"06618 naumburg|": {
+"country": "DE",
+"lat": 51.12024,
+"lon": 11.8189
+},
+"06632 freyburg (unstrut)|": {
+"country": "DE",
+"lat": 51.21262,
+"lon": 11.7697
+},
+"06647 billroda|": {
+"country": "DE",
+"lat": 51.20185,
+"lon": 11.45669
+},
+"06686 lützen|": {
+"country": "DE",
+"lat": 51.25856,
+"lon": 12.14595
+},
+"06711 theißen|": {
+"country": "DE",
+"lat": 51.08361,
+"lon": 12.10541
+},
+"06712 zeitz|": {
+"country": "DE",
+"lat": 51.05641,
+"lon": 12.13153
+},
+"06729 profen|": {
+"country": "DE",
+"lat": 51.12731,
+"lon": 12.21629
+},
+"06844 dessau-roßlau|": {
+"country": "DE",
+"lat": 51.85116,
+"lon": 12.26975
+},
+"07318 saalfeld|": {
+"country": "DE",
+"lat": 50.64791,
+"lon": 11.361
+},
+"07318 schmiedefeld (saalfeld)|": {
+"country": "DE",
+"lat": 50.53083,
+"lon": 11.21048
+},
+"07548 gera|": {
+"country": "DE",
+"lat": 50.87706,
+"lon": 12.03925
+},
+"07586 bad köstritz|": {
+"country": "DE",
+"lat": 50.93153,
+"lon": 12.02856
+},
+"07607 eisenberg|": {
+"country": "DE",
+"lat": 50.96913,
+"lon": 11.89611
+},
+"07619 schkölen|": {
+"country": "DE",
+"lat": 51.04085,
+"lon": 11.8212
+},
+"07768 kahla|": {
+"country": "DE",
+"lat": 50.80889,
+"lon": 11.58917
+},
+"07806 neustadt an der orla|": {
+"country": "DE",
+"lat": 50.70665,
+"lon": 11.73835
+},
+"08371 glauchau|": {
+"country": "DE",
+"lat": 50.8199,
+"lon": 12.53979
+},
+"09423 gelenau|": {
+"country": "DE",
+"lat": 50.71024,
+"lon": 12.95211
+},
+"09465 neudorf (sehmatal)|": {
+"country": "DE",
+"lat": 50.48065,
+"lon": 12.97446
+},
+"09599 freiberg|": {
+"country": "DE",
+"lat": 50.88891,
+"lon": 13.37541
+},
+"10319 berlin|": {
+"country": "DE",
+"lat": 52.49924,
+"lon": 13.51836
+},
+"12349 berlin-britz|": {
+"country": "DE",
+"lat": 52.42524,
+"lon": 13.42202
+},
+"13088 berlin|": {
+"country": "DE",
+"lat": 52.56013,
+"lon": 13.47179
+},
+"13467 berlin-reinickendorf|": {
+"country": "DE",
+"lat": 52.6171,
+"lon": 13.3075
+},
+"13467 berlin|": {
+"country": "DE",
+"lat": 52.6171,
+"lon": 13.3075
+},
+"13587 berlin-spandau|": {
+"country": "DE",
+"lat": 52.5769,
+"lon": 13.1856
+},
+"13595 berlin-spandau|": {
+"country": "DE",
+"lat": 52.51163,
+"lon": 13.19648
+},
+"14053 berlin|": {
+"country": "DE",
+"lat": 52.51536,
+"lon": 13.2382
+},
+"14055 berlin-charlottenburg|": {
+"country": "DE",
+"lat": 52.50193,
+"lon": 13.24474
+},
+"14169 berlin-zehlendorf|": {
+"country": "DE",
+"lat": 52.43107,
+"lon": 13.25859
+},
+"1445 essen|": {
+"country": "DE",
+"lat": 51.45822,
+"lon": 7.01582
+},
+"14469 potsdam|": {
+"country": "DE",
+"lat": 52.42719,
+"lon": 13.02652
+},
+"14478 potsdam|": {
+"country": "DE",
+"lat": 52.36591,
+"lon": 13.09295
+},
+"14513 teltow|": {
+"country": "DE",
+"lat": 52.40241,
+"lon": 13.2688
+},
+"14776 brandenburg an der havel|": {
+"country": "DE",
+"lat": 52.39393,
+"lon": 12.57148
+},
+"15749 krummensee (mittenwalde)|": {
+"country": "DE",
+"lat": 52.24871,
+"lon": 13.55019
+},
+"15806 zossen|": {
+"country": "DE",
+"lat": 52.21591,
+"lon": 13.4489
+},
+"16540 hohen neuendorf|": {
+"country": "DE",
+"lat": 52.66865,
+"lon": 13.28704
+},
+"16767 leegebruch|": {
+"country": "DE",
+"lat": 52.72366,
+"lon": 13.1933
+},
+"16816 neuruppin|": {
+"country": "DE",
+"lat": 52.93018,
+"lon": 12.79847
+},
+"1705 freital-weißig|": {
+"country": "DE",
+"lat": 51.00164,
+"lon": 13.61184
+},
+"18057 rostock|": {
+"country": "DE",
+"lat": 54.0889,
+"lon": 12.10477
+},
+"18181 graal-müritz|": {
+"country": "DE",
+"lat": 54.25527,
+"lon": 12.25172
+},
+"19336 bad wilsnack|": {
+"country": "DE",
+"lat": 52.97065,
+"lon": 11.92319
+},
+"20357 hamburg|": {
+"country": "DE",
+"lat": 53.56351,
+"lon": 9.96802
+},
+"21149 hamburg neugraben|": {
+"country": "DE",
+"lat": 53.46045,
+"lon": 9.85766
+},
+"21218 seevetal|": {
+"country": "DE",
+"lat": 53.38721,
+"lon": 9.97273
+},
+"21244 buchholz|": {
+"country": "DE",
+"lat": 53.3333,
+"lon": 9.86667
+},
+"21266 jesteburg|": {
+"country": "DE",
+"lat": 53.30618,
+"lon": 9.94061
+},
+"21337 lüneburg|": {
+"country": "DE",
+"lat": 53.24977,
+"lon": 10.41977
+},
+"21368 dahlenburg|": {
+"country": "DE",
+"lat": 53.18635,
+"lon": 10.73832
+},
+"21385 amelinghausen|": {
+"country": "DE",
+"lat": 53.12768,
+"lon": 10.21607
+},
+"21423 pattensen (winsen)|": {
+"country": "DE",
+"lat": 53.31938,
+"lon": 10.14284
+},
+"21423 winsen (luhe)|": {
+"country": "DE",
+"lat": 53.36365,
+"lon": 10.20592
+},
+"21423 winsen-borstel|": {
+"country": "DE",
+"lat": 53.35053,
+"lon": 10.23788
+},
+"21522 hohnstorf/elbe|": {
+"country": "DE",
+"lat": 53.3667,
+"lon": 10.55
+},
+"21698 harsefeld|": {
+"country": "DE",
+"lat": 53.45323,
+"lon": 9.50265
+},
+"21706 drochtersen|": {
+"country": "DE",
+"lat": 53.72295,
+"lon": 9.3681
+},
+"21726 oldendorf (landkreis stade)|": {
+"country": "DE",
+"lat": 53.57494,
+"lon": 9.26519
+},
+"22309 hamburg-bramfeld|": {
+"country": "DE",
+"lat": 53.60034,
+"lon": 10.07357
+},
+"22359 hamburg-volksdorf|": {
+"country": "DE",
+"lat": 53.6531,
+"lon": 10.16369
+},
+"22391 hamburg|": {
+"country": "DE",
+"lat": 53.64131,
+"lon": 10.08033
+},
+"22523 hamburg|": {
+"country": "DE",
+"lat": 53.61346,
+"lon": 9.89871
+},
+"22559 hamburg-rissen|": {
+"country": "DE",
+"lat": 53.58755,
+"lon": 9.76098
+},
+"22844 norderstedt|": {
+"country": "DE",
+"lat": 53.72815,
+"lon": 10.00022
+},
+"22880 wedel|": {
+"country": "DE",
+"lat": 53.58102,
+"lon": 9.70388
+},
+"22926 ahrensburg|": {
+"country": "DE",
+"lat": 53.67365,
+"lon": 10.2359
+},
+"22927 großhansdorf|": {
+"country": "DE",
+"lat": 53.66356,
+"lon": 10.2836
+},
+"23552 lübeck|": {
+"country": "DE",
+"lat": 53.867,
+"lon": 10.68803
+},
+"23569 lübeck|": {
+"country": "DE",
+"lat": 53.90168,
+"lon": 10.807
+},
+"23669 timmendorfer strand|": {
+"country": "DE",
+"lat": 53.99177,
+"lon": 10.77797
+},
+"23684 pönitz|": {
+"country": "DE",
+"lat": 54.04599,
+"lon": 10.67115
+},
+"23730 neustadt in holstein|": {
+"country": "DE",
+"lat": 54.10299,
+"lon": 10.81867
+},
+"23743 grömitz|": {
+"country": "DE",
+"lat": 54.14411,
+"lon": 10.95885
+},
+"23769 fehmarn|": {
+"country": "DE",
+"lat": 54.46852,
+"lon": 11.13425
+},
+"23795 bad segeberg|": {
+"country": "DE",
+"lat": 53.93693,
+"lon": 10.30448
+},
+"23843 bad oldesloe|": {
+"country": "DE",
+"lat": 53.80966,
+"lon": 10.37337
+},
+"23879 mölln|": {
+"country": "DE",
+"lat": 53.62892,
+"lon": 10.68802
+},
+"23909 ratzeburg|": {
+"country": "DE",
+"lat": 53.70111,
+"lon": 10.77429
+},
+"24103 husum|": {
+"country": "DE",
+"lat": 54.48541,
+"lon": 9.05379
+},
+"24103 kiel|": {
+"country": "DE",
+"lat": 54.32268,
+"lon": 10.13469
+},
+"24106 kiel|": {
+"country": "DE",
+"lat": 54.35897,
+"lon": 10.11919
+},
+"24114 kiel-ellerbek|": {
+"country": "DE",
+"lat": 54.31424,
+"lon": 10.17039
+},
+"24118 kiel-ellerbek|": {
+"country": "DE",
+"lat": 54.31424,
+"lon": 10.17039
+},
+"24146 kiel|": {
+"country": "DE",
+"lat": 54.28587,
+"lon": 10.18995
+},
+"24159 kiel|": {
+"country": "DE",
+"lat": 54.39653,
+"lon": 10.15942
+},
+"24211 preetz|": {
+"country": "DE",
+"lat": 54.23592,
+"lon": 10.28184
+},
+"24214 gettorf|": {
+"country": "DE",
+"lat": 54.4053,
+"lon": 9.97859
+},
+"24222 klausdorf|": {
+"country": "DE",
+"lat": 54.30896,
+"lon": 10.21428
+},
+"24326 stocksee|": {
+"country": "DE",
+"lat": 54.08951,
+"lon": 10.34708
+},
+"24340 eckernförde|": {
+"country": "DE",
+"lat": 54.47165,
+"lon": 9.83749
+},
+"24363 holtsee|": {
+"country": "DE",
+"lat": 54.39881,
+"lon": 9.8547
+},
+"24376 kappeln|": {
+"country": "DE",
+"lat": 54.66418,
+"lon": 9.93176
+},
+"24392 boren|": {
+"country": "DE",
+"lat": 54.61446,
+"lon": 9.81938
+},
+"24534 neumünster|": {
+"country": "DE",
+"lat": 54.07574,
+"lon": 9.98154
+},
+"24558 henstedt-ulzburg|": {
+"country": "DE",
+"lat": 53.79269,
+"lon": 9.98081
+},
+"24568 kaltenkirchen|": {
+"country": "DE",
+"lat": 53.83717,
+"lon": 9.96149
+},
+"24589 nortorf, haus der vereine|de": {
+"country": "DE",
+"lat": 54.16458,
+"lon": 9.85732
+},
+"24589 nortorf|": {
+"country": "DE",
+"lat": 53.91373,
+"lon": 9.32801
+},
+"24782 büdelsdorf|": {
+"country": "DE",
+"lat": 54.31643,
+"lon": 9.67107
+},
+"24802 bokel|": {
+"country": "DE",
+"lat": 54.21578,
+"lon": 9.79405
+},
+"24837 schleswig|": {
+"country": "DE",
+"lat": 54.49958,
+"lon": 9.5379
+},
+"24937 flensburg|": {
+"country": "DE",
+"lat": 54.77411,
+"lon": 9.43653
+},
+"24943 flensburg|": {
+"country": "DE",
+"lat": 54.78581,
+"lon": 9.47297
+},
+"24960 glücksburg|": {
+"country": "DE",
+"lat": 54.84863,
+"lon": 9.56845
+},
+"24988 munkwolstrup (sankelmark)|": {
+"country": "DE",
+"lat": 54.71726,
+"lon": 9.43842
+},
+"25335 elmshorn|": {
+"country": "DE",
+"lat": 53.75423,
+"lon": 9.65926
+},
+"25348 glückstadt|": {
+"country": "DE",
+"lat": 53.78793,
+"lon": 9.42382
+},
+"25349 barmstedt|": {
+"country": "DE",
+"lat": 53.78892,
+"lon": 9.77039
+},
+"25421 pinneberg|": {
+"country": "DE",
+"lat": 53.66152,
+"lon": 9.79679
+},
+"25451 quickborn|": {
+"country": "DE",
+"lat": 53.73289,
+"lon": 9.90293
+},
+"25524 itzehoe|": {
+"country": "DE",
+"lat": 53.91945,
+"lon": 9.51724
+},
+"25541 brunsbüttel|": {
+"country": "DE",
+"lat": 53.89725,
+"lon": 9.13954
+},
+"25693 sankt michaelisdonn|": {
+"country": "DE",
+"lat": 53.9833,
+"lon": 9.11667
+},
+"25725 schafstedt|": {
+"country": "DE",
+"lat": 54.08226,
+"lon": 9.29608
+},
+"25761 büsum|": {
+"country": "DE",
+"lat": 54.15943,
+"lon": 8.8668
+},
+"25813 husum|": {
+"country": "DE",
+"lat": 54.48541,
+"lon": 9.05379
+},
+"25821 bredstedt|": {
+"country": "DE",
+"lat": 54.62363,
+"lon": 8.96408
+},
+"25826 sankt peter-ording|": {
+"country": "DE",
+"lat": 54.30532,
+"lon": 8.6359
+},
+"25853 drelsdorf|": {
+"country": "DE",
+"lat": 54.60506,
+"lon": 9.04398
+},
+"25862 joldelund|": {
+"country": "DE",
+"lat": 54.64975,
+"lon": 9.13754
+},
+"25899 niebüll|": {
+"country": "DE",
+"lat": 54.78928,
+"lon": 8.83467
+},
+"25917 leck|": {
+"country": "DE",
+"lat": 54.77393,
+"lon": 8.97251
+},
+"25946 norddorf auf amrum|": {
+"country": "DE",
+"lat": 54.67957,
+"lon": 8.33407
+},
+"26131 oldenburg (oldb)|": {
+"country": "DE",
+"lat": 53.12231,
+"lon": 8.16807
+},
+"26131 oldenburg|": {
+"country": "DE",
+"lat": 53.12231,
+"lon": 8.16807
+},
+"26160 bad zwischenahn|": {
+"country": "DE",
+"lat": 53.17525,
+"lon": 7.99056
+},
+"26160 rostrup (bad zwischenahn)|": {
+"country": "DE",
+"lat": 53.19598,
+"lon": 7.98289
+},
+"26169 friesoythe|": {
+"country": "DE",
+"lat": 53.02061,
+"lon": 7.85923
+},
+"26188 wildenloh|": {
+"country": "DE",
+"lat": 53.12926,
+"lon": 8.13177
+},
+"26197 großenkneten|": {
+"country": "DE",
+"lat": 52.94422,
+"lon": 8.25423
+},
+"26203 wardenburg|": {
+"country": "DE",
+"lat": 53.06454,
+"lon": 8.19253
+},
+"26209 hatten|": {
+"country": "DE",
+"lat": 53.03523,
+"lon": 8.32353
+},
+"26215 gristede|": {
+"country": "DE",
+"lat": 53.22521,
+"lon": 8.05407
+},
+"26316 varel|": {
+"country": "DE",
+"lat": 53.39578,
+"lon": 8.13721
+},
+"26340 zetel|": {
+"country": "DE",
+"lat": 53.41592,
+"lon": 7.97048
+},
+"26349 jaderberg|": {
+"country": "DE",
+"lat": 53.33218,
+"lon": 8.18562
+},
+"26384 wilhelmshaven|": {
+"country": "DE",
+"lat": 53.52677,
+"lon": 8.1257
+},
+"26409 wittmund|": {
+"country": "DE",
+"lat": 53.57927,
+"lon": 7.78155
+},
+"26427 dunum|": {
+"country": "DE",
+"lat": 53.59747,
+"lon": 7.645
+},
+"26427 esens|": {
+"country": "DE",
+"lat": 53.63864,
+"lon": 7.63063
+},
+"26441 jever|": {
+"country": "DE",
+"lat": 53.57364,
+"lon": 7.90207
+},
+"26548 norderney|": {
+"country": "DE",
+"lat": 53.70561,
+"lon": 7.14382
+},
+"26605 aurich|": {
+"country": "DE",
+"lat": 53.46255,
+"lon": 7.54737
+},
+"26670 großoldendorf|": {
+"country": "DE",
+"lat": 53.32676,
+"lon": 7.73285
+},
+"26723 emden|": {
+"country": "DE",
+"lat": 53.35853,
+"lon": 7.11577
+},
+"26757 borkum|": {
+"country": "DE",
+"lat": 53.59029,
+"lon": 6.66822
+},
+"26831 bunde|": {
+"country": "DE",
+"lat": 53.18402,
+"lon": 7.26954
+},
+"26919 brake (unterweser)|": {
+"country": "DE",
+"lat": 53.32561,
+"lon": 8.48063
+},
+"26939 ovelgönne|": {
+"country": "DE",
+"lat": 53.34278,
+"lon": 8.421
+},
+"26969 butjadingen|": {
+"country": "DE",
+"lat": 53.5472,
+"lon": 8.335
+},
+"27283 verden|": {
+"country": "DE",
+"lat": 52.94052,
+"lon": 9.23598
+},
+"27321 thedinghausen|": {
+"country": "DE",
+"lat": 52.96242,
+"lon": 9.02029
+},
+"27356 rotenburg (wümme)|": {
+"country": "DE",
+"lat": 53.11089,
+"lon": 9.40493
+},
+"27367 sottrum|": {
+"country": "DE",
+"lat": 53.10733,
+"lon": 9.25207
+},
+"27404 heeslingen|": {
+"country": "DE",
+"lat": 53.30875,
+"lon": 9.33386
+},
+"27412 hepstedt|": {
+"country": "DE",
+"lat": 53.25939,
+"lon": 9.09048
+},
+"27412 wilstedt|": {
+"country": "DE",
+"lat": 53.19471,
+"lon": 9.08557
+},
+"27432 alfstedt|": {
+"country": "DE",
+"lat": 53.56654,
+"lon": 9.06832
+},
+"27498 helgoland|": {
+"country": "DE",
+"lat": 54.18094,
+"lon": 7.89444
+},
+"27607 geestland|": {
+"country": "DE",
+"lat": 53.65979,
+"lon": 8.6578
+},
+"27616 beverstedt-wellen|": {
+"country": "DE",
+"lat": 53.40449,
+"lon": 8.84668
+},
+"27624 bad bederkesa|": {
+"country": "DE",
+"lat": 53.63037,
+"lon": 8.82792
+},
+"27639 wurster nordseeküste|": {
+"country": "DE",
+"lat": 53.70449,
+"lon": 8.56884
+},
+"27726 worpswede|": {
+"country": "DE",
+"lat": 53.26168,
+"lon": 8.97587
+},
+"27749 delmenhorst|": {
+"country": "DE",
+"lat": 53.05281,
+"lon": 8.62946
+},
+"28195 bremen|": {
+"country": "DE",
+"lat": 53.08042,
+"lon": 8.80518
+},
+"28201 bremen|": {
+"country": "DE",
+"lat": 53.05948,
+"lon": 8.8146
+},
+"28207 bremen|": {
+"country": "DE",
+"lat": 53.06684,
+"lon": 8.86456
+},
+"28209 bremen|": {
+"country": "DE",
+"lat": 53.0895,
+"lon": 8.82942
+},
+"28215 bremen|": {
+"country": "DE",
+"lat": 53.09546,
+"lon": 8.81087
+},
+"28816 fahrenhorst (stuhr)|": {
+"country": "DE",
+"lat": 52.95262,
+"lon": 8.71375
+},
+"28832 achim|": {
+"country": "DE",
+"lat": 53.02074,
+"lon": 9.02471
+},
+"28844 weyhe|": {
+"country": "DE",
+"lat": 52.98213,
+"lon": 8.84956
+},
+"28857 syke|": {
+"country": "DE",
+"lat": 52.91313,
+"lon": 8.81987
+},
+"29221 celle|": {
+"country": "DE",
+"lat": 52.62098,
+"lon": 10.06258
+},
+"29303 bergen|": {
+"country": "DE",
+"lat": 52.80739,
+"lon": 9.96278
+},
+"29308 winsen (aller)|": {
+"country": "DE",
+"lat": 52.67986,
+"lon": 9.91139
+},
+"29379 wittingen|": {
+"country": "DE",
+"lat": 52.66184,
+"lon": 10.69437
+},
+"29439 lüchow|": {
+"country": "DE",
+"lat": 52.96851,
+"lon": 11.15736
+},
+"29525 uelzen|": {
+"country": "DE",
+"lat": 52.96498,
+"lon": 10.56055
+},
+"29633 munster|": {
+"country": "DE",
+"lat": 52.98776,
+"lon": 10.08599
+},
+"29640 schneverdingen|": {
+"country": "DE",
+"lat": 53.11878,
+"lon": 9.78735
+},
+"30159 hannover|": {
+"country": "DE",
+"lat": 52.37424,
+"lon": 9.73906
+},
+"30167 hannover|": {
+"country": "DE",
+"lat": 52.38538,
+"lon": 9.71172
+},
+"30169 hannover|": {
+"country": "DE",
+"lat": 52.36408,
+"lon": 9.73335
+},
+"30455 hannover-badenstedt|": {
+"country": "DE",
+"lat": 52.36004,
+"lon": 9.6661
+},
+"30457 mühlenberg (hannover)|": {
+"country": "DE",
+"lat": 52.3468,
+"lon": 9.68891
+},
+"30459 hannover|": {
+"country": "DE",
+"lat": 52.34134,
+"lon": 9.72228
+},
+"30519 hannover|": {
+"country": "DE",
+"lat": 52.3371,
+"lon": 9.77565
+},
+"30559 hannover|": {
+"country": "DE",
+"lat": 52.36227,
+"lon": 9.84756
+},
+"30655 hannover-herrenhausen|": {
+"country": "DE",
+"lat": 52.42096,
+"lon": 9.6321
+},
+"30851 langenhagen, vereinsheim|de": {
+"country": "DE",
+"lat": 52.44429,
+"lon": 9.66304
+},
+"30890 barsinghausen|": {
+"country": "DE",
+"lat": 52.33097,
+"lon": 9.46268
+},
+"30938 burgwedel|": {
+"country": "DE",
+"lat": 52.5,
+"lon": 9.86667
+},
+"30952 ronnenberg-benthe|": {
+"country": "DE",
+"lat": 52.33776,
+"lon": 9.62573
+},
+"30989 gehrden|": {
+"country": "DE",
+"lat": 52.31351,
+"lon": 9.60084
+},
+"31020 salzhemmendorf|": {
+"country": "DE",
+"lat": 52.06695,
+"lon": 9.5851
+},
+"31134 hildesheim|": {
+"country": "DE",
+"lat": 52.14583,
+"lon": 9.95262
+},
+"31180 giesen|": {
+"country": "DE",
+"lat": 52.19631,
+"lon": 9.89891
+},
+"31199 diekholzen|": {
+"country": "DE",
+"lat": 52.09444,
+"lon": 9.91553
+},
+"31275 lehrte|": {
+"country": "DE",
+"lat": 52.37493,
+"lon": 9.97486
+},
+"31319 sehnde|": {
+"country": "DE",
+"lat": 52.3144,
+"lon": 9.96472
+},
+"31535 neustadt am rübenberge|": {
+"country": "DE",
+"lat": 52.56286,
+"lon": 9.49681
+},
+"31536 neustadt am rübenberge|": {
+"country": "DE",
+"lat": 52.51826,
+"lon": 9.31301
+},
+"31542 bad nenndorf|": {
+"country": "DE",
+"lat": 52.3355,
+"lon": 9.37715
+},
+"31595 steyerberg|": {
+"country": "DE",
+"lat": 52.56748,
+"lon": 9.02633
+},
+"31600 uchte|": {
+"country": "DE",
+"lat": 52.49874,
+"lon": 8.90679
+},
+"31608 marklohe|": {
+"country": "DE",
+"lat": 52.66903,
+"lon": 9.15681
+},
+"31629 estorf|": {
+"country": "DE",
+"lat": 52.59062,
+"lon": 9.15988
+},
+"31655 hörkamp-langenbruch (stadthagen)|": {
+"country": "DE",
+"lat": 52.27848,
+"lon": 9.20656
+},
+"31655 stadthagen|": {
+"country": "DE",
+"lat": 52.32897,
+"lon": 9.20535
+},
+"31675 bückeburg|": {
+"country": "DE",
+"lat": 52.2611,
+"lon": 9.0489
+},
+"31712 niedernwöhren|": {
+"country": "DE",
+"lat": 52.35215,
+"lon": 9.1477
+},
+"31737 rinteln|": {
+"country": "DE",
+"lat": 52.18738,
+"lon": 9.08046
+},
+"31785 hameln|": {
+"country": "DE",
+"lat": 52.10178,
+"lon": 9.37569
+},
+"31787 hameln|": {
+"country": "DE",
+"lat": 52.12217,
+"lon": 9.34536
+},
+"31832 springe|": {
+"country": "DE",
+"lat": 52.20993,
+"lon": 9.55816
+},
+"31848 bad münder|": {
+"country": "DE",
+"lat": 52.19529,
+"lon": 9.4634
+},
+"31855 aerzen|": {
+"country": "DE",
+"lat": 52.04961,
+"lon": 9.26382
+},
+"31860 emmerthal|": {
+"country": "DE",
+"lat": 52.04842,
+"lon": 9.38438
+},
+"32120 hiddenhausen|": {
+"country": "DE",
+"lat": 52.15309,
+"lon": 8.63947
+},
+"32339 espelkamp|": {
+"country": "DE",
+"lat": 52.3778,
+"lon": 8.61574
+},
+"32361 preuß. oldendorf|": null,
+"32423 minden|": {
+"country": "DE",
+"lat": 52.29056,
+"lon": 8.93446
+},
+"32457 porta westfalica|": {
+"country": "DE",
+"lat": 52.23944,
+"lon": 8.92476
+},
+"32545 bad oeynhausen|": {
+"country": "DE",
+"lat": 52.20537,
+"lon": 8.79654
+},
+"32584 löhne|": {
+"country": "DE",
+"lat": 52.19903,
+"lon": 8.71416
+},
+"32602 vlotho|": {
+"country": "DE",
+"lat": 52.16649,
+"lon": 8.86192
+},
+"32657 lemgo|": {
+"country": "DE",
+"lat": 52.02807,
+"lon": 8.90129
+},
+"32694 dörentrup humfeld|": {
+"country": "DE",
+"lat": 52.0259,
+"lon": 9.05735
+},
+"32694 dörentrup|": {
+"country": "DE",
+"lat": 52.04081,
+"lon": 9.00337
+},
+"32756 detmold|": {
+"country": "DE",
+"lat": 51.94074,
+"lon": 8.87303
+},
+"32760 detmold-diestelbruch|": {
+"country": "DE",
+"lat": 51.93536,
+"lon": 8.94716
+},
+"32791 lage|": {
+"country": "DE",
+"lat": 51.99141,
+"lon": 8.79196
+},
+"33014 bad driburg|": {
+"country": "DE",
+"lat": 51.73664,
+"lon": 9.0175
+},
+"33034 hembsen|": {
+"country": "DE",
+"lat": 51.71088,
+"lon": 9.24141
+},
+"33098 paderborn|": {
+"country": "DE",
+"lat": 51.71005,
+"lon": 8.75311
+},
+"33100 paderborn|": {
+"country": "DE",
+"lat": 51.72017,
+"lon": 8.82856
+},
+"33104 paderborn-schloß neuhaus|": {
+"country": "DE",
+"lat": 51.76831,
+"lon": 8.73066
+},
+"33104 paderborn|": {
+"country": "DE",
+"lat": 51.76831,
+"lon": 8.73066
+},
+"33106 paderborn|": {
+"country": "DE",
+"lat": 51.7201,
+"lon": 8.68653
+},
+"33142 büren|": {
+"country": "DE",
+"lat": 51.56017,
+"lon": 8.53605
+},
+"33154 salzkotten|": {
+"country": "DE",
+"lat": 51.67176,
+"lon": 8.60686
+},
+"33178 borchen|": {
+"country": "DE",
+"lat": 51.66105,
+"lon": 8.72315
+},
+"33330 gütersloh, laz (leichtathletikzentrum)|de": {
+"country": "DE",
+"lat": 51.92532,
+"lon": 8.39347
+},
+"33330 gütersloh|": {
+"country": "DE",
+"lat": 51.91796,
+"lon": 8.37344
+},
+"33334 gütersloh-isselhorst|": {
+"country": "DE",
+"lat": 51.95173,
+"lon": 8.41132
+},
+"33334 gütersloh|": {
+"country": "DE",
+"lat": 51.91976,
+"lon": 8.37283
+},
+"33378 rheda-wiedenbrück|": {
+"country": "DE",
+"lat": 51.84282,
+"lon": 8.29856
+},
+"33397 rietberg-druffel|": {
+"country": "DE",
+"lat": 51.84498,
+"lon": 8.43537
+},
+"33397 rietberg|": {
+"country": "DE",
+"lat": 51.80741,
+"lon": 8.42866
+},
+"33442 herzebrock-clarholz|": {
+"country": "DE",
+"lat": 51.89932,
+"lon": 8.2249
+},
+"33449 langenberg|": {
+"country": "DE",
+"lat": 51.77554,
+"lon": 8.3159
+},
+"33605 bielefeld|": {
+"country": "DE",
+"lat": 51.99792,
+"lon": 8.57738
+},
+"33758 schloß holte-stukenbrock|": {
+"country": "DE",
+"lat": 51.90171,
+"lon": 8.63534
+},
+"33775 versmold-oesterweg|": {
+"country": "DE",
+"lat": 52.03322,
+"lon": 8.1986
+},
+"33813 oerlinghausen|": {
+"country": "DE",
+"lat": 51.94923,
+"lon": 8.67358
+},
+"33829 borgholzhausen|": {
+"country": "DE",
+"lat": 52.08989,
+"lon": 8.2759
+},
+"34121 kassel|": {
+"country": "DE",
+"lat": 51.30211,
+"lon": 9.47836
+},
+"34123 kassel|": {
+"country": "DE",
+"lat": 51.29506,
+"lon": 9.52475
+},
+"34131 kassel|": {
+"country": "DE",
+"lat": 51.31162,
+"lon": 9.40173
+},
+"34212 melsungen|": {
+"country": "DE",
+"lat": 51.14259,
+"lon": 9.58332
+},
+"34225 baunatal|": {
+"country": "DE",
+"lat": 51.25508,
+"lon": 9.4119
+},
+"34246 vellmar|": {
+"country": "DE",
+"lat": 51.36225,
+"lon": 9.46923
+},
+"34260 kaufungen|": {
+"country": "DE",
+"lat": 51.28358,
+"lon": 9.61983
+},
+"34266 niestetal-heiligenrode|": {
+"country": "DE",
+"lat": 51.31547,
+"lon": 9.58661
+},
+"34281 gudensberg|": {
+"country": "DE",
+"lat": 51.18794,
+"lon": 9.36733
+},
+"34292 ahnatal|": {
+"country": "DE",
+"lat": 51.36533,
+"lon": 9.40512
+},
+"34305 niedenstein|": {
+"country": "DE",
+"lat": 51.21527,
+"lon": 9.30613
+},
+"34327 körle|": {
+"country": "DE",
+"lat": 51.17382,
+"lon": 9.53077
+},
+"34346 hann. münden|": {
+"country": "DE",
+"lat": 51.45704,
+"lon": 9.66712
+},
+"34359 reinhardshagen|": {
+"country": "DE",
+"lat": 51.48407,
+"lon": 9.60643
+},
+"34369 hofgeismar-sababurg|": {
+"country": "DE",
+"lat": 51.54373,
+"lon": 9.53732
+},
+"34369 hofgeismar-udenhausen|": null,
+"34369 hofgeismar|": {
+"country": "DE",
+"lat": 51.4992,
+"lon": 9.39554
+},
+"34396 liebenau|": {
+"country": "DE",
+"lat": 51.47737,
+"lon": 9.27696
+},
+"34399 wesertal|": {
+"country": "DE",
+"lat": 51.60294,
+"lon": 9.59974
+},
+"34414 warburg|": {
+"country": "DE",
+"lat": 51.48865,
+"lon": 9.14884
+},
+"34454 bad arolsen-wetterburg|": {
+"country": "DE",
+"lat": 51.38292,
+"lon": 9.05772
+},
+"34466 wolfhagen-bründersen|": {
+"country": "DE",
+"lat": 51.29465,
+"lon": 9.18795
+},
+"34466 wolfhagen-ippinghausen|": {
+"country": "DE",
+"lat": 51.28149,
+"lon": 9.14439
+},
+"34466 wolfhagen|": {
+"country": "DE",
+"lat": 51.33334,
+"lon": 9.19689
+},
+"34479 breuna|": {
+"country": "DE",
+"lat": 51.44372,
+"lon": 9.19665
+},
+"34497 korbach|": {
+"country": "DE",
+"lat": 51.2559,
+"lon": 8.8427
+},
+"34516 vöhl-herzhausen|": {
+"country": "DE",
+"lat": 51.18362,
+"lon": 8.88962
+},
+"34516 vöhl-marienhagen|": {
+"country": "DE",
+"lat": 51.21199,
+"lon": 8.91131
+},
+"34516 vöhl|": {
+"country": "DE",
+"lat": 51.17956,
+"lon": 8.92763
+},
+"34549 edertal|": {
+"country": "DE",
+"lat": 51.16299,
+"lon": 9.08873
+},
+"34576 homberg|": {
+"country": "DE",
+"lat": 51.01172,
+"lon": 9.40484
+},
+"34587 felsberg|": {
+"country": "DE",
+"lat": 51.15022,
+"lon": 9.45122
+},
+"34596 bad zwesten|": {
+"country": "DE",
+"lat": 51.0408,
+"lon": 9.16245
+},
+"34613 schwalmstadt|": {
+"country": "DE",
+"lat": 50.91284,
+"lon": 9.18821
+},
+"35037 marburg|": {
+"country": "DE",
+"lat": 50.81922,
+"lon": 8.77509
+},
+"35039 marburg|": {
+"country": "DE",
+"lat": 50.81106,
+"lon": 8.78039
+},
+"35088 battenberg-dodenau|": {
+"country": "DE",
+"lat": 51.01762,
+"lon": 8.60945
+},
+"35094 lahntal goßfelden|": {
+"country": "DE",
+"lat": 50.86367,
+"lon": 8.74682
+},
+"35110 frankenau-altenlotheim|": {
+"country": "DE",
+"lat": 51.12946,
+"lon": 8.91851
+},
+"35114 haina-dodenhausen|": {
+"country": "DE",
+"lat": 51.01192,
+"lon": 9.04987
+},
+"35282 rauschenberg|": {
+"country": "DE",
+"lat": 50.90899,
+"lon": 8.88647
+},
+"35321 laubach|": {
+"country": "DE",
+"lat": 50.5431,
+"lon": 9.0349
+},
+"35329 gemünden/ehringshausen|": {
+"country": "DE",
+"lat": 50.70581,
+"lon": 9.11604
+},
+"35394 gießen|": {
+"country": "DE",
+"lat": 50.57829,
+"lon": 8.72202
+},
+"35398 gießen|": {
+"country": "DE",
+"lat": 50.56017,
+"lon": 8.62667
+},
+"35415 pohlheim, watzenborn- steinberg|": {
+"country": "DE",
+"lat": 50.53442,
+"lon": 8.71446
+},
+"35418 buseck/alten-buseck|": {
+"country": "DE",
+"lat": 50.62159,
+"lon": 8.75638
+},
+"35435 wettenberg|": {
+"country": "DE",
+"lat": 50.63727,
+"lon": 8.64896
+},
+"35440 linden-leihgestern|": {
+"country": "DE",
+"lat": 50.53264,
+"lon": 8.66875
+},
+"35444 biebertal-fellingshausen|": {
+"country": "DE",
+"lat": 50.64253,
+"lon": 8.59795
+},
+"35452 heuchelheim|": {
+"country": "DE",
+"lat": 50.58775,
+"lon": 8.61822
+},
+"35460 staufenberg-treis|": {
+"country": "DE",
+"lat": 50.66808,
+"lon": 8.78577
+},
+"35576 wetzlar|": {
+"country": "DE",
+"lat": 50.56526,
+"lon": 8.50392
+},
+"35630 ehringshausen|": {
+"country": "DE",
+"lat": 50.6246,
+"lon": 8.3719
+},
+"35683 dillenburg|": {
+"country": "DE",
+"lat": 50.73493,
+"lon": 8.2946
+},
+"35789 weilmünster-laubuseschbach|": {
+"country": "DE",
+"lat": 50.39255,
+"lon": 8.33553
+},
+"36041 fulda|": {
+"country": "DE",
+"lat": 50.56006,
+"lon": 9.63009
+},
+"36199 rotenburg a. d. fulda|": {
+"country": "DE",
+"lat": 51.01812,
+"lon": 9.74876
+},
+"36199 rotenburg a.d. fulda|": {
+"country": "DE",
+"lat": 51.01812,
+"lon": 9.74876
+},
+"36208 wildeck-obersuhl|": {
+"country": "DE",
+"lat": 50.95062,
+"lon": 10.02596
+},
+"36251 bad hersfeld|": {
+"country": "DE",
+"lat": 50.86042,
+"lon": 9.67677
+},
+"36266 heringen/werra|": {
+"country": "DE",
+"lat": 50.88686,
+"lon": 9.97468
+},
+"36304 alsfeld-altenburg|": {
+"country": "DE",
+"lat": 50.73471,
+"lon": 9.28127
+},
+"36304 alsfeld-lingelbach|": {
+"country": "DE",
+"lat": 50.7604,
+"lon": 9.40228
+},
+"36318 schwalmtal|": {
+"country": "DE",
+"lat": 50.68866,
+"lon": 9.30537
+},
+"37075 göttingen|": {
+"country": "DE",
+"lat": 51.54032,
+"lon": 9.99313
+},
+"37083 göttingen|": {
+"country": "DE",
+"lat": 51.50593,
+"lon": 9.94414
+},
+"37085 göttingen|": {
+"country": "DE",
+"lat": 51.52206,
+"lon": 9.9715
+},
+"37115 duderstadt|": {
+"country": "DE",
+"lat": 51.51237,
+"lon": 10.26107
+},
+"37127 varlosen|": {
+"country": "DE",
+"lat": 51.50266,
+"lon": 9.70944
+},
+"37136 bernshausen|": {
+"country": "DE",
+"lat": 50.89842,
+"lon": 8.31988
+},
+"37235 hessisch lichtenau|": {
+"country": "DE",
+"lat": 51.19274,
+"lon": 9.75172
+},
+"37269 eschwege|": {
+"country": "DE",
+"lat": 51.17335,
+"lon": 10.06806
+},
+"37290 meißner-abterode|": {
+"country": "DE",
+"lat": 51.20968,
+"lon": 9.93745
+},
+"37581 bad gandersheim|": {
+"country": "DE",
+"lat": 51.87047,
+"lon": 10.02978
+},
+"37627 wangelnstedt|": {
+"country": "DE",
+"lat": 51.8539,
+"lon": 9.67317
+},
+"37671 lüchtringen|": {
+"country": "DE",
+"lat": 51.79266,
+"lon": 9.43023
+},
+"37696 marienmünster- kollerbeck|": {
+"country": "DE",
+"lat": 51.85518,
+"lon": 9.24769
+},
+"38104 braunschweig|": {
+"country": "DE",
+"lat": 52.27447,
+"lon": 10.58767
+},
+"38154 königslutter|": {
+"country": "DE",
+"lat": 52.26952,
+"lon": 10.81229
+},
+"38259 salzgitter|": {
+"country": "DE",
+"lat": 52.06058,
+"lon": 10.38979
+},
+"38300 wolfenbüttel|": {
+"country": "DE",
+"lat": 52.15925,
+"lon": 10.53208
+},
+"38329 wittmar|": {
+"country": "DE",
+"lat": 52.13027,
+"lon": 10.64155
+},
+"38350 helmstedt|": {
+"country": "DE",
+"lat": 52.2277,
+"lon": 11.01047
+},
+"38442 fallersleben (wolfsburg)|": {
+"country": "DE",
+"lat": 52.41795,
+"lon": 10.69781
+},
+"38446 wolfsburg|": {
+"country": "DE",
+"lat": 52.38109,
+"lon": 10.83776
+},
+"38448 vorsfelde (wolfsburg)|": {
+"country": "DE",
+"lat": 52.45707,
+"lon": 10.81952
+},
+"38458 velpke|": {
+"country": "DE",
+"lat": 52.40681,
+"lon": 10.9385
+},
+"38477 jembke|": {
+"country": "DE",
+"lat": 52.49767,
+"lon": 10.76319
+},
+"38518 gifhorn|": {
+"country": "DE",
+"lat": 52.48822,
+"lon": 10.5453
+},
+"38527 meine|": {
+"country": "DE",
+"lat": 52.37545,
+"lon": 10.57052
+},
+"38536 meinersen|": {
+"country": "DE",
+"lat": 52.47139,
+"lon": 10.36101
+},
+"38640 goslar|": {
+"country": "DE",
+"lat": 51.91173,
+"lon": 10.42072
+},
+"38667 bad harzburg|": {
+"country": "DE",
+"lat": 51.87972,
+"lon": 10.58753
+},
+"38855 wernigerode|": {
+"country": "DE",
+"lat": 51.84536,
+"lon": 10.79829
+},
+"38879 schierke|": {
+"country": "DE",
+"lat": 51.76474,
+"lon": 10.65965
+},
+"38889 blankenburg (harz)|": {
+"country": "DE",
+"lat": 51.79595,
+"lon": 10.96123
+},
+"39114 magdeburg|": {
+"country": "DE",
+"lat": 52.1046,
+"lon": 11.69906
+},
+"39218 schönebeck|": {
+"country": "DE",
+"lat": 52.01713,
+"lon": 11.73701
+},
+"39245 gommern|": {
+"country": "DE",
+"lat": 52.07396,
+"lon": 11.83072
+},
+"39261 zerbst|": {
+"country": "DE",
+"lat": 51.97189,
+"lon": 12.08796
+},
+"39326 angern|": {
+"country": "DE",
+"lat": 52.3545,
+"lon": 11.73646
+},
+"39418 staßfurt|": {
+"country": "DE",
+"lat": 51.83859,
+"lon": 11.58367
+},
+"40212 düsseldorf|": {
+"country": "DE",
+"lat": 51.22383,
+"lon": 6.78137
+},
+"40225 düsseldorf|": {
+"country": "DE",
+"lat": 51.19698,
+"lon": 6.79422
+},
+"40479 düsseldorf|": {
+"country": "DE",
+"lat": 51.23353,
+"lon": 6.78104
+},
+"40589 düsseldorf|": {
+"country": "DE",
+"lat": 51.16603,
+"lon": 6.82068
+},
+"40597 düsseldorf-benrath|": {
+"country": "DE",
+"lat": 51.16214,
+"lon": 6.87844
+},
+"40627 düsseldorf|": {
+"country": "DE",
+"lat": 51.20547,
+"lon": 6.8777
+},
+"40699 erkrath|": {
+"country": "DE",
+"lat": 51.22099,
+"lon": 6.90561
+},
+"40724 hilden|": {
+"country": "DE",
+"lat": 51.18127,
+"lon": 6.95461
+},
+"40789 monheim am rhein|": {
+"country": "DE",
+"lat": 51.09095,
+"lon": 6.88124
+},
+"40822 mettmann|": {
+"country": "DE",
+"lat": 51.25278,
+"lon": 6.97778
+},
+"40878 ratingen innenstadt|": null,
+"40885 ratingen|": {
+"country": "DE",
+"lat": 51.34426,
+"lon": 6.85922
+},
+"4103 leipzig|": {
+"country": "DE",
+"lat": 51.34063,
+"lon": 12.37473
+},
+"41169 mönchengladbach|": {
+"country": "DE",
+"lat": 51.20307,
+"lon": 6.34521
+},
+"41334 nettetal-hinsbeck|": {
+"country": "DE",
+"lat": 51.34088,
+"lon": 6.27938
+},
+"41352 korschenbroich|": {
+"country": "DE",
+"lat": 51.19027,
+"lon": 6.51435
+},
+"41460 neuss|": {
+"country": "DE",
+"lat": 51.20716,
+"lon": 6.70682
+},
+"41464 neuss|": {
+"country": "DE",
+"lat": 51.18918,
+"lon": 6.6716
+},
+"41468 neuss|": {
+"country": "DE",
+"lat": 51.16842,
+"lon": 6.76172
+},
+"41470 neuss|": {
+"country": "DE",
+"lat": 51.13515,
+"lon": 6.73662
+},
+"41472 neuss-holzheim|": {
+"country": "DE",
+"lat": 51.15881,
+"lon": 6.65402
+},
+"41515 grevenbroich|": {
+"country": "DE",
+"lat": 51.09058,
+"lon": 6.58354
+},
+"41516 grevenbroich|": {
+"country": "DE",
+"lat": 51.12095,
+"lon": 6.68842
+},
+"41541 dormagen-zons|": {
+"country": "DE",
+"lat": 51.1254,
+"lon": 6.84753
+},
+"41542 dormagen|": {
+"country": "DE",
+"lat": 51.10701,
+"lon": 6.75649
+},
+"41747 viersen|": {
+"country": "DE",
+"lat": 51.25482,
+"lon": 6.40409
+},
+"41748 viersen|": {
+"country": "DE",
+"lat": 51.24224,
+"lon": 6.40762
+},
+"41836 hückelhoven|": {
+"country": "DE",
+"lat": 51.05524,
+"lon": 6.22473
+},
+"42119 wuppertal|": {
+"country": "DE",
+"lat": 51.24306,
+"lon": 7.15757
+},
+"42327 wuppertal|": {
+"country": "DE",
+"lat": 51.24471,
+"lon": 7.0637
+},
+"42651 solingen|": {
+"country": "DE",
+"lat": 51.17663,
+"lon": 7.1019
+},
+"42781 gruiten|": {
+"country": "DE",
+"lat": 51.21446,
+"lon": 7.01108
+},
+"42799 leichlingen-witzhelden|": {
+"country": "DE",
+"lat": 51.11629,
+"lon": 7.1122
+},
+"44139 dortmund|": {
+"country": "DE",
+"lat": 51.49711,
+"lon": 7.46248
+},
+"44145 dortmund|": {
+"country": "DE",
+"lat": 51.53268,
+"lon": 7.4834
+},
+"44263 dortmund hörde|": {
+"country": "DE",
+"lat": 51.48776,
+"lon": 7.50023
+},
+"44263 dortmund|": {
+"country": "DE",
+"lat": 51.4883,
+"lon": 7.49855
+},
+"44379 dortmund-kirchlinde|": {
+"country": "DE",
+"lat": 51.52592,
+"lon": 7.37092
+},
+"44652 herne|": {
+"country": "DE",
+"lat": 51.52592,
+"lon": 7.17468
+},
+"44791 bochum|": {
+"country": "DE",
+"lat": 51.49007,
+"lon": 7.25096
+},
+"44797 bochum-stiepel|": {
+"country": "DE",
+"lat": 51.42717,
+"lon": 7.22655
+},
+"44801 bochum|": {
+"country": "DE",
+"lat": 51.44757,
+"lon": 7.26776
+},
+"44892 bochum langendreer|": {
+"country": "DE",
+"lat": 51.47798,
+"lon": 7.32363
+},
+"45133 essen|": {
+"country": "DE",
+"lat": 51.40364,
+"lon": 6.98417
+},
+"45145 essen-stoppenberg|": {
+"country": "DE",
+"lat": 51.48051,
+"lon": 7.03042
+},
+"45149 essen|": {
+"country": "DE",
+"lat": 51.41994,
+"lon": 6.96329
+},
+"45239 essen|": {
+"country": "DE",
+"lat": 51.38152,
+"lon": 7.01459
+},
+"45257 essen|": {
+"country": "DE",
+"lat": 51.38548,
+"lon": 7.08562
+},
+"45277 essen|": {
+"country": "DE",
+"lat": 51.42586,
+"lon": 7.07735
+},
+"45476 mülheim an der ruhr|": {
+"country": "DE",
+"lat": 51.44914,
+"lon": 6.85378
+},
+"45481 mülheim-saarn|": {
+"country": "DE",
+"lat": 51.38386,
+"lon": 6.86227
+},
+"45527 hattingen|": {
+"country": "DE",
+"lat": 51.37988,
+"lon": 7.21691
+},
+"45659 recklinghausen|": {
+"country": "DE",
+"lat": 51.61666,
+"lon": 7.1857
+},
+"45701 herten|": {
+"country": "DE",
+"lat": 51.61283,
+"lon": 7.11074
+},
+"45721 haltern am see|": {
+"country": "DE",
+"lat": 51.74305,
+"lon": 7.18722
+},
+"45896 gelsenkirchen|": {
+"country": "DE",
+"lat": 51.60644,
+"lon": 7.02982
+},
+"45964 gladbeck|": {
+"country": "DE",
+"lat": 51.56601,
+"lon": 6.97758
+},
+"4600 altenburg|": {
+"country": "DE",
+"lat": 50.98524,
+"lon": 12.4341
+},
+"46147 oberhausen|": {
+"country": "DE",
+"lat": 51.54653,
+"lon": 6.81854
+},
+"46149 oberhausen|": {
+"country": "DE",
+"lat": 51.53133,
+"lon": 6.84091
+},
+"46236 bottrop|": {
+"country": "DE",
+"lat": 51.52477,
+"lon": 6.92542
+},
+"46238 bottrop|": {
+"country": "DE",
+"lat": 51.52131,
+"lon": 6.96422
+},
+"46282 dorsten|": {
+"country": "DE",
+"lat": 51.65791,
+"lon": 6.97051
+},
+"46286 dorsten-lembeck|": {
+"country": "DE",
+"lat": 51.74403,
+"lon": 7.00019
+},
+"46325 borken|": {
+"country": "DE",
+"lat": 51.84448,
+"lon": 6.85833
+},
+"46348 raesfeld|": {
+"country": "DE",
+"lat": 51.76938,
+"lon": 6.83824
+},
+"46359 heiden|": {
+"country": "DE",
+"lat": 51.82652,
+"lon": 6.93406
+},
+"46399 bocholt|": {
+"country": "DE",
+"lat": 51.87168,
+"lon": 6.5872
+},
+"46414 rhede|": {
+"country": "DE",
+"lat": 51.83631,
+"lon": 6.69609
+},
+"46446 emmerich am rhein|": {
+"country": "DE",
+"lat": 51.83221,
+"lon": 6.24283
+},
+"46459 rees|": {
+"country": "DE",
+"lat": 51.75812,
+"lon": 6.39566
+},
+"46485 wesel|": {
+"country": "DE",
+"lat": 51.65616,
+"lon": 6.62717
+},
+"46487 wesel|": {
+"country": "DE",
+"lat": 51.67358,
+"lon": 6.54068
+},
+"46499 hamminkeln|": {
+"country": "DE",
+"lat": 51.73069,
+"lon": 6.59086
+},
+"46509 xanten|": {
+"country": "DE",
+"lat": 51.66152,
+"lon": 6.45432
+},
+"46514 schermbeck|": {
+"country": "DE",
+"lat": 51.68987,
+"lon": 6.83919
+},
+"46535 dinslaken|": {
+"country": "DE",
+"lat": 51.56754,
+"lon": 6.73812
+},
+"46569 hünxe-drevenack|": {
+"country": "DE",
+"lat": 51.66543,
+"lon": 6.74436
+},
+"47055 duisburg|": {
+"country": "DE",
+"lat": 51.40195,
+"lon": 6.77252
+},
+"47198 duisburg|": {
+"country": "DE",
+"lat": 51.4518,
+"lon": 6.69855
+},
+"47259 duisburg|": {
+"country": "DE",
+"lat": 51.35849,
+"lon": 6.71207
+},
+"47447 moers-schwafheim|": {
+"country": "DE",
+"lat": 51.42596,
+"lon": 6.65034
+},
+"47447 moers|": {
+"country": "DE",
+"lat": 51.42458,
+"lon": 6.59312
+},
+"47475 kamp-lintfort|": {
+"country": "DE",
+"lat": 51.5018,
+"lon": 6.54792
+},
+"47506 neukirchen-vluyn|": {
+"country": "DE",
+"lat": 51.43808,
+"lon": 6.53036
+},
+"47638 straelen|": {
+"country": "DE",
+"lat": 51.44393,
+"lon": 6.26944
+},
+"47652 weeze|": {
+"country": "DE",
+"lat": 51.62673,
+"lon": 6.20116
+},
+"47665 sonsbeck|": {
+"country": "DE",
+"lat": 51.60941,
+"lon": 6.37604
+},
+"47669 wachtendonk|": {
+"country": "DE",
+"lat": 51.40654,
+"lon": 6.33529
+},
+"47802 krefeld|": {
+"country": "DE",
+"lat": 51.37882,
+"lon": 6.57585
+},
+"47804 krefeld|": {
+"country": "DE",
+"lat": 51.3129,
+"lon": 6.52359
+},
+"47839 krefeld|": {
+"country": "DE",
+"lat": 51.3746,
+"lon": 6.50824
+},
+"48143 münster|": {
+"country": "DE",
+"lat": 51.96133,
+"lon": 7.6264
+},
+"48149 münster|": {
+"country": "DE",
+"lat": 51.96549,
+"lon": 7.59727
+},
+"48165 münster|": {
+"country": "DE",
+"lat": 51.89928,
+"lon": 7.65454
+},
+"48231 warendorf / einen|": {
+"country": "DE",
+"lat": 51.97616,
+"lon": 7.90012
+},
+"48231 warendorf|": {
+"country": "DE",
+"lat": 51.95324,
+"lon": 7.99123
+},
+"48249 dülmen-rorup|": {
+"country": "DE",
+"lat": 51.89745,
+"lon": 7.27274
+},
+"48249 dülmen|": {
+"country": "DE",
+"lat": 51.82837,
+"lon": 7.27914
+},
+"48268 greven|": {
+"country": "DE",
+"lat": 52.09293,
+"lon": 7.61203
+},
+"48282 emsdetten|": {
+"country": "DE",
+"lat": 52.17349,
+"lon": 7.52282
+},
+"48291 telgte|": {
+"country": "DE",
+"lat": 51.98352,
+"lon": 7.78486
+},
+"48301 nottuln-appelhülsen|": {
+"country": "DE",
+"lat": 51.89211,
+"lon": 7.42625
+},
+"48301 nottuln|": {
+"country": "DE",
+"lat": 51.92967,
+"lon": 7.35327
+},
+"48308 senden|": {
+"country": "DE",
+"lat": 51.85496,
+"lon": 7.4883
+},
+"48317 walstedde|": {
+"country": "DE",
+"lat": 51.76162,
+"lon": 7.79498
+},
+"48351 everswinkel|": {
+"country": "DE",
+"lat": 51.92408,
+"lon": 7.8473
+},
+"48356 nordwalde|": {
+"country": "DE",
+"lat": 52.10035,
+"lon": 7.48548
+},
+"48366 laer-holthausen|": {
+"country": "DE",
+"lat": 52.03542,
+"lon": 7.37555
+},
+"48369 saerbeck|": {
+"country": "DE",
+"lat": 52.17494,
+"lon": 7.63499
+},
+"48431 rheine|": {
+"country": "DE",
+"lat": 52.27423,
+"lon": 7.42775
+},
+"48432 rheine|": {
+"country": "DE",
+"lat": 52.26034,
+"lon": 7.48022
+},
+"48477 hörstel|": {
+"country": "DE",
+"lat": 52.29737,
+"lon": 7.58625
+},
+"48485 neuenkirchen|": {
+"country": "DE",
+"lat": 52.24343,
+"lon": 7.37163
+},
+"48488 emsbüren|": {
+"country": "DE",
+"lat": 52.39277,
+"lon": 7.29591
+},
+"48529 nordhorn|": {
+"country": "DE",
+"lat": 52.39559,
+"lon": 7.08391
+},
+"48565 steinfurt-burgsteinfurt|": {
+"country": "DE",
+"lat": 52.14728,
+"lon": 7.32957
+},
+"48565 steinfurt|": {
+"country": "DE",
+"lat": 52.13775,
+"lon": 7.35814
+},
+"48653 coesfeld|": {
+"country": "DE",
+"lat": 51.94589,
+"lon": 7.16911
+},
+"48683 ahaus-alstätte|": {
+"country": "DE",
+"lat": 52.17677,
+"lon": 6.9164
+},
+"48683 ahaus|": {
+"country": "DE",
+"lat": 52.07615,
+"lon": 7.00488
+},
+"48691 vreden - ellewick|": {
+"country": "DE",
+"lat": 52.064,
+"lon": 6.76799
+},
+"48691 vreden|": {
+"country": "DE",
+"lat": 52.03586,
+"lon": 6.82365
+},
+"48703 stadtlohn|": {
+"country": "DE",
+"lat": 51.99283,
+"lon": 6.91731
+},
+"48712 gescher|": {
+"country": "DE",
+"lat": 51.95687,
+"lon": 7.00388
+},
+"48739 legden|": {
+"country": "DE",
+"lat": 52.03061,
+"lon": 7.10573
+},
+"49078 osnabrück|": {
+"country": "DE",
+"lat": 52.2601,
+"lon": 7.99174
+},
+"49086 osnabrück|": {
+"country": "DE",
+"lat": 52.26815,
+"lon": 8.12264
+},
+"49124 georgsmarienhütte|": {
+"country": "DE",
+"lat": 52.2,
+"lon": 8.05
+},
+"49401 damme|": {
+"country": "DE",
+"lat": 52.52127,
+"lon": 8.1958
+},
+"49477 ibbenbüren|": {
+"country": "DE",
+"lat": 52.27689,
+"lon": 7.72145
+},
+"49479 ibbenbüren/dickenberg|": {
+"country": "DE",
+"lat": 52.31394,
+"lon": 7.67101
+},
+"49525 lengerich-hohne|": {
+"country": "DE",
+"lat": 52.16687,
+"lon": 7.89589
+},
+"49586 neuenkirchen bei bramsche|": null,
+"49624 löningen|": {
+"country": "DE",
+"lat": 52.73635,
+"lon": 7.75707
+},
+"49696 molbergen|": {
+"country": "DE",
+"lat": 52.85866,
+"lon": 7.92199
+},
+"49716 meppen|": {
+"country": "DE",
+"lat": 52.69475,
+"lon": 7.29098
+},
+"49733 haren (ems)|": {
+"country": "DE",
+"lat": 52.79056,
+"lon": 7.24003
+},
+"49740 haselünne|": {
+"country": "DE",
+"lat": 52.67187,
+"lon": 7.48305
+},
+"49744 groß-hesepe|": {
+"country": "DE",
+"lat": 52.62622,
+"lon": 7.23586
+},
+"49809 lingen (ems)|": {
+"country": "DE",
+"lat": 52.51676,
+"lon": 7.33149
+},
+"49824 emlichheim|": {
+"country": "DE",
+"lat": 52.61197,
+"lon": 6.85274
+},
+"49824 laar|": {
+"country": "DE",
+"lat": 52.61382,
+"lon": 6.74145
+},
+"50129 bergheim|": {
+"country": "DE",
+"lat": 50.9811,
+"lon": 6.70079
+},
+"50169 kerpen-horrem|": {
+"country": "DE",
+"lat": 50.91486,
+"lon": 6.70868
+},
+"50181 bedburg|": {
+"country": "DE",
+"lat": 50.99722,
+"lon": 6.57676
+},
+"50321 brühl|": {
+"country": "DE",
+"lat": 50.82913,
+"lon": 6.90371
+},
+"50354 hürth|": {
+"country": "DE",
+"lat": 50.88074,
+"lon": 6.87657
+},
+"50374 erftstadt/lechenich|": {
+"country": "DE",
+"lat": 50.79302,
+"lon": 6.76688
+},
+"50374 erftstadt|": {
+"country": "DE",
+"lat": 50.80272,
+"lon": 6.80316
+},
+"50389 wesseling|": {
+"country": "DE",
+"lat": 50.82472,
+"lon": 6.98109
+},
+"50667 köln|": {
+"country": "DE",
+"lat": 50.93864,
+"lon": 6.95503
+},
+"50670 köln|": {
+"country": "DE",
+"lat": 50.95033,
+"lon": 6.9486
+},
+"50678 köln|": {
+"country": "DE",
+"lat": 50.9232,
+"lon": 6.96357
+},
+"50679 köln|": {
+"country": "DE",
+"lat": 50.93674,
+"lon": 6.97825
+},
+"50735 köln|": {
+"country": "DE",
+"lat": 50.98961,
+"lon": 6.96224
+},
+"50739 köln|": {
+"country": "DE",
+"lat": 50.98082,
+"lon": 6.92113
+},
+"50767 köln-pesch|": {
+"country": "DE",
+"lat": 50.99797,
+"lon": 6.87192
+},
+"50827 köln-bickendorf|": {
+"country": "DE",
+"lat": 50.95806,
+"lon": 6.8882
+},
+"50933 köln|": {
+"country": "DE",
+"lat": 50.94201,
+"lon": 6.87719
+},
+"51103 köln-höhenberg|": {
+"country": "DE",
+"lat": 50.941,
+"lon": 7.02621
+},
+"51145 köln porz eil|": {
+"country": "DE",
+"lat": 50.89541,
+"lon": 7.07852
+},
+"51147 köln-porz-eil|": {
+"country": "DE",
+"lat": 50.89541,
+"lon": 7.07852
+},
+"51373 leverkusen|": {
+"country": "DE",
+"lat": 51.03544,
+"lon": 6.98682
+},
+"51375 leverkusen|": {
+"country": "DE",
+"lat": 51.03144,
+"lon": 7.05799
+},
+"51377 leverkusen|": {
+"country": "DE",
+"lat": 51.04706,
+"lon": 7.06008
+},
+"51399 burscheid|": {
+"country": "DE",
+"lat": 51.08247,
+"lon": 7.12123
+},
+"51427 bergisch gladbach-refrath|": {
+"country": "DE",
+"lat": 50.95048,
+"lon": 7.09248
+},
+"51429 bergisch gladbach-bensberg|": {
+"country": "DE",
+"lat": 50.9571,
+"lon": 7.18338
+},
+"51465 bergisch gladbach|": {
+"country": "DE",
+"lat": 50.99087,
+"lon": 7.12378
+},
+"51515 kürten|": {
+"country": "DE",
+"lat": 51.05402,
+"lon": 7.26128
+},
+"51643 gummersbach|": {
+"country": "DE",
+"lat": 51.02308,
+"lon": 7.56611
+},
+"51645 gummersbach dieringhausen|": {
+"country": "DE",
+"lat": 50.98592,
+"lon": 7.5439
+},
+"51647 gummersbach|": {
+"country": "DE",
+"lat": 51.04578,
+"lon": 7.57522
+},
+"51674 wiehl|": {
+"country": "DE",
+"lat": 50.94785,
+"lon": 7.55301
+},
+"51688 wipperfürth|": {
+"country": "DE",
+"lat": 51.11552,
+"lon": 7.38791
+},
+"51702 bergneustadt|": {
+"country": "DE",
+"lat": 51.02074,
+"lon": 7.64907
+},
+"51766 engelskirchen|": {
+"country": "DE",
+"lat": 50.9873,
+"lon": 7.40842
+},
+"51789 lindlar|": {
+"country": "DE",
+"lat": 51.01862,
+"lon": 7.37799
+},
+"52062 aachen|": {
+"country": "DE",
+"lat": 50.77708,
+"lon": 6.08644
+},
+"52076 aachen-hahn|": {
+"country": "DE",
+"lat": 50.71071,
+"lon": 6.19783
+},
+"52076 aachen|": {
+"country": "DE",
+"lat": 50.71533,
+"lon": 6.14988
+},
+"52134 herzogenrath|": {
+"country": "DE",
+"lat": 50.86845,
+"lon": 6.09505
+},
+"52152 simmerath-eicherscheid|": {
+"country": "DE",
+"lat": 50.5797,
+"lon": 6.30403
+},
+"52152 simmerath|": {
+"country": "DE",
+"lat": 50.60725,
+"lon": 6.30053
+},
+"52156 monschau-konzen|": {
+"country": "DE",
+"lat": 50.58165,
+"lon": 6.2584
+},
+"52156 monschau-mützenich|": {
+"country": "DE",
+"lat": 50.5666,
+"lon": 6.2177
+},
+"52156 monschau|": {
+"country": "DE",
+"lat": 50.55447,
+"lon": 6.2408
+},
+"52223 stolberg breinig|": {
+"country": "DE",
+"lat": 50.73184,
+"lon": 6.2172
+},
+"52249 eschweiler|": {
+"country": "DE",
+"lat": 50.8175,
+"lon": 6.26309
+},
+"52382 niederzier-hambach|": {
+"country": "DE",
+"lat": 50.89887,
+"lon": 6.44494
+},
+"52382 niederzier|": {
+"country": "DE",
+"lat": 50.8833,
+"lon": 6.46667
+},
+"52385 schmidt|": {
+"country": "DE",
+"lat": 50.66162,
+"lon": 6.40794
+},
+"52441 linnich|": {
+"country": "DE",
+"lat": 50.98063,
+"lon": 6.26762
+},
+"52511 geilenkirchen - gillrath|": {
+"country": "DE",
+"lat": 50.98184,
+"lon": 6.0752
+},
+"52511 geilenkirchen-teveren|": {
+"country": "DE",
+"lat": 50.95376,
+"lon": 6.08043
+},
+"52511 geilenkirchen|": {
+"country": "DE",
+"lat": 50.96361,
+"lon": 6.11998
+},
+"53111 bonn|": {
+"country": "DE",
+"lat": 50.74018,
+"lon": 7.09838
+},
+"53340 meckenheim|": {
+"country": "DE",
+"lat": 50.62566,
+"lon": 7.02156
+},
+"53474 bad neuenahr-ahrweiler|": {
+"country": "DE",
+"lat": 50.54446,
+"lon": 7.11867
+},
+"53489 sinzig-westum|": {
+"country": "DE",
+"lat": 50.53564,
+"lon": 7.22805
+},
+"53505 altenahr|": {
+"country": "DE",
+"lat": 50.52974,
+"lon": 6.95896
+},
+"53539 kelberg|": {
+"country": "DE",
+"lat": 50.28656,
+"lon": 6.91826
+},
+"53578 windhagen|": {
+"country": "DE",
+"lat": 50.63996,
+"lon": 7.35377
+},
+"53639 königswinter|": {
+"country": "DE",
+"lat": 50.67397,
+"lon": 7.1931
+},
+"53773 hennef (sieg)|": {
+"country": "DE",
+"lat": 50.77544,
+"lon": 7.28479
+},
+"53809 ruppichteroth|": {
+"country": "DE",
+"lat": 50.84423,
+"lon": 7.48337
+},
+"53819 neunkirchen-seelscheid|": {
+"country": "DE",
+"lat": 50.85451,
+"lon": 7.3295
+},
+"53881 euskirchen kirchheim|": {
+"country": "DE",
+"lat": 50.60517,
+"lon": 6.83676
+},
+"53909 zülpich|": {
+"country": "DE",
+"lat": 50.69225,
+"lon": 6.64727
+},
+"53937 schleiden|": {
+"country": "DE",
+"lat": 50.52859,
+"lon": 6.47616
+},
+"53947 marmagen|": {
+"country": "DE",
+"lat": 50.47674,
+"lon": 6.57995
+},
+"54290 trier|": {
+"country": "DE",
+"lat": 49.75135,
+"lon": 6.63575
+},
+"54292 trier|": {
+"country": "DE",
+"lat": 49.77518,
+"lon": 6.68825
+},
+"54293 ehrang|": {
+"country": "DE",
+"lat": 49.80219,
+"lon": 6.68586
+},
+"54296 trier|": {
+"country": "DE",
+"lat": 49.73,
+"lon": 6.67439
+},
+"54308 langsur|": {
+"country": "DE",
+"lat": 49.72496,
+"lon": 6.4975
+},
+"54310 ralingen|": {
+"country": "DE",
+"lat": 49.80621,
+"lon": 6.51361
+},
+"54317 farschweiler|": {
+"country": "FR",
+"lat": 49.09408,
+"lon": 6.89465
+},
+"54329 konz|": {
+"country": "DE",
+"lat": 49.67838,
+"lon": 6.60668
+},
+"54332 wasserliesch|": {
+"country": "DE",
+"lat": 49.70922,
+"lon": 6.53769
+},
+"54338 schweich|": {
+"country": "DE",
+"lat": 49.82243,
+"lon": 6.75154
+},
+"54343 föhren|": {
+"country": "DE",
+"lat": 49.85931,
+"lon": 6.76783
+},
+"54411 hermeskeil|": {
+"country": "DE",
+"lat": 49.65545,
+"lon": 6.94819
+},
+"54426 breit|": {
+"country": "DE",
+"lat": 49.77604,
+"lon": 6.90545
+},
+"54427 kell am see|": {
+"country": "DE",
+"lat": 49.63402,
+"lon": 6.82039
+},
+"54439 saarburg|": {
+"country": "DE",
+"lat": 49.58899,
+"lon": 6.47651
+},
+"54483 kleinich|": {
+"country": "DE",
+"lat": 49.89344,
+"lon": 7.18666
+},
+"54486 mülheim an der mosel|": {
+"country": "DE",
+"lat": 49.91125,
+"lon": 7.01063
+},
+"54487 wintrich|": {
+"country": "DE",
+"lat": 49.88282,
+"lon": 6.95196
+},
+"54528 salmtal|": {
+"country": "DE",
+"lat": 49.92675,
+"lon": 6.84037
+},
+"54533 hasborn|": {
+"country": "DE",
+"lat": 50.04434,
+"lon": 6.91557
+},
+"54536 kröv|": {
+"country": "DE",
+"lat": 49.97845,
+"lon": 7.08669
+},
+"54538 bengel|": {
+"country": "DE",
+"lat": 50.0163,
+"lon": 7.06296
+},
+"54552 ellscheid|": {
+"country": "DE",
+"lat": 50.15118,
+"lon": 6.91471
+},
+"54552 mehren|": {
+"country": "DE",
+"lat": 50.17818,
+"lon": 6.87907
+},
+"54558 gillenfeld|": {
+"country": "DE",
+"lat": 50.11902,
+"lon": 6.87599
+},
+"54568 gerolstein-büscheich|": {
+"country": "DE",
+"lat": 50.19635,
+"lon": 6.67492
+},
+"54568 gerolstein|": {
+"country": "DE",
+"lat": 50.22392,
+"lon": 6.66036
+},
+"54570 neroth|": {
+"country": "DE",
+"lat": 50.1961,
+"lon": 6.74606
+},
+"54570 wallenborn|": {
+"country": "DE",
+"lat": 50.15392,
+"lon": 6.7203
+},
+"54587 birgel|": {
+"country": "DE",
+"lat": 50.32083,
+"lon": 6.62249
+},
+"54597 ormont|": {
+"country": "DE",
+"lat": 50.32979,
+"lon": 6.44352
+},
+"54597 pronsfeld|": {
+"country": "DE",
+"lat": 50.15882,
+"lon": 6.33831
+},
+"54636 baustert|": {
+"country": "DE",
+"lat": 49.9784,
+"lon": 6.39109
+},
+"54636 oberweis|": {
+"country": "DE",
+"lat": 49.96246,
+"lon": 6.41988
+},
+"54636 schleid|": {
+"country": "DE",
+"lat": 50.05937,
+"lon": 6.48975
+},
+"54636 wißmannsdorf|": {
+"country": "DE",
+"lat": 49.98789,
+"lon": 6.44332
+},
+"54636 wolsfeld|": {
+"country": "DE",
+"lat": 49.90801,
+"lon": 6.46736
+},
+"54649 waxweiler|": {
+"country": "DE",
+"lat": 50.09227,
+"lon": 6.36588
+},
+"54675 geichlingen|": {
+"country": "DE",
+"lat": 49.95226,
+"lon": 6.26863
+},
+"55218 ingelheim|": {
+"country": "DE",
+"lat": 49.97078,
+"lon": 8.05876
+},
+"55268 nieder-olm|": {
+"country": "DE",
+"lat": 49.90941,
+"lon": 8.20334
+},
+"55270 zornheim|": {
+"country": "DE",
+"lat": 49.88782,
+"lon": 8.22766
+},
+"55278 dolgesheim|": {
+"country": "DE",
+"lat": 49.7944,
+"lon": 8.25694
+},
+"55299 nackenheim|": {
+"country": "DE",
+"lat": 49.91744,
+"lon": 8.34288
+},
+"55411 bingen|": {
+"country": "DE",
+"lat": 49.96755,
+"lon": 7.8944
+},
+"55432 damscheid|": {
+"country": "DE",
+"lat": 50.10161,
+"lon": 7.68256
+},
+"55452 rümmelsheim|": {
+"country": "DE",
+"lat": 49.93269,
+"lon": 7.85967
+},
+"55469 horn|": {
+"country": "NL",
+"lat": 52.65327,
+"lon": 5.07358
+},
+"55487 sohren|": {
+"country": "DE",
+"lat": 49.93111,
+"lon": 7.30819
+},
+"55496 argenthal|": {
+"country": "DE",
+"lat": 49.9757,
+"lon": 7.59673
+},
+"55543 bad kreuznach|": {
+"country": "DE",
+"lat": 49.84285,
+"lon": 7.86674
+},
+"55569 monzingen|": {
+"country": "DE",
+"lat": 49.81413,
+"lon": 7.59899
+},
+"55571 odernheim|": {
+"country": "DE",
+"lat": 49.76453,
+"lon": 7.704
+},
+"55578 wallertheim|": {
+"country": "DE",
+"lat": 49.83246,
+"lon": 8.04981
+},
+"55606 hahnenbach|": {
+"country": "DE",
+"lat": 49.81079,
+"lon": 7.41768
+},
+"55624 rhaunen|": {
+"country": "DE",
+"lat": 49.86425,
+"lon": 7.34427
+},
+"55743 idar-oberstein|": {
+"country": "DE",
+"lat": 49.71071,
+"lon": 7.31366
+},
+"55758 mörschied|": {
+"country": "DE",
+"lat": 49.78875,
+"lon": 7.30545
+},
+"55758 veitsrodt|": {
+"country": "DE",
+"lat": 49.75519,
+"lon": 7.30133
+},
+"55765 birkenfeld|": {
+"country": "DE",
+"lat": 49.64882,
+"lon": 7.16475
+},
+"55767 oberbrombach|": {
+"country": "DE",
+"lat": 49.69838,
+"lon": 7.26075
+},
+"55767 schwollen|": {
+"country": "DE",
+"lat": 49.70447,
+"lon": 7.18005
+},
+"55768 neubrücke|": {
+"country": "DE",
+"lat": 49.60619,
+"lon": 7.17288
+},
+"56068 koblenz|": {
+"country": "DE",
+"lat": 50.35332,
+"lon": 7.5949
+},
+"56075 koblenz|": {
+"country": "DE",
+"lat": 50.31254,
+"lon": 7.56447
+},
+"56130 bad ems|": {
+"country": "DE",
+"lat": 50.33521,
+"lon": 7.71285
+},
+"56154 boppard-holzfeld|": {
+"country": "DE",
+"lat": 50.16341,
+"lon": 7.64599
+},
+"56154 boppard|": {
+"country": "DE",
+"lat": 50.23128,
+"lon": 7.58859
+},
+"56191 weitersburg|": {
+"country": "DE",
+"lat": 50.41249,
+"lon": 7.59859
+},
+"56220 urmitz|": {
+"country": "DE",
+"lat": 50.41472,
+"lon": 7.51905
+},
+"56288 kastellaun|": {
+"country": "DE",
+"lat": 50.07134,
+"lon": 7.44223
+},
+"56288 laubach|": {
+"country": "FR",
+"lat": 48.88232,
+"lon": 7.72036
+},
+"56299 ochtendung|": {
+"country": "DE",
+"lat": 50.34933,
+"lon": 7.38915
+},
+"56335 neuhäusel|": {
+"country": "DE",
+"lat": 50.38416,
+"lon": 7.70943
+},
+"56337 neuhäusel|": {
+"country": "FR",
+"lat": 48.82373,
+"lon": 8.08569
+},
+"56340 dachsenhausen|": {
+"country": "DE",
+"lat": 50.25439,
+"lon": 7.72646
+},
+"56357 miehlen|": {
+"country": "DE",
+"lat": 50.22631,
+"lon": 7.83038
+},
+"56377 nassau|": {
+"country": "DE",
+"lat": 50.31489,
+"lon": 7.80009
+},
+"56379 winden (nassau)|": {
+"country": "DE",
+"lat": 50.33812,
+"lon": 7.83086
+},
+"56410 montabaur|": {
+"country": "DE",
+"lat": 50.44476,
+"lon": 7.82524
+},
+"56412 boden|": {
+"country": "DE",
+"lat": 50.47218,
+"lon": 7.8559
+},
+"56412 niederelbert|": {
+"country": "DE",
+"lat": 50.40891,
+"lon": 7.81184
+},
+"56414 wallmerod|": {
+"country": "DE",
+"lat": 50.48268,
+"lon": 7.93121
+},
+"56414 zehnhausen|": {
+"country": "DE",
+"lat": 50.64614,
+"lon": 8.05963
+},
+"56470 bad marienberg|": {
+"country": "DE",
+"lat": 50.6495,
+"lon": 7.95179
+},
+"56564 neuwied|": {
+"country": "DE",
+"lat": 50.4314,
+"lon": 7.47347
+},
+"56588 waldbreitbach|": {
+"country": "DE",
+"lat": 50.55205,
+"lon": 7.41776
+},
+"56626 andernach|": {
+"country": "DE",
+"lat": 50.43919,
+"lon": 7.40231
+},
+"56653 maria laach|": {
+"country": "DE",
+"lat": 50.4013,
+"lon": 7.25588
+},
+"56743 mendig|": {
+"country": "DE",
+"lat": 50.37209,
+"lon": 7.28124
+},
+"56759 kaisersesch|": {
+"country": "DE",
+"lat": 50.23749,
+"lon": 7.0997
+},
+"56761 gamlen|": {
+"country": "DE",
+"lat": 50.23951,
+"lon": 7.20159
+},
+"56766 ulmen (eifel)|": {
+"country": "DE",
+"lat": 50.21159,
+"lon": 6.97048
+},
+"56812 cochem|": {
+"country": "DE",
+"lat": 50.14358,
+"lon": 7.16635
+},
+"56814 bremm|": {
+"country": "DE",
+"lat": 50.09838,
+"lon": 7.11979
+},
+"56828 alflen|": {
+"country": "DE",
+"lat": 50.1771,
+"lon": 7.04096
+},
+"56856 zell (mosel)|": {
+"country": "DE",
+"lat": 50.02757,
+"lon": 7.18132
+},
+"56862 pünderich|": {
+"country": "DE",
+"lat": 50.0403,
+"lon": 7.12681
+},
+"57223 kreuztal|": {
+"country": "DE",
+"lat": 50.95986,
+"lon": 7.98962
+},
+"57250 netphen|": {
+"country": "DE",
+"lat": 50.91259,
+"lon": 8.10262
+},
+"57271 hilchenbach|": {
+"country": "DE",
+"lat": 50.99359,
+"lon": 8.10736
+},
+"57319 bad berleburg - aue|": {
+"country": "DE",
+"lat": 51.05403,
+"lon": 8.28932
+},
+"57392 fleckenberg|": {
+"country": "DE",
+"lat": 51.13252,
+"lon": 8.26239
+},
+"57392 schmallenberg-fleckenberg|": {
+"country": "DE",
+"lat": 51.13252,
+"lon": 8.26239
+},
+"57413 finnentrop-fretter|": {
+"country": "DE",
+"lat": 51.1932,
+"lon": 8.0489
+},
+"57548 kirchen|": {
+"country": "DE",
+"lat": 50.80813,
+"lon": 7.87987
+},
+"57562 herdorf|": {
+"country": "DE",
+"lat": 50.77884,
+"lon": 7.95145
+},
+"57610 altenkirchen|": {
+"country": "DE",
+"lat": 50.68458,
+"lon": 7.63866
+},
+"57627 hachenburg|": {
+"country": "DE",
+"lat": 50.65764,
+"lon": 7.81093
+},
+"58119 hagen|": {
+"country": "DE",
+"lat": 51.35137,
+"lon": 7.56827
+},
+"58239 schwerte|": {
+"country": "DE",
+"lat": 51.44553,
+"lon": 7.56747
+},
+"58256 ennepetal|": {
+"country": "DE",
+"lat": 51.29672,
+"lon": 7.36933
+},
+"58300 wetter|": {
+"country": "DE",
+"lat": 51.38795,
+"lon": 7.39516
+},
+"58332 schwelm|": {
+"country": "DE",
+"lat": 51.28412,
+"lon": 7.29247
+},
+"58553 halver|": {
+"country": "DE",
+"lat": 51.18744,
+"lon": 7.49873
+},
+"58706 menden|": {
+"country": "DE",
+"lat": 51.4353,
+"lon": 7.79197
+},
+"58730 fröndenberg|": {
+"country": "DE",
+"lat": 51.47134,
+"lon": 7.76176
+},
+"59065 hamm|": {
+"country": "DE",
+"lat": 51.68804,
+"lon": 7.81007
+},
+"59073 hamm|": {
+"country": "DE",
+"lat": 51.71494,
+"lon": 7.83681
+},
+"59174 kamen-methler|": {
+"country": "DE",
+"lat": 51.56803,
+"lon": 7.61492
+},
+"59192 bergkamen|": {
+"country": "DE",
+"lat": 51.61494,
+"lon": 7.63629
+},
+"59199 bönen|": {
+"country": "DE",
+"lat": 51.59808,
+"lon": 7.75885
+},
+"59227 ahlen-vorhelm|": {
+"country": "DE",
+"lat": 51.80651,
+"lon": 7.94214
+},
+"59229 ahlen|": {
+"country": "DE",
+"lat": 51.73816,
+"lon": 7.92405
+},
+"59269 beckum|": {
+"country": "DE",
+"lat": 51.75551,
+"lon": 8.04114
+},
+"59302 oelde|": {
+"country": "DE",
+"lat": 51.82607,
+"lon": 8.1455
+},
+"59329 wadersloh|": {
+"country": "DE",
+"lat": 51.7375,
+"lon": 8.24639
+},
+"59348 lüdinghausen|": {
+"country": "DE",
+"lat": 51.77178,
+"lon": 7.44464
+},
+"59368 werne|": {
+"country": "DE",
+"lat": 51.66268,
+"lon": 7.63551
+},
+"59379 selm|": {
+"country": "DE",
+"lat": 51.70055,
+"lon": 7.46861
+},
+"59387 ascheberg-herbern|": {
+"country": "DE",
+"lat": 51.74423,
+"lon": 7.65756
+},
+"59394 nordkirchen|": {
+"country": "DE",
+"lat": 51.73802,
+"lon": 7.52518
+},
+"59457 werl|": {
+"country": "DE",
+"lat": 51.55335,
+"lon": 7.91556
+},
+"59469 ense-höingen|": {
+"country": "DE",
+"lat": 51.48385,
+"lon": 7.97082
+},
+"59494 soest|": {
+"country": "DE",
+"lat": 51.57255,
+"lon": 8.10613
+},
+"59519 möhnesee-günne|": {
+"country": "DE",
+"lat": 51.49922,
+"lon": 8.04984
+},
+"59555 lippstadt|": {
+"country": "DE",
+"lat": 51.67069,
+"lon": 8.34832
+},
+"59590 geseke- langeneicke|": {
+"country": "DE",
+"lat": 51.63437,
+"lon": 8.4384
+},
+"59755 arnsberg|": {
+"country": "DE",
+"lat": 51.45679,
+"lon": 7.98192
+},
+"59757 arnsberg-herdringen|": {
+"country": "DE",
+"lat": 51.42648,
+"lon": 7.93257
+},
+"59759 arnsberg|": {
+"country": "DE",
+"lat": 51.43247,
+"lon": 8.00867
+},
+"59823 arnsberg-oeventrop|": {
+"country": "DE",
+"lat": 51.39336,
+"lon": 8.13561
+},
+"59846 sundern-allendorf|": {
+"country": "DE",
+"lat": 51.28315,
+"lon": 7.95065
+},
+"59846 sundern-amecke|": {
+"country": "DE",
+"lat": 51.29992,
+"lon": 7.94972
+},
+"59846 sundern-hagen|": {
+"country": "DE",
+"lat": 51.26111,
+"lon": 7.9597
+},
+"59872 meschede|": {
+"country": "DE",
+"lat": 51.34365,
+"lon": 8.28593
+},
+"59909 bestwig|": {
+"country": "DE",
+"lat": 51.36095,
+"lon": 8.40056
+},
+"60313 frankfurt|": {
+"country": "DE",
+"lat": 50.11554,
+"lon": 8.68287
+},
+"60327 frankfurt am main|": {
+"country": "DE",
+"lat": 50.10046,
+"lon": 8.64544
+},
+"60327 frankfurt|": {
+"country": "DE",
+"lat": 50.10046,
+"lon": 8.64544
+},
+"60388 frankfurt|": {
+"country": "DE",
+"lat": 50.15739,
+"lon": 8.76325
+},
+"60435 frankfurt|": {
+"country": "DE",
+"lat": 50.15957,
+"lon": 8.69649
+},
+"60437 frankfurt|": {
+"country": "DE",
+"lat": 50.19746,
+"lon": 8.68195
+},
+"60528 frankfurt am main|": {
+"country": "DE",
+"lat": 50.06912,
+"lon": 8.64069
+},
+"60528 frankfurt|": {
+"country": "DE",
+"lat": 50.06912,
+"lon": 8.64069
+},
+"60529 frankfurt a.m.|": {
+"country": "DE",
+"lat": 50.07958,
+"lon": 8.58013
+},
+"60529 frankfurt-schwanheim|": {
+"country": "DE",
+"lat": 50.07958,
+"lon": 8.58013
+},
+"60596 frankfurt|": {
+"country": "DE",
+"lat": 50.09718,
+"lon": 8.67062
+},
+"6108 halle (saale)|": {
+"country": "DE",
+"lat": 51.48244,
+"lon": 11.9713
+},
+"61169 friedberg|": {
+"country": "DE",
+"lat": 50.32827,
+"lon": 8.74764
+},
+"61184 karben|": {
+"country": "DE",
+"lat": 50.23134,
+"lon": 8.77177
+},
+"61191 rosbach-rodheim v.d.h.|": {
+"country": "DE",
+"lat": 50.26249,
+"lon": 8.70647
+},
+"61197 florstadt|": {
+"country": "DE",
+"lat": 50.32009,
+"lon": 8.90501
+},
+"61231 bad nauheim|": {
+"country": "DE",
+"lat": 50.40015,
+"lon": 8.74613
+},
+"61250 usingen|": {
+"country": "DE",
+"lat": 50.35079,
+"lon": 8.52317
+},
+"61276 weilrod-altweilnau|": {
+"country": "DE",
+"lat": 50.31181,
+"lon": 8.42635
+},
+"61350 bad homburg-kirdorf|": {
+"country": "DE",
+"lat": 50.24039,
+"lon": 8.60833
+},
+"61389 großer feldberg/ts.|": {
+"country": "DE",
+"lat": 50.2325,
+"lon": 8.45989
+},
+"61440 oberursel|": {
+"country": "DE",
+"lat": 50.20329,
+"lon": 8.58337
+},
+"61462 königstein im taunus|": {
+"country": "DE",
+"lat": 50.19513,
+"lon": 8.46282
+},
+"61476 kronberg|": {
+"country": "DE",
+"lat": 50.17966,
+"lon": 8.50859
+},
+"63067 offenbach|": {
+"country": "DE",
+"lat": 50.10737,
+"lon": 8.74634
+},
+"63069 offenbach|": {
+"country": "DE",
+"lat": 50.07293,
+"lon": 8.75755
+},
+"63071 offenbach|": {
+"country": "DE",
+"lat": 50.08774,
+"lon": 8.78469
+},
+"63075 offenbach|": {
+"country": "DE",
+"lat": 50.11959,
+"lon": 8.79499
+},
+"63110 rodgau-jügesheim|": {
+"country": "DE",
+"lat": 50.02577,
+"lon": 8.87892
+},
+"63110 rodgau|": {
+"country": "DE",
+"lat": 50.01768,
+"lon": 8.88534
+},
+"63128 dietzenbach-steinberg|": {
+"country": "DE",
+"lat": 50.02614,
+"lon": 8.7931
+},
+"63165 mühlheim|": {
+"country": "DE",
+"lat": 50.10806,
+"lon": 8.84671
+},
+"63179 obertshausen|": {
+"country": "DE",
+"lat": 50.07313,
+"lon": 8.87328
+},
+"63225 langen|": {
+"country": "DE",
+"lat": 49.99151,
+"lon": 8.6667
+},
+"63263 neu-isenburg|": {
+"country": "DE",
+"lat": 50.04642,
+"lon": 8.67177
+},
+"63322 rödermark-urberach|": {
+"country": "DE",
+"lat": 49.97363,
+"lon": 8.80638
+},
+"63450 hanau|": {
+"country": "DE",
+"lat": 50.12727,
+"lon": 8.92497
+},
+"63500 seligenstadt|": {
+"country": "DE",
+"lat": 50.03471,
+"lon": 8.95937
+},
+"63579 freigericht-neuses|": {
+"country": "DE",
+"lat": 50.13379,
+"lon": 9.13668
+},
+"63619 bad orb|": {
+"country": "DE",
+"lat": 50.22675,
+"lon": 9.34786
+},
+"63667 nidda / geiß-nidda|": {
+"country": "DE",
+"lat": 50.4038,
+"lon": 8.96889
+},
+"63667 nidda-wallernhausen|": {
+"country": "DE",
+"lat": 50.39386,
+"lon": 9.01734
+},
+"63674 altenstadt|": {
+"country": "DE",
+"lat": 50.28489,
+"lon": 8.95682
+},
+"63679 schotten|": {
+"country": "DE",
+"lat": 50.48726,
+"lon": 9.16192
+},
+"63688 gedern|": {
+"country": "DE",
+"lat": 50.41239,
+"lon": 9.21374
+},
+"63695 glauburg|": {
+"country": "DE",
+"lat": 50.32174,
+"lon": 9.00239
+},
+"63699 kefenrod|": {
+"country": "DE",
+"lat": 50.34987,
+"lon": 9.20218
+},
+"63739 aschaffenburg|": {
+"country": "DE",
+"lat": 49.97571,
+"lon": 9.16479
+},
+"63773 goldbach (unterfranken)|": null,
+"63801 kleinostheim|": {
+"country": "DE",
+"lat": 50.01202,
+"lon": 9.05419
+},
+"63834 sulzbach am main|": {
+"country": "DE",
+"lat": 49.91025,
+"lon": 9.15295
+},
+"64283 darmstadt|": {
+"country": "DE",
+"lat": 49.87049,
+"lon": 8.65238
+},
+"64285 darmstadt|": {
+"country": "DE",
+"lat": 49.85179,
+"lon": 8.65914
+},
+"6430 echternach|": {
+"country": "LU",
+"lat": 49.81708,
+"lon": 6.40974
+},
+"64319 pfungstadt|": {
+"country": "DE",
+"lat": 49.7943,
+"lon": 8.5877
+},
+"64331 weiterstadt|": {
+"country": "DE",
+"lat": 49.9178,
+"lon": 8.5924
+},
+"64347 griesheim|": {
+"country": "DE",
+"lat": 49.86159,
+"lon": 8.5762
+},
+"64367 mühltal|": {
+"country": "DE",
+"lat": 49.8077,
+"lon": 8.6941
+},
+"64380 roßdorf|": {
+"country": "DE",
+"lat": 49.8665,
+"lon": 8.7643
+},
+"64385 reichelsheim|": {
+"country": "DE",
+"lat": 49.6985,
+"lon": 8.8495
+},
+"64390 erzhausen|": {
+"country": "DE",
+"lat": 49.95243,
+"lon": 8.639
+},
+"64395 wersau|": {
+"country": "DE",
+"lat": 49.7774,
+"lon": 8.86232
+},
+"64405 fischbachtal/odw.|": null,
+"64521 groß-gerau|": {
+"country": "DE",
+"lat": 49.91926,
+"lon": 8.48531
+},
+"64546 mörfelden-walldorf|": {
+"country": "DE",
+"lat": 49.99238,
+"lon": 8.56225
+},
+"64546 mörfelden|": {
+"country": "DE",
+"lat": 49.97048,
+"lon": 8.57006
+},
+"64560 riedstadt-wolfskehlen|": {
+"country": "DE",
+"lat": 49.85623,
+"lon": 8.49319
+},
+"64665 alsbach-hähnlein|": {
+"country": "DE",
+"lat": 49.73835,
+"lon": 8.595
+},
+"64720 michelstadt|": {
+"country": "DE",
+"lat": 49.68841,
+"lon": 9.05647
+},
+"64756 mossautal|": {
+"country": "DE",
+"lat": 49.64487,
+"lon": 8.91329
+},
+"64760 oberzent-hetzbach/odw.|": null,
+"64807 dieburg|": {
+"country": "DE",
+"lat": 49.89818,
+"lon": 8.83962
+},
+"65183 wiesbaden|": {
+"country": "DE",
+"lat": 50.08453,
+"lon": 8.23743
+},
+"65187 wiesbaden|": {
+"country": "DE",
+"lat": 50.05931,
+"lon": 8.23519
+},
+"65189 wiesbaden|": {
+"country": "DE",
+"lat": 50.07172,
+"lon": 8.25912
+},
+"65232 taunusstein|": {
+"country": "DE",
+"lat": 50.1391,
+"lon": 8.15033
+},
+"65239 hochheim a.m.|": {
+"country": "DE",
+"lat": 50.0116,
+"lon": 8.34706
+},
+"65375 oestrich-winkel|": {
+"country": "DE",
+"lat": 50.00719,
+"lon": 8.01676
+},
+"65428 rüsselsheim|": {
+"country": "DE",
+"lat": 49.9917,
+"lon": 8.41383
+},
+"65439 flörsheim am main|": {
+"country": "DE",
+"lat": 50.0296,
+"lon": 8.4265
+},
+"65439 flörsheim-weilbach|": {
+"country": "DE",
+"lat": 50.04215,
+"lon": 8.44591
+},
+"65468 trebur|": {
+"country": "DE",
+"lat": 49.9133,
+"lon": 8.3853
+},
+"65527 niedernhausen-engenhahn|": {
+"country": "DE",
+"lat": 50.17295,
+"lon": 8.24931
+},
+"65527 niedernhausen|": {
+"country": "DE",
+"lat": 50.17324,
+"lon": 8.29308
+},
+"65599 dornburg-frickhofen|": {
+"country": "DE",
+"lat": 50.51149,
+"lon": 8.02289
+},
+"65599 dornburg-langendernbach|": {
+"country": "DE",
+"lat": 50.53949,
+"lon": 8.04806
+},
+"65599 dornburg-wilsenroth|": {
+"country": "DE",
+"lat": 50.5283,
+"lon": 8.0195
+},
+"65606 villmar|": {
+"country": "DE",
+"lat": 50.3997,
+"lon": 8.2314
+},
+"65611 brechen|": {
+"country": "DE",
+"lat": 50.35986,
+"lon": 8.17745
+},
+"65618 selters-eisenbach|": {
+"country": "DE",
+"lat": 50.35377,
+"lon": 8.2778
+},
+"65719 hofheim-lorsbach|": {
+"country": "DE",
+"lat": 50.11713,
+"lon": 8.42288
+},
+"65719 hofheim-wallau|": {
+"country": "DE",
+"lat": 50.06204,
+"lon": 8.37226
+},
+"65760 eschborn|": {
+"country": "DE",
+"lat": 50.15047,
+"lon": 8.56078
+},
+"65779 kelkheim|": {
+"country": "DE",
+"lat": 50.1344,
+"lon": 8.45318
+},
+"65812 bad soden-altenhain|": {
+"country": "DE",
+"lat": 50.15836,
+"lon": 8.46796
+},
+"65817 eppstein|": {
+"country": "DE",
+"lat": 50.155,
+"lon": 8.3803
+},
+"65824 schwalbach am taunus|": {
+"country": "DE",
+"lat": 50.14901,
+"lon": 8.53574
+},
+"65835 liederbach|": {
+"country": "DE",
+"lat": 50.12033,
+"lon": 8.49218
+},
+"66121 saarbrücken|": {
+"country": "DE",
+"lat": 49.22939,
+"lon": 7.03802
+},
+"66123 saarbrücken|": {
+"country": "DE",
+"lat": 49.24882,
+"lon": 7.02256
+},
+"66557 illingen (saar)|": {
+"country": "DE",
+"lat": 49.37772,
+"lon": 7.05251
+},
+"66564 ottweiler|": {
+"country": "DE",
+"lat": 49.40304,
+"lon": 7.16315
+},
+"66646 urexweiler|": {
+"country": "DE",
+"lat": 49.4291,
+"lon": 7.07752
+},
+"66679 losheim am see|": {
+"country": "DE",
+"lat": 49.50825,
+"lon": 6.74471
+},
+"66693 orscholz|": {
+"country": "DE",
+"lat": 49.50576,
+"lon": 6.53062
+},
+"66701 oppen (beckingen)|": null,
+"66709 weiskirchen|": {
+"country": "DE",
+"lat": 49.5561,
+"lon": 6.81814
+},
+"66773 elm|": {
+"country": "GB",
+"lat": 52.64123,
+"lon": 0.1718
+},
+"66849 landstuhl|": {
+"country": "DE",
+"lat": 49.41433,
+"lon": 7.57223
+},
+"6686 lützen|": {
+"country": "DE",
+"lat": 51.25856,
+"lon": 12.14595
+},
+"66877 ramstein-miesenbach|": {
+"country": "DE",
+"lat": 49.45188,
+"lon": 7.55431
+},
+"66879 kottweiler-schwanden|": {
+"country": "DE",
+"lat": 49.47318,
+"lon": 7.53887
+},
+"66879 reichenbach-steegen|": {
+"country": "DE",
+"lat": 49.50323,
+"lon": 7.53309
+},
+"66885 altenglan|": {
+"country": "DE",
+"lat": 49.55365,
+"lon": 7.461
+},
+"66904 brücken|": {
+"country": "DE",
+"lat": 49.43161,
+"lon": 7.35895
+},
+"66907 glan-münchweiler|": {
+"country": "DE",
+"lat": 49.47254,
+"lon": 7.44042
+},
+"66909 matzenbach-gimsbach|": {
+"country": "DE",
+"lat": 49.50474,
+"lon": 7.45132
+},
+"66953 pirmasens|": {
+"country": "DE",
+"lat": 49.21513,
+"lon": 7.62856
+},
+"66969 lemberg|": {
+"country": "DE",
+"lat": 49.17118,
+"lon": 7.65453
+},
+"67063 ludwigshafen|": {
+"country": "DE",
+"lat": 49.50748,
+"lon": 8.41839
+},
+"67071 ludwigshafen-oggersheim|": {
+"country": "DE",
+"lat": 49.49318,
+"lon": 8.38174
+},
+"67098 bad dürkheim|": {
+"country": "DE",
+"lat": 49.46329,
+"lon": 8.17051
+},
+"67105 schifferstadt|": {
+"country": "DE",
+"lat": 49.38653,
+"lon": 8.37135
+},
+"67292 kirchheimbolanden|": {
+"country": "DE",
+"lat": 49.66443,
+"lon": 8.01074
+},
+"67435 neustadt-mußbach|": {
+"country": "DE",
+"lat": 49.36892,
+"lon": 8.17165
+},
+"67454 haßloch|": {
+"country": "DE",
+"lat": 49.36298,
+"lon": 8.25658
+},
+"67487 maikammer|": {
+"country": "DE",
+"lat": 49.30701,
+"lon": 8.0753
+},
+"67547 worms|": {
+"country": "DE",
+"lat": 49.62847,
+"lon": 8.36534
+},
+"67590 kriegsheim|": {
+"country": "DE",
+"lat": 49.63868,
+"lon": 8.22195
+},
+"67663 kaiserslautern|": {
+"country": "DE",
+"lat": 49.42129,
+"lon": 7.79508
+},
+"67688 rodenbach|": {
+"country": "DE",
+"lat": 49.47409,
+"lon": 7.6569
+},
+"68259 mannheim-feudenheim|": {
+"country": "DE",
+"lat": 49.48658,
+"lon": 8.51749
+},
+"68623 lampertheim-hofheim|": {
+"country": "DE",
+"lat": 49.65668,
+"lon": 8.40933
+},
+"68766 hockenheim|": {
+"country": "DE",
+"lat": 49.31889,
+"lon": 8.54755
+},
+"68782 brühl|": {
+"country": "DE",
+"lat": 49.39535,
+"lon": 8.53404
+},
+"68789 st. leon-rot|": {
+"country": "DE",
+"lat": 49.26713,
+"lon": 8.61426
+},
+"69168 wiesloch|": {
+"country": "DE",
+"lat": 49.29426,
+"lon": 8.69871
+},
+"69226 nußloch|": {
+"country": "DE",
+"lat": 49.32287,
+"lon": 8.69594
+},
+"69250 schönau|": {
+"country": "DE",
+"lat": 49.43669,
+"lon": 8.80909
+},
+"69259 wilhelmsfeld|": {
+"country": "DE",
+"lat": 49.4626,
+"lon": 8.76326
+},
+"69427 mudau|": {
+"country": "DE",
+"lat": 49.53391,
+"lon": 9.20483
+},
+"70372 stuttgart|": {
+"country": "DE",
+"lat": 48.79865,
+"lon": 9.22534
+},
+"70499 stuttgart|": {
+"country": "DE",
+"lat": 48.80965,
+"lon": 9.10583
+},
+"70597 stuttgart|": {
+"country": "DE",
+"lat": 48.74546,
+"lon": 9.16892
+},
+"70771 leinfelden-echterdingen|": {
+"country": "DE",
+"lat": 48.69018,
+"lon": 9.15257
+},
+"70794 filderstadt|": {
+"country": "DE",
+"lat": 48.67643,
+"lon": 9.21775
+},
+"71063 sindelfingen|": {
+"country": "DE",
+"lat": 48.70654,
+"lon": 8.99241
+},
+"71157 hildrizhausen|": {
+"country": "DE",
+"lat": 48.62534,
+"lon": 8.9702
+},
+"71254 ditzingen|": {
+"country": "DE",
+"lat": 48.8264,
+"lon": 9.06584
+},
+"71384 weinstadt|": {
+"country": "DE",
+"lat": 48.80856,
+"lon": 9.37748
+},
+"71394 kernen|": {
+"country": "DE",
+"lat": 48.79653,
+"lon": 9.32865
+},
+"71522 backnang|": {
+"country": "DE",
+"lat": 48.94685,
+"lon": 9.43036
+},
+"71665 vaihingen an der enz|": {
+"country": "DE",
+"lat": 48.93214,
+"lon": 8.95683
+},
+"71711 steinheim an der murr|": {
+"country": "DE",
+"lat": 48.9652,
+"lon": 9.2789
+},
+"71735 nussdorf (eberdingen)|": {
+"country": "DE",
+"lat": 48.89395,
+"lon": 8.93922
+},
+"72074 tübingen|": {
+"country": "DE",
+"lat": 48.5602,
+"lon": 9.08296
+},
+"72076 tübingen|": {
+"country": "DE",
+"lat": 48.54576,
+"lon": 9.04301
+},
+"72175 dornhan|": {
+"country": "DE",
+"lat": 48.35028,
+"lon": 8.50785
+},
+"72181 wachendorf (starzach)|": {
+"country": "DE",
+"lat": 48.42223,
+"lon": 8.84376
+},
+"72280 dornstetten|": {
+"country": "DE",
+"lat": 48.46636,
+"lon": 8.5013
+},
+"72351 geislingen|": {
+"country": "DE",
+"lat": 48.28863,
+"lon": 8.81355
+},
+"72379 hechingen|": {
+"country": "DE",
+"lat": 48.35255,
+"lon": 8.9642
+},
+"72488 sigmaringen|": {
+"country": "DE",
+"lat": 48.08691,
+"lon": 9.2165
+},
+"72622 reudern (nürtingen)|": {
+"country": "DE",
+"lat": 48.62563,
+"lon": 9.38835
+},
+"73033 göppingen|": {
+"country": "DE",
+"lat": 48.70035,
+"lon": 9.65226
+},
+"73079 süßen|": {
+"country": "DE",
+"lat": 48.67079,
+"lon": 9.73724
+},
+"73084 salach|": {
+"country": "DE",
+"lat": 48.69041,
+"lon": 9.73951
+},
+"73092 heiningen (landkreis göppingen)|": {
+"country": "DE",
+"lat": 48.66784,
+"lon": 9.65117
+},
+"73113 ottenbach|": {
+"country": "DE",
+"lat": 48.73382,
+"lon": 9.74943
+},
+"73230 kirchheim unter teck|": {
+"country": "DE",
+"lat": 48.64805,
+"lon": 9.45102
+},
+"73430 aalen|": {
+"country": "DE",
+"lat": 48.841,
+"lon": 10.09651
+},
+"73525 schwäbisch gmünd|": {
+"country": "DE",
+"lat": 48.79553,
+"lon": 9.80191
+},
+"73760 ostfildern-nellingen|": {
+"country": "DE",
+"lat": 48.71447,
+"lon": 9.30093
+},
+"74182 willsbach|": {
+"country": "DE",
+"lat": 49.14261,
+"lon": 9.3578
+},
+"74193 schwaigern|": {
+"country": "DE",
+"lat": 49.14142,
+"lon": 9.05711
+},
+"74321 bietigheim-bissingen|": {
+"country": "DE",
+"lat": 48.94932,
+"lon": 9.13642
+},
+"74357 bönnigheim|": {
+"country": "DE",
+"lat": 49.04172,
+"lon": 9.0934
+},
+"74360 ilsfeld|": {
+"country": "DE",
+"lat": 49.0554,
+"lon": 9.24583
+},
+"74426 bühlerzell|": {
+"country": "DE",
+"lat": 49.0029,
+"lon": 9.91867
+},
+"74523 schwäbisch hall|": {
+"country": "DE",
+"lat": 49.11243,
+"lon": 9.73712
+},
+"74541 vellberg|": {
+"country": "DE",
+"lat": 49.08643,
+"lon": 9.88121
+},
+"74599 wallhausen|": {
+"country": "DE",
+"lat": 49.21113,
+"lon": 10.06274
+},
+"74613 öhringen|": {
+"country": "DE",
+"lat": 49.2005,
+"lon": 9.50244
+},
+"74722 buchen|": {
+"country": "DE",
+"lat": 49.52194,
+"lon": 9.32513
+},
+"74831 gundelsheim|": {
+"country": "DE",
+"lat": 49.2844,
+"lon": 9.16194
+},
+"74861 herbolzheim (neudenau)|": {
+"country": "DE",
+"lat": 49.28118,
+"lon": 9.25957
+},
+"74889 sinsheim|": {
+"country": "DE",
+"lat": 49.23446,
+"lon": 8.89895
+},
+"74927 eschelbronn|": {
+"country": "DE",
+"lat": 49.32167,
+"lon": 8.86284
+},
+"75045 walzbachtal|": {
+"country": "DE",
+"lat": 49.02346,
+"lon": 8.5952
+},
+"75181 pforzheim|": {
+"country": "DE",
+"lat": 48.86578,
+"lon": 8.74092
+},
+"75196 remchingen-nöttingen|": {
+"country": "DE",
+"lat": 48.92868,
+"lon": 8.57026
+},
+"75233 tiefenbronn-mühlhausen|": {
+"country": "DE",
+"lat": 48.80729,
+"lon": 8.82296
+},
+"75323 bad wildbad|": {
+"country": "DE",
+"lat": 48.75024,
+"lon": 8.5503
+},
+"75335 dobel|": {
+"country": "DE",
+"lat": 48.79699,
+"lon": 8.49363
+},
+"75365 calw|": {
+"country": "DE",
+"lat": 48.71427,
+"lon": 8.73976
+},
+"76135 karlsruhe|": {
+"country": "DE",
+"lat": 48.9924,
+"lon": 8.37826
+},
+"76137 karlsruhe|": {
+"country": "DE",
+"lat": 48.9995,
+"lon": 8.41423
+},
+"76199 karlsruhe|": {
+"country": "DE",
+"lat": 48.97515,
+"lon": 8.40509
+},
+"76228 hohenwettersbach|": {
+"country": "DE",
+"lat": 48.96632,
+"lon": 8.48077
+},
+"76229 karlsruhe|": {
+"country": "DE",
+"lat": 49.02702,
+"lon": 8.49637
+},
+"76275 ettlingen|": {
+"country": "DE",
+"lat": 48.94142,
+"lon": 8.40763
+},
+"76287 rheinstetten|": {
+"country": "DE",
+"lat": 48.96855,
+"lon": 8.30971
+},
+"76297 friedrichstal (stutensee)|": {
+"country": "DE",
+"lat": 49.0914,
+"lon": 8.4762
+},
+"76307 langensteinbach (karlsbad)|": {
+"country": "DE",
+"lat": 48.90461,
+"lon": 8.50287
+},
+"76327 pfinztal|": {
+"country": "DE",
+"lat": 48.99187,
+"lon": 8.55532
+},
+"76669 mingolsheim (bad schönborn)|": {
+"country": "DE",
+"lat": 49.2134,
+"lon": 8.64257
+},
+"76698 ubstadt-weiher|": {
+"country": "DE",
+"lat": 49.17177,
+"lon": 8.64053
+},
+"76744 wörth-maximiliansau|": {
+"country": "DE",
+"lat": 49.03449,
+"lon": 8.28699
+},
+"76761 rülzheim|": {
+"country": "DE",
+"lat": 49.15396,
+"lon": 8.29119
+},
+"76764 rheinzabern|": {
+"country": "DE",
+"lat": 49.11851,
+"lon": 8.27559
+},
+"76863 herxheim|": {
+"country": "DE",
+"lat": 49.14635,
+"lon": 8.21562
+},
+"77855 großweier (achern)|": {
+"country": "DE",
+"lat": 48.65918,
+"lon": 8.04644
+},
+"77866 rheinau-freistett|": {
+"country": "DE",
+"lat": 48.66789,
+"lon": 7.93566
+},
+"77933 reichenbach (lahr/schwarzwald)|": null,
+"77955 ettenheim|": {
+"country": "DE",
+"lat": 48.25523,
+"lon": 7.81349
+},
+"77960 seelbach (schutter)|": {
+"country": "DE",
+"lat": 48.30901,
+"lon": 7.9384
+},
+"78532 tuttlingen|": {
+"country": "DE",
+"lat": 47.98443,
+"lon": 8.81866
+},
+"78559 gosheim|": {
+"country": "DE",
+"lat": 48.13631,
+"lon": 8.75273
+},
+"78628 rottweil|": {
+"country": "DE",
+"lat": 48.16782,
+"lon": 8.62698
+},
+"78737 fluorn-winzeln|": {
+"country": "DE",
+"lat": 48.29304,
+"lon": 8.49181
+},
+"79206 breisach am rhein|": {
+"country": "DE",
+"lat": 48.02914,
+"lon": 7.58061
+},
+"79211 denzlingen|": {
+"country": "DE",
+"lat": 48.06692,
+"lon": 7.88627
+},
+"79241 ihringen|": {
+"country": "DE",
+"lat": 48.04398,
+"lon": 7.64838
+},
+"79295 sulzburg|": {
+"country": "DE",
+"lat": 47.84051,
+"lon": 7.70776
+},
+"79331 teningen|": {
+"country": "DE",
+"lat": 48.12701,
+"lon": 7.81016
+},
+"79346 endingen|": {
+"country": "DE",
+"lat": 48.14113,
+"lon": 7.7031
+},
+"79359 riegel am kaiserstuhl|": {
+"country": "DE",
+"lat": 48.15094,
+"lon": 7.7505
+},
+"79379 müllheim|": {
+"country": "DE",
+"lat": 47.8101,
+"lon": 7.59956
+},
+"79426 buggingen|": {
+"country": "DE",
+"lat": 47.84756,
+"lon": 7.63757
+},
+"79618 rheinfelden|": {
+"country": "DE",
+"lat": 47.56059,
+"lon": 7.7862
+},
+"79664 wehr|": {
+"country": "DE",
+"lat": 47.62861,
+"lon": 7.90464
+},
+"80331 münchen|": {
+"country": "DE",
+"lat": 48.13591,
+"lon": 11.5731
+},
+"80809 münchen|": {
+"country": "DE",
+"lat": 48.17941,
+"lon": 11.55327
+},
+"81249 münchen|": {
+"country": "DE",
+"lat": 48.16888,
+"lon": 11.40406
+},
+"81476 münchen|": {
+"country": "DE",
+"lat": 48.08854,
+"lon": 11.4957
+},
+"82140 olching|": {
+"country": "DE",
+"lat": 48.20778,
+"lon": 11.32788
+},
+"82346 andechs|": {
+"country": "DE",
+"lat": 47.972,
+"lon": 11.20171
+},
+"82362 weilheim in oberbayern|": {
+"country": "DE",
+"lat": 47.83951,
+"lon": 11.14164
+},
+"82377 penzberg|": {
+"country": "DE",
+"lat": 47.75185,
+"lon": 11.3763
+},
+"82418 murnau|": {
+"country": "DE",
+"lat": 47.67788,
+"lon": 11.20119
+},
+"82491 grainau|": {
+"country": "DE",
+"lat": 47.45168,
+"lon": 11.01022
+},
+"83064 raubling|": {
+"country": "DE",
+"lat": 47.78926,
+"lon": 12.11
+},
+"83229 aschau im chiemgau|": {
+"country": "DE",
+"lat": 47.74347,
+"lon": 12.30153
+},
+"83308 trostberg|": {
+"country": "DE",
+"lat": 48.03211,
+"lon": 12.56544
+},
+"83317 teisendorf|": {
+"country": "DE",
+"lat": 47.85495,
+"lon": 12.8189
+},
+"83346 bergen (chiemgau)|": {
+"country": "DE",
+"lat": 47.79841,
+"lon": 12.59043
+},
+"83404 ainring|": {
+"country": "DE",
+"lat": 47.81562,
+"lon": 12.94291
+},
+"83435 bad reichenhall|": {
+"country": "DE",
+"lat": 47.72227,
+"lon": 12.87609
+},
+"84034 landshut|": {
+"country": "DE",
+"lat": 48.52818,
+"lon": 12.09036
+},
+"84130 dingolfing|": {
+"country": "DE",
+"lat": 48.63008,
+"lon": 12.49774
+},
+"84405 dorfen|": {
+"country": "DE",
+"lat": 48.27278,
+"lon": 12.15055
+},
+"84419 schwindegg|": {
+"country": "DE",
+"lat": 48.27315,
+"lon": 12.24987
+},
+"84489 burghausen|": {
+"country": "DE",
+"lat": 48.15886,
+"lon": 12.83294
+},
+"84508 burgkirchen|": {
+"country": "DE",
+"lat": 48.15027,
+"lon": 12.72289
+},
+"8468 reichenbach (vogtland)|": {
+"country": "DE",
+"lat": 50.62005,
+"lon": 12.29927
+},
+"85305 jetzendorf|": {
+"country": "DE",
+"lat": 48.43665,
+"lon": 11.41464
+},
+"85414 kirchdorf|": {
+"country": "DE",
+"lat": 48.45911,
+"lon": 11.66222
+},
+"85417 marzling|": {
+"country": "DE",
+"lat": 48.40292,
+"lon": 11.81705
+},
+"85435 erding|": {
+"country": "DE",
+"lat": 48.30644,
+"lon": 11.90766
+},
+"85540 haar|": {
+"country": "DE",
+"lat": 48.10957,
+"lon": 11.72648
+},
+"85560 ebersberg|": {
+"country": "DE",
+"lat": 48.07491,
+"lon": 11.97047
+},
+"85640 putzbrunn|": {
+"country": "DE",
+"lat": 48.07531,
+"lon": 11.71563
+},
+"85737 ismaning|": {
+"country": "DE",
+"lat": 48.22424,
+"lon": 11.67153
+},
+"86152 augsburg|": {
+"country": "DE",
+"lat": 48.37209,
+"lon": 10.89341
+},
+"86161 augsburg|": {
+"country": "DE",
+"lat": 48.34632,
+"lon": 10.92093
+},
+"86199 augsburg|": {
+"country": "DE",
+"lat": 48.32177,
+"lon": 10.83056
+},
+"86368 gersthofen|": {
+"country": "DE",
+"lat": 48.42482,
+"lon": 10.87786
+},
+"86450 altenmünster|": {
+"country": "DE",
+"lat": 48.46465,
+"lon": 10.59082
+},
+"86551 aichach|": {
+"country": "DE",
+"lat": 48.45915,
+"lon": 11.131
+},
+"86609 donauwörth|": {
+"country": "DE",
+"lat": 48.71804,
+"lon": 10.78073
+},
+"86633 neuburg|": {
+"country": "DE",
+"lat": 48.72687,
+"lon": 11.17763
+},
+"86641 rain|": {
+"country": "DE",
+"lat": 48.69615,
+"lon": 10.92805
+},
+"86650 wemding|": {
+"country": "DE",
+"lat": 48.87868,
+"lon": 10.70961
+},
+"86653 monheim / warching|": {
+"country": "DE",
+"lat": 48.83859,
+"lon": 10.91161
+},
+"86655 harburg|": {
+"country": "DE",
+"lat": 48.78721,
+"lon": 10.68896
+},
+"86675 buchdorf|": {
+"country": "DE",
+"lat": 48.78337,
+"lon": 10.82779
+},
+"86720 nördlingen|": {
+"country": "DE",
+"lat": 48.8505,
+"lon": 10.4981
+},
+"86732 oettingen|": {
+"country": "DE",
+"lat": 48.95683,
+"lon": 10.579
+},
+"86735 amerdingen|": {
+"country": "DE",
+"lat": 48.72696,
+"lon": 10.48616
+},
+"86751 mönchsdeggingen|": {
+"country": "DE",
+"lat": 48.77541,
+"lon": 10.5807
+},
+"86899 landsberg|": {
+"country": "DE",
+"lat": 48.04975,
+"lon": 10.87687
+},
+"86916 kaufering|": {
+"country": "DE",
+"lat": 48.08713,
+"lon": 10.86053
+},
+"87437 kempten|": {
+"country": "DE",
+"lat": 47.74085,
+"lon": 10.33985
+},
+"87466 oy-mittelberg|": {
+"country": "DE",
+"lat": 47.64164,
+"lon": 10.44385
+},
+"87484 nesselwang|": {
+"country": "DE",
+"lat": 47.62189,
+"lon": 10.50035
+},
+"87730 bad grönenbach|": {
+"country": "DE",
+"lat": 47.87772,
+"lon": 10.22152
+},
+"88138 hergensweiler|": {
+"country": "DE",
+"lat": 47.61697,
+"lon": 9.779
+},
+"88273 blitzenreute|": {
+"country": "DE",
+"lat": 47.86264,
+"lon": 9.59056
+},
+"88339 reute (bad waldsee)|": {
+"country": "DE",
+"lat": 47.89997,
+"lon": 9.69987
+},
+"88353 kisslegg|": {
+"country": "DE",
+"lat": 47.78771,
+"lon": 9.88302
+},
+"88400 biberach/riß|": {
+"country": "DE",
+"lat": 48.09103,
+"lon": 9.78787
+},
+"88471 laupheim|": {
+"country": "DE",
+"lat": 48.23007,
+"lon": 9.8837
+},
+"88499 riedlingen|": {
+"country": "DE",
+"lat": 48.15344,
+"lon": 9.47488
+},
+"88690 uhldingen-mühlhofen|": {
+"country": "DE",
+"lat": 47.73489,
+"lon": 9.24003
+},
+"89073 ulm|": {
+"country": "DE",
+"lat": 48.40397,
+"lon": 10.00001
+},
+"89264 weißenhorn|": {
+"country": "DE",
+"lat": 48.30449,
+"lon": 10.16015
+},
+"89415 lauingen|": {
+"country": "DE",
+"lat": 48.57108,
+"lon": 10.43054
+},
+"89423 gundelfingen an der donau|": {
+"country": "DE",
+"lat": 48.55344,
+"lon": 10.36783
+},
+"89520 schnaitheim|": {
+"country": "DE",
+"lat": 48.7069,
+"lon": 10.16075
+},
+"89522 heidenheim|": {
+"country": "DE",
+"lat": 48.6668,
+"lon": 10.18504
+},
+"89555 steinheim am albuch|": {
+"country": "DE",
+"lat": 48.6926,
+"lon": 10.0644
+},
+"90409 nürnberg|": {
+"country": "DE",
+"lat": 49.46691,
+"lon": 11.09036
+},
+"90478 nürnberg|": {
+"country": "DE",
+"lat": 49.43968,
+"lon": 11.10477
+},
+"90518 altdorf (nürnberg)|": {
+"country": "DE",
+"lat": 49.39351,
+"lon": 11.38131
+},
+"90584 allersberg|": {
+"country": "DE",
+"lat": 49.2513,
+"lon": 11.23568
+},
+"91058 erlangen|": {
+"country": "DE",
+"lat": 49.55834,
+"lon": 11.0072
+},
+"91074 herzogenaurach|": {
+"country": "DE",
+"lat": 49.57382,
+"lon": 10.8927
+},
+"91077 neunkirchen am brand|": {
+"country": "DE",
+"lat": 49.61265,
+"lon": 11.13001
+},
+"91085 weisendorf|": {
+"country": "DE",
+"lat": 49.62725,
+"lon": 10.81158
+},
+"91096 möhrendorf|": {
+"country": "DE",
+"lat": 49.64339,
+"lon": 10.99324
+},
+"91126 rednitzhembach|": {
+"country": "DE",
+"lat": 49.30149,
+"lon": 11.0783
+},
+"91154 birkach (roth)|": {
+"country": "DE",
+"lat": 49.23187,
+"lon": 11.18891
+},
+"91154 roth|": {
+"country": "DE",
+"lat": 49.23688,
+"lon": 11.1181
+},
+"91171 greding|": {
+"country": "DE",
+"lat": 49.06666,
+"lon": 11.33983
+},
+"91186 büchenbach|": {
+"country": "DE",
+"lat": 49.26458,
+"lon": 11.03233
+},
+"91217 hersbruck|": {
+"country": "DE",
+"lat": 49.50858,
+"lon": 11.42851
+},
+"91286 obertrubach|": {
+"country": "DE",
+"lat": 49.70233,
+"lon": 11.32927
+},
+"91301 forchheim|": {
+"country": "DE",
+"lat": 49.7123,
+"lon": 11.06643
+},
+"91344 waischenfeld|": {
+"country": "DE",
+"lat": 49.84126,
+"lon": 11.32592
+},
+"91413 neustadt an der aisch|": {
+"country": "DE",
+"lat": 49.58,
+"lon": 10.60876
+},
+"91438 bad windsheim|": {
+"country": "DE",
+"lat": 49.50232,
+"lon": 10.41759
+},
+"91472 ipsheim|": {
+"country": "DE",
+"lat": 49.52632,
+"lon": 10.484
+},
+"91522 ansbach|": {
+"country": "DE",
+"lat": 49.28887,
+"lon": 10.55977
+},
+"91550 dinkelsbühl|": {
+"country": "DE",
+"lat": 49.06917,
+"lon": 10.3194
+},
+"91555 feuchtwangen|": {
+"country": "DE",
+"lat": 49.16786,
+"lon": 10.33133
+},
+"91587 adelshofen|": {
+"country": "DE",
+"lat": 49.43935,
+"lon": 10.1741
+},
+"91593 burgbernheim|": {
+"country": "DE",
+"lat": 49.46091,
+"lon": 10.31252
+},
+"91619 obernzenn|": {
+"country": "DE",
+"lat": 49.45,
+"lon": 10.4667
+},
+"91710 gunzenhausen|": {
+"country": "DE",
+"lat": 49.11614,
+"lon": 10.74069
+},
+"91785 pleinfeld|": {
+"country": "DE",
+"lat": 49.12038,
+"lon": 11.00099
+},
+"91795 dollnstein|": {
+"country": "DE",
+"lat": 48.86909,
+"lon": 11.0908
+},
+"92224 amberg|": {
+"country": "DE",
+"lat": 49.45437,
+"lon": 11.8474
+},
+"92268 etzelwang|": {
+"country": "DE",
+"lat": 49.52642,
+"lon": 11.58592
+},
+"92331 parsberg|": {
+"country": "DE",
+"lat": 49.15988,
+"lon": 11.71877
+},
+"92342 freystadt|": {
+"country": "DE",
+"lat": 49.19896,
+"lon": 11.32859
+},
+"92358 seubersdorf (oberpfalz)|": {
+"country": "DE",
+"lat": 49.15521,
+"lon": 11.61749
+},
+"92421 schwandorf|": {
+"country": "DE",
+"lat": 49.31528,
+"lon": 12.08662
+},
+"93047 regensburg|": {
+"country": "DE",
+"lat": 49.01728,
+"lon": 12.09622
+},
+"93059 regensburg|": {
+"country": "DE",
+"lat": 49.03132,
+"lon": 12.08494
+},
+"93093 donaustauf|": {
+"country": "DE",
+"lat": 49.03144,
+"lon": 12.22629
+},
+"93158 teublitz|": {
+"country": "DE",
+"lat": 49.23389,
+"lon": 12.09907
+},
+"93176 beratzhausen|": {
+"country": "DE",
+"lat": 49.09587,
+"lon": 11.80724
+},
+"93197 zeitlarn|": {
+"country": "DE",
+"lat": 49.08739,
+"lon": 12.11768
+},
+"93326 abensberg|": {
+"country": "DE",
+"lat": 48.83324,
+"lon": 11.85708
+},
+"93413 cham (oberpfalz)|": {
+"country": "DE",
+"lat": 49.1605,
+"lon": 12.769
+},
+"93462 lam|": {
+"country": "DE",
+"lat": 49.19641,
+"lon": 13.05146
+},
+"94032 passau|": {
+"country": "DE",
+"lat": 48.56826,
+"lon": 13.46468
+},
+"94051 hauzenberg|": {
+"country": "DE",
+"lat": 48.65158,
+"lon": 13.62374
+},
+"94072 bad füssing|": {
+"country": "DE",
+"lat": 48.34044,
+"lon": 13.31844
+},
+"94333 geiselhöring|": {
+"country": "DE",
+"lat": 48.8111,
+"lon": 12.39178
+},
+"94424 arnstorf|": {
+"country": "DE",
+"lat": 48.55454,
+"lon": 12.82067
+},
+"94579 zenting|": {
+"country": "DE",
+"lat": 48.79216,
+"lon": 13.25971
+},
+"95030 hof|": {
+"country": "DE",
+"lat": 50.31873,
+"lon": 11.87075
+},
+"95126 schwarzenbach (saale)|": {
+"country": "DE",
+"lat": 50.21038,
+"lon": 11.92602
+},
+"95364 ludwigschorgast|": {
+"country": "DE",
+"lat": 50.12645,
+"lon": 11.55862
+},
+"95445 bayreuth|": {
+"country": "DE",
+"lat": 49.95572,
+"lon": 11.54994
+},
+"95448 bayreuth|": {
+"country": "DE",
+"lat": 49.9323,
+"lon": 11.61041
+},
+"9560 feldkirchen|": {
+"country": "AT",
+"lat": 46.72292,
+"lon": 14.0965
+},
+"95680 bad alexandersbad|": {
+"country": "DE",
+"lat": 50.01109,
+"lon": 12.02415
+},
+"96047 bamberg|": {
+"country": "DE",
+"lat": 49.89103,
+"lon": 10.88996
+},
+"96050 bamberg|": {
+"country": "DE",
+"lat": 49.88121,
+"lon": 10.92897
+},
+"96117 memmelsdorf|": {
+"country": "DE",
+"lat": 49.9324,
+"lon": 10.955
+},
+"96152 burghaslach|": {
+"country": "DE",
+"lat": 49.73041,
+"lon": 10.56817
+},
+"96215 lichtenfels|": {
+"country": "DE",
+"lat": 50.09468,
+"lon": 11.14357
+},
+"96231 bad staffelstein|": {
+"country": "DE",
+"lat": 50.10283,
+"lon": 10.99916
+},
+"9627 naundorf (bobritzsch-hilbersdorf)|": {
+"country": "DE",
+"lat": 50.93724,
+"lon": 13.41783
+},
+"96450 coburg|": {
+"country": "DE",
+"lat": 50.25822,
+"lon": 10.96456
+},
+"97070 würzburg|": {
+"country": "DE",
+"lat": 49.7944,
+"lon": 9.93407
+},
+"97199 ochsenfurt|": {
+"country": "DE",
+"lat": 49.66436,
+"lon": 10.06476
+},
+"97246 eibelstadt|": {
+"country": "DE",
+"lat": 49.72434,
+"lon": 10.00027
+},
+"97258 gollhofen|": {
+"country": "DE",
+"lat": 49.58686,
+"lon": 10.1725
+},
+"97258 ippesheim|": {
+"country": "DE",
+"lat": 49.60178,
+"lon": 10.22613
+},
+"97291 thüngersheim|": {
+"country": "DE",
+"lat": 49.87165,
+"lon": 9.85222
+},
+"97346 iphofen|": {
+"country": "DE",
+"lat": 49.67829,
+"lon": 10.33346
+},
+"97422 schweinfurt|": {
+"country": "DE",
+"lat": 50.06743,
+"lon": 10.24216
+},
+"97424 schweinfurt|": {
+"country": "DE",
+"lat": 50.03513,
+"lon": 10.20868
+},
+"97475 zeil am main|": {
+"country": "DE",
+"lat": 50.01375,
+"lon": 10.5948
+},
+"97729 ramsthal|": {
+"country": "DE",
+"lat": 50.13989,
+"lon": 10.06927
+},
+"97753 karlstadt|": {
+"country": "DE",
+"lat": 49.96982,
+"lon": 9.74414
+},
+"98528 suhl-friedberg|": {
+"country": "DE",
+"lat": 50.57575,
+"lon": 10.72293
+},
+"98597 breitungen/werra|": {
+"country": "DE",
+"lat": 50.75817,
+"lon": 10.33368
+},
+"98617 meiningen|": {
+"country": "DE",
+"lat": 50.56761,
+"lon": 10.4153
+},
+"98694 möhrenbach|": {
+"country": "DE",
+"lat": 50.62325,
+"lon": 10.9947
+},
+"98724 piesau|": {
+"country": "DE",
+"lat": 50.51228,
+"lon": 11.21591
+},
+"98744 lichtenhain/bergbahn|": {
+"country": "DE",
+"lat": 50.59175,
+"lon": 11.13289
+},
+"99096 erfurt|": {
+"country": "DE",
+"lat": 50.95537,
+"lon": 11.03504
+},
+"99100 kleinfahner|": {
+"country": "DE",
+"lat": 51.03783,
+"lon": 10.84537
+},
+"99438 bad berka|": {
+"country": "DE",
+"lat": 50.88455,
+"lon": 11.27374
+},
+"99510 apolda|": {
+"country": "DE",
+"lat": 51.03093,
+"lon": 11.52587
+},
+"99831 creuzburg|": {
+"country": "DE",
+"lat": 51.07212,
+"lon": 10.28151
+},
+"99869 mühlberg|": {
+"country": "DE",
+"lat": 50.86817,
+"lon": 10.82452
+},
+"99885 ohrdruf|": {
+"country": "DE",
+"lat": 50.82701,
+"lon": 10.73195
+},
+"frankfurt|": {
+"country": "DE",
+"lat": 50.11064,
+"lon": 8.68209
+},
+"hannover|": {
+"country": "DE",
+"lat": 52.37448,
+"lon": 9.73855
+},
+"oberstdorf|": {
+"country": "DE",
+"lat": 47.37085,
+"lon": 10.31193
+},
+"tübingen|": {
+"country": "DE",
+"lat": 48.52033,
+"lon": 9.0536
+},
+"weinstadt|": {
+"country": "DE",
+"lat": 48.80856,
+"lon": 9.37748
+}
+}
