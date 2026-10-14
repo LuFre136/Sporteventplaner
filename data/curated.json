@@ -3,7 +3,9 @@
   "events": [
     {
       "sport": "rennrad",
-      "categories": ["Radmarathon"],
+      "categories": [
+        "Radmarathon"
+      ],
       "name": "Maratona dles Dolomites – Enel (40. Ausgabe)",
       "date": "2027-07-04",
       "country": "IT",
@@ -12,9 +14,21 @@
       "lon": 11.9036,
       "website": "https://www.maratona.it",
       "routes": [
-        {"name": "Maratona", "km": 138, "elevation_m": 4230},
-        {"name": "Medio", "km": 106, "elevation_m": 3130},
-        {"name": "Sellaronda", "km": 55, "elevation_m": 1780}
+        {
+          "name": "Maratona",
+          "km": 138,
+          "elevation_m": 4230
+        },
+        {
+          "name": "Medio",
+          "km": 106,
+          "elevation_m": 3130
+        },
+        {
+          "name": "Sellaronda",
+          "km": 55,
+          "elevation_m": 1780
+        }
       ],
       "registration_start": "2026-10-14",
       "registration_end": "2026-11-10",
@@ -23,7 +37,9 @@
     },
     {
       "sport": "rennrad",
-      "categories": ["Radmarathon"],
+      "categories": [
+        "Radmarathon"
+      ],
       "name": "Sportful Dolomiti Race",
       "date": "2027-06-20",
       "country": "IT",
@@ -32,13 +48,298 @@
       "lon": 11.9097,
       "website": "https://www.sportfuldolomitirace.it/",
       "routes": [
-        {"name": "Gran Fondo", "km": 204, "elevation_m": 4900},
-        {"name": "Medio Fondo", "km": 125, "elevation_m": 2600}
+        {
+          "name": "Gran Fondo",
+          "km": 204,
+          "elevation_m": 4900
+        },
+        {
+          "name": "Medio Fondo",
+          "km": 125,
+          "elevation_m": 2600
+        }
       ],
       "registration_start": "2026-10-01",
       "fee": "80 € (Stand Oktober 2026, steigt später)",
       "notes": "Die ersten 1.000 Online-Anmeldungen bekommen Plätze in den vorderen Startblöcken.",
       "source_url": "https://www.tour-magazin.de/en/event/everyman-race/sportful-dolomiti-race-2027-registration-now-open/"
+    },
+    {
+      "sport": "rennrad",
+      "categories": [
+        "Radmarathon"
+      ],
+      "name": "Ötztaler Radmarathon",
+      "date": "2027-08-29",
+      "country": "AT",
+      "place": "Sölden",
+      "lat": 46.9655,
+      "lon": 11.0076,
+      "website": "https://www.soelden.com/de/veranstaltungen-freizeittipps/events/oetztaler-radmarathon",
+      "routes": [
+        {
+          "name": "Ötztaler",
+          "km": 227,
+          "elevation_m": 5500
+        }
+      ],
+      "notes": "4 Alpenpässe, rund 4.000 Teilnehmende. Anmeldezeitraum und Startgeld für 2027 noch nicht veröffentlicht."
+    },
+    {
+      "sport": "rennrad",
+      "categories": [
+        "Rennen"
+      ],
+      "name": "Rad am Ring",
+      "date": "2027-07-23",
+      "end_date": "2027-07-25",
+      "country": "DE",
+      "place": "Nürburgring",
+      "lat": 50.3356,
+      "lon": 6.9475,
+      "website": "https://radamring.de",
+      "registration_start": "2026-10-08",
+      "notes": "24h-Rennen, Jedermann-Rennen über mehrere Distanzen, Zeitfahren, Gravel. Anmeldung über Datasport, erfahrungsgemäß schnell ausgebucht."
+    },
+    {
+      "sport": "rennrad",
+      "categories": [
+        "Radmarathon"
+      ],
+      "name": "Rad-Marathon Tannheimer Tal",
+      "date": "2027-07-04",
+      "country": "AT",
+      "place": "Tannheim",
+      "lat": 47.4994,
+      "lon": 10.5165,
+      "website": "https://www.rad-marathon.at",
+      "registration_start": "2026-10-12",
+      "routes": [
+        {
+          "name": "Lang",
+          "km": 214,
+          "elevation_m": 3500
+        },
+        {
+          "name": "Mittel",
+          "km": 138,
+          "elevation_m": 870
+        },
+        {
+          "name": "Kurz",
+          "km": 103,
+          "elevation_m": 760
+        },
+        {
+          "name": "Mini",
+          "km": 66,
+          "elevation_m": 600
+        }
+      ]
+    },
+    {
+      "sport": "rennrad",
+      "categories": [
+        "Radtour"
+      ],
+      "name": "Dolomites Bike Day",
+      "date": "2027-06-19",
+      "country": "IT",
+      "place": "Alta Badia (Corvara)",
+      "lat": 46.5497,
+      "lon": 11.8736,
+      "website": "https://www.altabadia.org/de/events/dolomites-bike-day.html",
+      "routes": [
+        {
+          "name": "Runde Campolongo–Falzarego–Valparola",
+          "km": 51,
+          "elevation_m": null
+        }
+      ],
+      "fee": "kostenlos",
+      "notes": "Keine Anmeldung, kein Rennen: Pässe von 9 bis 15 Uhr für Autos gesperrt."
+    },
+    {
+      "sport": "rennrad",
+      "categories": [
+        "Radmarathon"
+      ],
+      "name": "Mecklenburger Seen Runde (MSR)",
+      "date": "2027-05-28",
+      "end_date": "2027-05-29",
+      "country": "DE",
+      "place": "Neubrandenburg",
+      "lat": 53.5574,
+      "lon": 13.2611,
+      "website": "https://mecklenburger-seen-runde.de",
+      "registration_start": "2026-10-01",
+      "routes": [
+        {
+          "name": "MSR 300",
+          "km": 300,
+          "elevation_m": null
+        },
+        {
+          "name": "Frauen MSR 100",
+          "km": 100,
+          "elevation_m": null
+        }
+      ],
+      "notes": "Anmeldung für die MINI MSR ab 6. Januar 2027."
+    },
+    {
+      "sport": "rennrad",
+      "categories": [
+        "Radmarathon"
+      ],
+      "name": "Shades of Speed",
+      "date": "2027-07-23",
+      "end_date": "2027-07-25",
+      "country": "DE",
+      "place": "Bad Feilnbach (Chiemgau)",
+      "lat": 47.7726,
+      "lon": 12.008,
+      "website": "https://www.shades-of-speed.eu",
+      "routes": [
+        {
+          "name": "Die.Hochries",
+          "km": 130,
+          "elevation_m": null
+        },
+        {
+          "name": "Der.Wendelstein",
+          "km": 168,
+          "elevation_m": null
+        },
+        {
+          "name": "Der.Kaiser",
+          "km": 199,
+          "elevation_m": null
+        },
+        {
+          "name": "Die.Lange",
+          "km": 226,
+          "elevation_m": null
+        },
+        {
+          "name": "Das.Monument",
+          "km": 306,
+          "elevation_m": null
+        }
+      ],
+      "notes": "Ohne Zeitnahme, Straßen nicht gesperrt. Termin laut Veranstalterseite, die teils noch 2026 zeigt."
+    },
+    {
+      "sport": "rennrad",
+      "categories": [
+        "Ultra"
+      ],
+      "name": "Race Across Germany West–Ost (Aachen–Görlitz)",
+      "date": "2027-08-26",
+      "end_date": "2027-08-29",
+      "country": "DE",
+      "place": "Aachen",
+      "lat": 50.7753,
+      "lon": 6.0839,
+      "website": "https://raceacrossgermany.de",
+      "routes": [
+        {
+          "name": "Aachen–Görlitz",
+          "km": 800,
+          "elevation_m": 7800
+        }
+      ]
+    },
+    {
+      "sport": "rennrad",
+      "categories": [
+        "Radmarathon"
+      ],
+      "name": "Kitzbüheler Radmarathon",
+      "date": "2027-09-05",
+      "country": "AT",
+      "place": "Kitzbühel",
+      "lat": 47.4467,
+      "lon": 12.3925,
+      "website": "https://www.kitzbueheler-radmarathon.at",
+      "routes": [
+        {
+          "name": "Klassik (Ziel Kitzbüheler Horn)",
+          "km": 216,
+          "elevation_m": 4600
+        },
+        {
+          "name": "Kitz",
+          "km": 209,
+          "elevation_m": 3800
+        }
+      ],
+      "fee": "2026: 159–179 €"
+    },
+    {
+      "sport": "rennrad",
+      "categories": [
+        "Radmarathon"
+      ],
+      "name": "SuperGiroDolomiti & Dolomitenradrundfahrt",
+      "date": "2027-06-13",
+      "country": "AT",
+      "place": "Lienz",
+      "lat": 46.8297,
+      "lon": 12.769,
+      "website": "https://www.dolomitensport.at",
+      "routes": [
+        {
+          "name": "SuperGiroDolomiti",
+          "km": 218,
+          "elevation_m": 5060
+        },
+        {
+          "name": "Dolomitenradrundfahrt",
+          "km": 112,
+          "elevation_m": 1870
+        }
+      ]
+    },
+    {
+      "sport": "rennrad",
+      "categories": [
+        "Radmarathon"
+      ],
+      "name": "Swiss Cycling Alpenbrevet",
+      "date": "2027-09-04",
+      "country": "CH",
+      "place": "Andermatt",
+      "lat": 46.6356,
+      "lon": 8.5939,
+      "website": "https://www.alpenbrevet.ch",
+      "notes": "Platin (5 Pässe), Gold (4), Silber (3), Bronze (2). Anmeldung öffnet im Herbst 2026."
+    },
+    {
+      "sport": "rennrad",
+      "categories": [
+        "Radmarathon"
+      ],
+      "name": "Dreiländergiro",
+      "date": "2027-06-27",
+      "country": "AT",
+      "place": "Nauders",
+      "lat": 46.8919,
+      "lon": 10.5017,
+      "website": "https://www.dreilaendergiro.at",
+      "routes": [
+        {
+          "name": "Stelvio Vinschgau",
+          "km": 120,
+          "elevation_m": 3000
+        },
+        {
+          "name": "Stelvio Engadin",
+          "km": 168,
+          "elevation_m": 3600
+        }
+      ],
+      "notes": "Über das Stilfser Joch. Strecken aus 2026, für 2027 noch zu bestätigen."
     }
   ]
 }
