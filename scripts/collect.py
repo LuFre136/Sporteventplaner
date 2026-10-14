@@ -399,7 +399,7 @@ def rse_event(x: dict) -> dict | None:
         "source": "radsport-events.de",
         "source_url": f"https://radsport-events.de/events/{x['id']}",
         "routes": [
-            {"name": d.get("label"), "km": d.get("distanceKm"), "elevation_m": d.get("elevationMeters")}
+            {"name": d.get("label"), "km": d.get("distanceKm"), "elevation_m": d.get("elevationMeters") or None}
             for d in sorted(x.get("distances") or [], key=lambda d: d.get("distanceKm") or 0)
             if d.get("distanceKm")
         ],
