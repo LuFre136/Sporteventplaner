@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Rad Events//radevents.de//DE
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:event-27015@radevents.de
+DTSTAMP:20261014T181955Z
+DTSTART:20270829T063000
+DTEND:20270829T163000
+SUMMARY:Ötztaler Radmarathon
+DESCRIPTION:Der Ötztaler Radmarathon zählt zu den anspruchsvollsten und b
+ ekanntesten Jedermann-Radmarathons Europas. Er findet in Tirol in Österre
+ ich statt und führt durch eine beeindruckende Hochgebirgslandschaft der A
+ lpen. \nDie Strecke umfasst 227 km mit 5500 Höhenmetern und führt über 
+ vier große Alpenpässe durch Österreich sowie Italien und verlangt den T
+ eilnehmern eine außergewöhnliche Ausdauer\, eine gute Renneinteilung und
+  mentale Stärke ab.
+LOCATION:BP Tankstelle\, Dorfstraße 114\, 6450 Sölden
+GEO:46.9650277;11.0070006
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=BP Tankstelle\nDorfstraße 
+ 114\n6450 Sölden\nÖsterreich;X-APPLE-RADIUS=72;X-TITLE=BP Tankstelle:geo
+ :46.9650277,11.0070006
+URL:https://radsport-events.de/events/27015
+END:VEVENT
+END:VCALENDAR
