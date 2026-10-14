@@ -1,7 +1,7 @@
 "use strict";
 
 const CATEGORY_ORDER = {
-  rennrad: ["RTF", "Radmarathon", "Rennen", "Brevet", "Gravel", "Etappenfahrt"],
+  rennrad: ["RTF", "Radmarathon", "Rennen", "Ultra", "Radtour", "Brevet", "Gravel", "Etappenfahrt"],
   laufen: ["5 km", "10 km", "Halbmarathon", "Marathon", "Ultra", "Trail", "Sonstige"],
 };
 const DACH = new Set(["DE", "AT", "CH"]);
