@@ -343,6 +343,86 @@ def collect_dlv(delay: float, resolve_sites: bool, max_pages: int | None) -> lis
     return events
 
 
+
+# ---------------------------------------------------------------- radsport-events.de
+
+RSE_API = "https://api.radsport-events.de/api/v1"
+# eventType -> Kategorie in der App; nicht aufgeführte Typen (MTB, Cross, Triathlon …) fehlen bewusst
+RSE_TYPES = {
+    "RTF": "RTF",
+    "RADMARATHON": "Radmarathon",
+    "JEDERMANN": "Rennen",
+    "RENNEN_24H": "Rennen",
+    "ETAPPENRENNEN": "Etappenfahrt",
+    "ULTRA": "Ultra",
+    "BIKEPACKING": "Ultra",
+    "BREVET": "Brevet",
+    "VOLKSRADFAHREN": "Radtour",
+    "GRAVEL_RACE": "Gravel",
+    "GRAVEL_RIDE": "Gravel",
+    "GRAVEL_TOUR": "Gravel",
+}
+RSE_REG_STATUS = {
+    "OPEN": "Anmeldung offen",
+    "NOT_YET_OPEN": "Anmeldung noch nicht geöffnet",
+    "CLOSED": "Anmeldung geschlossen",
+    "ONSITE_ONLY": "Nur Nachmeldung vor Ort",
+}
+
+
+def rse_event(x: dict) -> dict | None:
+    cats = set(x.get("categories") or [x.get("category")]) | set(x.get("secondaryCategories") or [])
+    if "ROAD" not in cats and "GRAVEL" not in cats:
+        return None
+    cat = RSE_TYPES.get(x.get("eventType") or "")
+    if not cat or x.get("cancelled") or x.get("permanent") or not x.get("eventDate"):
+        return None
+    notes = []
+    if x.get("tentative"):
+        notes.append("Termin noch vorläufig.")
+    if x.get("fullyBooked"):
+        notes.append("Ausgebucht.")
+    return {
+        "id": f"rse-{x['id']}",
+        "sport": "rennrad",
+        "categories": [cat],
+        "name": clean(x.get("title")),
+        "date": x["eventDate"],
+        "end_date": x.get("endDate") if x.get("endDate") and x.get("endDate") != x["eventDate"] else None,
+        "country": x.get("country"),
+        "place": x.get("city") or x.get("locationName"),
+        "address": x.get("address"),
+        "lat": x.get("latitude"),
+        "lon": x.get("longitude"),
+        "geo_query": x.get("address"),
+        "website": site(x.get("organizerUrl")),
+        "source": "radsport-events.de",
+        "source_url": f"https://radsport-events.de/events/{x['id']}",
+        "routes": [
+            {"name": d.get("label"), "km": d.get("distanceKm"), "elevation_m": d.get("elevationMeters")}
+            for d in sorted(x.get("distances") or [], key=lambda d: d.get("distanceKm") or 0)
+            if d.get("distanceKm")
+        ],
+        "registration_status": RSE_REG_STATUS.get(x.get("registrationStatus") or ""),
+        "notes": " ".join(notes) or None,
+    }
+
+
+def collect_rse(delay: float) -> list[dict]:
+    events, page, pages = [], 0, 1
+    while page < pages:
+        r = get(f"{RSE_API}/events", params={"page": page, "size": 100}, headers={"Accept": "application/json"})
+        data = r.json()
+        pages = int(data.get("totalPages") or 1)
+        for x in data.get("content") or []:
+            e = rse_event(x)
+            if e:
+                events.append(e)
+        page += 1
+        time.sleep(delay)
+    log(f"radsport-events.de: {len(events)} Rennrad-/Gravel-Events übernommen")
+    return events
+
 # ---------------------------------------------------------------- geocoding
 
 
@@ -410,6 +490,44 @@ def load_curated() -> list[dict]:
     return items
 
 
+SOURCE_PRIORITY = {"kuratiert": 0, "radsport-events.de": 1, "rad-net": 2, "DLV-Laufkalender": 3}
+
+
+def _km(a: dict, b: dict) -> float:
+    import math
+
+    if None in (a.get("lat"), a.get("lon"), b.get("lat"), b.get("lon")):
+        return math.inf
+    la1, lo1, la2, lo2 = map(math.radians, (a["lat"], a["lon"], b["lat"], b["lon"]))
+    h = math.sin((la2 - la1) / 2) ** 2 + math.cos(la1) * math.cos(la2) * math.sin((lo2 - lo1) / 2) ** 2
+    return 12742 * math.asin(math.sqrt(h))
+
+
+def _name_key(name: str) -> str:
+    return re.sub(r"\W+", "", re.sub(r"^\d+\.\s*", "", name.lower()))[:20]
+
+
+def dedupe(events: list[dict]) -> list[dict]:
+    """Dasselbe Event aus mehreren Quellen nur einmal behalten (Vorrang: kuratiert, radsport-events, rad-net).
+
+    Gleich gilt: gleiche Sportart, gleiches Startdatum und entweder ähnlicher Name
+    oder Startorte höchstens 15 km voneinander entfernt.
+    """
+    kept: list[dict] = []
+    by_day: dict[tuple, list[dict]] = {}
+    for e in sorted(events, key=lambda x: SOURCE_PRIORITY.get(x.get("source"), 9)):
+        same_day = by_day.setdefault((e["sport"], e["date"]), [])
+        dup = any(
+            k.get("source") != e.get("source")
+            and (_name_key(k["name"]) == _name_key(e["name"]) or _km(k, e) <= 15)
+            for k in same_day
+        )
+        if not dup:
+            same_day.append(e)
+            kept.append(e)
+    return sorted(kept, key=lambda x: (x["date"], x["name"]))
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--months", type=int, default=15, help="Zeitraum ab heute")
@@ -417,7 +535,7 @@ def main():
     ap.add_argument("--geocode-budget", type=int, default=3000)
     ap.add_argument("--dlv-max-pages", type=int, default=None)
     ap.add_argument("--no-resolve", action="store_true", help="DLV-Webseiten nicht auflösen")
-    ap.add_argument("--skip", action="append", default=[], choices=["radnet", "dlv"])
+    ap.add_argument("--skip", action="append", default=[], choices=["radnet", "dlv", "rse"])
     args = ap.parse_args()
 
     previous = json.loads(OUT.read_text())["events"] if OUT.exists() else []
@@ -425,8 +543,9 @@ def main():
     for name, fn in (
         ("radnet", lambda: collect_radnet(args.months, args.delay)),
         ("dlv", lambda: collect_dlv(args.delay, not args.no_resolve, args.dlv_max_pages)),
+        ("rse", lambda: collect_rse(args.delay)),
     ):
-        src = {"radnet": "rad-net", "dlv": "DLV-Laufkalender"}[name]
+        src = {"radnet": "rad-net", "dlv": "DLV-Laufkalender", "rse": "radsport-events.de"}[name]
         keep = [e for e in previous if e.get("source") == src]
         if name in args.skip:
             events += keep
@@ -457,11 +576,7 @@ def main():
             continue
         e.pop("geo_query", None)
         final.append({k: v for k, v in e.items() if v not in (None, [], "")})
-    # Kuratierte Einträge ersetzen gleichnamige Events am selben Tag aus den Kalendern
-    keyed = {}
-    for e in sorted(final, key=lambda x: x.get("source") == "kuratiert"):
-        keyed[(e["sport"], e["date"], re.sub(r"\W+", "", e["name"].lower())[:20])] = e
-    final = sorted(keyed.values(), key=lambda x: (x["date"], x["name"]))
+    final = dedupe(final)
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(
