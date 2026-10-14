@@ -173,7 +173,7 @@ function card(ev) {
     <dl class="facts">
       <dt>Distanz</dt><dd>${routesText(ev) ? esc(routesText(ev)) : NA}</dd>
       ${ev.sport === "rennrad" && !hasElev ? `<dt>Höhenmeter</dt><dd>${NA}</dd>` : ""}
-      <dt>Anmeldung</dt><dd>${regText(ev) ? esc(regText(ev)) : NA}</dd>
+      <dt>Anmeldung</dt><dd>${regText(ev) ? esc(regText(ev)) : ev.registration_status ? esc(ev.registration_status) : NA}</dd>
       <dt>Gebühr</dt><dd>${ev.fee ? esc(ev.fee) : NA}</dd>
       <dt>Webseite</dt><dd>${link ? `<a href="${esc(link)}" target="_blank" rel="noopener">${esc(link.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "").slice(0, 45))}</a>` : NA}</dd>
     </dl>
