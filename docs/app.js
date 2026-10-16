@@ -139,6 +139,78 @@ function openIcs(ev, kind) {
   setTimeout(() => URL.revokeObjectURL(url), 30000);
 }
 
+// ------------------------------------------------------------ GPX
+
+const gpxFiles = new Map();
+const canShareFiles = () => {
+  try { return !!navigator.canShare && navigator.canShare({ files: [new File([""], "t.gpx", { type: "application/gpx+xml" })] }); } catch (_) { return false; }
+};
+
+function routeLabel(r) {
+  return `${r.name ? r.name + " " : ""}${fmtNum(r.km)} km`;
+}
+
+function saveFile(file) {
+  const url = URL.createObjectURL(file);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = file.name;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 30000);
+}
+
+// Auf dem iPhone öffnet sich das Teilen-Menü, dort lässt sich die Strecke in komoot öffnen oder in Dateien sichern
+async function openGpx(ev, i, button) {
+  const r = ev.routes[i];
+  const key = `${ev.id}#${i}`;
+  let file = gpxFiles.get(key);
+  if (!file) {
+    const label = button.textContent;
+    button.textContent = "Lade GPX …";
+    try {
+      const res = await fetch(r.gpx);
+      if (!res.ok) throw new Error(res.status);
+      const name = `${ev.name.replace(/[^\wäöüÄÖÜß-]+/g, "_").slice(0, 40)}_${Math.round(r.km)}km.gpx`;
+      file = new File([await res.blob()], name, { type: "application/gpx+xml" });
+      gpxFiles.set(key, file);
+    } catch (_) {
+      // z. B. fremde Seite ohne CORS: Datei direkt im Browser öffnen
+      window.open(r.gpx, "_blank", "noopener");
+      return;
+    } finally {
+      button.textContent = label;
+    }
+  }
+  if (canShareFiles()) {
+    try {
+      await navigator.share({ files: [file], title: `${ev.name} (${routeLabel(r)})` });
+    } catch (e) {
+      // Safari verlangt einen frischen Tipp, wenn das Laden zu lange gedauert hat; die Datei liegt jetzt bereit
+      if (e.name === "NotAllowedError") button.textContent = `📤 GPX ${routeLabel(r)} teilen`;
+    }
+  } else {
+    saveFile(file);
+  }
+}
+
+function routeLinks(ev) {
+  const items = [];
+  (ev.routes || []).forEach((r, i) => {
+    if (r.gpx) items.push(`<button class="btn small" data-gpx="${i}" data-id="${esc(ev.id)}">⬇️ GPX ${esc(routeLabel(r))}</button>`);
+    if (r.route_url) {
+      const host = r.route_url.match(/komoot|strava|ridewithgps|outdooractive/i);
+      const name = host ? { komoot: "komoot", strava: "Strava", ridewithgps: "RideWithGPS", outdooractive: "Outdooractive" }[host[0].toLowerCase()] : "Karte";
+      items.push(`<a class="btn small" href="${esc(r.route_url)}" target="_blank" rel="noopener">🗺️ ${esc(routeLabel(r))} in ${name}</a>`);
+    }
+  });
+  if (ev.komoot) items.push(`<a class="btn small" href="${esc(ev.komoot)}" target="_blank" rel="noopener">🗺️ Alle Strecken in komoot</a>`);
+  if (!items.length) return "";
+  const hint = (ev.routes || []).some((r) => r.gpx) && canShareFiles() ? '<p class="muted small">Tippe auf GPX und wähle im Teilen-Menü komoot, um die Strecke dort zu öffnen.</p>' : "";
+  return `<div class="routes"><div class="actions">${items.join("")}</div>${hint}</div>`;
+}
+
 // ------------------------------------------------------------ rendering
 
 function routesText(ev) {
@@ -178,6 +250,7 @@ function card(ev) {
       <dt>Webseite</dt><dd>${link ? `<a href="${esc(link)}" target="_blank" rel="noopener">${esc(link.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "").slice(0, 45))}</a>` : NA}</dd>
     </dl>
     ${ev.notes ? `<p class="note">${esc(ev.notes)}</p>` : ""}
+    ${routeLinks(ev)}
     <div class="actions">
       <button class="btn primary" data-ics="event" data-id="${esc(ev.id)}">📅 Event eintragen</button>
       <button class="btn" data-ics="registration" data-id="${esc(ev.id)}" ${ev.registration_start ? "" : "disabled title='Anmeldestart unbekannt'"}>⏰ Anmeldestart${regFuture ? "" : ev.registration_start ? " (vorbei)" : " unbekannt"}</button>
@@ -296,6 +369,12 @@ function bind() {
   $("#filters").addEventListener("submit", (e) => e.preventDefault());
   $("#list").addEventListener("click", (e) => {
     if (e.target.id === "more") { state.shown += PAGE; render(); return; }
+    const g = e.target.closest("[data-gpx]");
+    if (g) {
+      const ev = state.events.find((x) => x.id === g.dataset.id);
+      if (ev) openGpx(ev, +g.dataset.gpx, g);
+      return;
+    }
     const b = e.target.closest("[data-ics]");
     if (!b || b.disabled) return;
     const ev = state.events.find((x) => x.id === b.dataset.id);
@@ -335,5 +414,5 @@ async function init() {
   if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
 }
 
-if (typeof module !== "undefined") module.exports = { buildIcs, distanceKm };
+if (typeof module !== "undefined") module.exports = { buildIcs, distanceKm, routeLinks };
 else init();

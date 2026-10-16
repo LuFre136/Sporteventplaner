@@ -28,6 +28,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 OUT = ROOT / "docs" / "events.json"
 GEOCACHE = DATA / "geocache.json"
+GPX_DIR = ROOT / "docs" / "gpx"
 CURATED = DATA / "curated.json"
 
 UA = "Sporteventplaner/1.0 (+https://github.com/LuFre136/sporteventplaner)"
@@ -172,7 +173,15 @@ def parse_radnet_detail(html: str) -> dict:
 def collect_radnet(months: int, delay: float) -> list[dict]:
     start = dt.date.today()
     end = start + dt.timedelta(days=30 * months)
-    rows = parse_radnet_list(get(radnet_list_url(start, end)).text)
+    # Die Liste zeigt 25 Termine pro Seite
+    rows: list[dict] = []
+    for lstart in range(0, 5000, 25):
+        page = parse_radnet_list(get(radnet_list_url(start, end, lstart)).text)
+        new = [r for r in page if r["url"] not in {x["url"] for x in rows}]
+        rows += new
+        if len(page) < 25 or not new:
+            break
+        time.sleep(delay)
     log(f"rad-net: {len(rows)} Termine gelistet")
     events = []
     for row in rows:
@@ -370,6 +379,20 @@ RSE_REG_STATUS = {
 }
 
 
+def is_url(s: str | None) -> bool:
+    return bool(s and re.match(r"^https?://\S+$", s.strip()))
+
+
+def rse_route(event_id: int, d: dict) -> dict:
+    route = {"name": d.get("label"), "km": d.get("distanceKm"), "elevation_m": d.get("elevationMeters") or None}
+    if d.get("hasGpx") and d.get("id"):
+        route["gpx"] = f"{RSE_API}/events/{event_id}/distances/{d['id']}/gpx"
+    # routeUrl ist ein Freitextfeld: nur echte Links (komoot, Strava …) übernehmen
+    if is_url(d.get("routeUrl")):
+        route["route_url"] = d["routeUrl"].strip()
+    return route
+
+
 def rse_event(x: dict) -> dict | None:
     cats = set(x.get("categories") or [x.get("category")]) | set(x.get("secondaryCategories") or [])
     if "ROAD" not in cats and "GRAVEL" not in cats:
@@ -398,11 +421,8 @@ def rse_event(x: dict) -> dict | None:
         "website": site(x.get("organizerUrl")),
         "source": "radsport-events.de",
         "source_url": f"https://radsport-events.de/events/{x['id']}",
-        "routes": [
-            {"name": d.get("label"), "km": d.get("distanceKm"), "elevation_m": d.get("elevationMeters") or None}
-            for d in sorted(x.get("distances") or [], key=lambda d: d.get("distanceKm") or 0)
-            if d.get("distanceKm")
-        ],
+        "routes": [rse_route(x["id"], d) for d in sorted(x.get("distances") or [], key=lambda d: d.get("distanceKm") or 0) if d.get("distanceKm")],
+        "komoot": x.get("komootCollectionUrl") if is_url(x.get("komootCollectionUrl")) else None,
         "registration_status": RSE_REG_STATUS.get(x.get("registrationStatus") or ""),
         "notes": " ".join(notes) or None,
     }
@@ -422,6 +442,42 @@ def collect_rse(delay: float) -> list[dict]:
         time.sleep(delay)
     log(f"radsport-events.de: {len(events)} Rennrad-/Gravel-Events übernommen")
     return events
+
+def mirror_gpx(events: list[dict], delay: float) -> None:
+    """GPX-Dateien von radsport-events.de nach docs/gpx kopieren.
+
+    Die API erlaubt keine Abrufe aus fremden Webseiten (CORS), deshalb liefert
+    GitHub Pages die Dateien selbst aus. Vorhandene Dateien werden nicht neu
+    geladen, nicht mehr verwendete gelöscht.
+    """
+    GPX_DIR.mkdir(parents=True, exist_ok=True)
+    used, loaded = set(), 0
+    for e in events:
+        for r in e.get("routes") or []:
+            m = re.match(re.escape(RSE_API) + r"/events/\d+/distances/(\d+)/gpx$", r.get("gpx") or "")
+            if not m:
+                continue
+            name = f"rse-{m.group(1)}.gpx"
+            path = GPX_DIR / name
+            if not path.exists():
+                try:
+                    body = get(r["gpx"]).content
+                except RuntimeError as err:
+                    log(f"  {err}")
+                    body = b""
+                time.sleep(delay)
+                if b"<gpx" not in body[:2000]:
+                    del r["gpx"]
+                    continue
+                path.write_bytes(body)
+                loaded += 1
+            r["gpx"] = f"gpx/{name}"
+            used.add(name)
+    for f in GPX_DIR.glob("rse-*.gpx"):
+        if f.name not in used:
+            f.unlink()
+    log(f"GPX: {len(used)} Dateien, {loaded} neu geladen")
+
 
 # ---------------------------------------------------------------- geocoding
 
@@ -577,6 +633,7 @@ def main():
         e.pop("geo_query", None)
         final.append({k: v for k, v in e.items() if v not in (None, [], "")})
     final = dedupe(final)
+    mirror_gpx(final, args.delay)
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(
