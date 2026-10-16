@@ -15,7 +15,7 @@ Kostenlose Web-App fürs iPhone, mit der du Rennrad- und Laufevents findest und 
 
 ## Ein Event von Hand hinzufügen
 
-Trage es in `data/curated.json` ein. Nach dem Commit läuft der Workflow automatisch und übernimmt es. Pflichtfelder sind `sport` (`rennrad` oder `laufen`), `categories`, `name`, `date` und `country` (ISO-Code, z. B. `IT`). Optional sind `end_date`, `place`, `lat`/`lon`, `website`, `routes` (`[{"name", "km", "elevation_m"}]`), `registration_start`, `registration_end`, `fee` und `notes`.
+Trage es in `data/curated.json` ein. Nach dem Commit läuft der Workflow automatisch und übernimmt es. Pflichtfelder sind `sport` (`rennrad` oder `laufen`), `categories`, `name`, `date` und `country` (ISO-Code, z. B. `IT`). Optional sind `end_date`, `place`, `lat`/`lon`, `website`, `routes` (`[{"name", "km", "elevation_m", "gpx", "route_url"}]`; `gpx` ist ein Pfad wie `gpx/name.gpx` zu einer Datei in `docs/gpx/`, `route_url` ein Link zu komoot, Strava o. Ä.), `registration_start`, `registration_end`, `fee` und `notes`.
 
 ## Lokal ausführen
 

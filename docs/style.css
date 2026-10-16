@@ -115,4 +115,7 @@ input[type=range] { accent-color: var(--accent); }
 .note { font-size: 0.85rem; color: var(--warn); margin: 0; }
 .actions { display: flex; flex-wrap: wrap; gap: 8px; }
 .actions .btn { flex: 1 1 140px; font-size: 0.9rem; }
+.routes { display: grid; gap: 6px; }
+.routes .btn.small { flex: 1 1 auto; font-size: 0.85rem; display: inline-flex; align-items: center; justify-content: center; text-decoration: none; }
+.routes p { margin: 0; }
 .more { text-align: center; }

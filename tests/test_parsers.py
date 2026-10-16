@@ -51,6 +51,19 @@ def test_rse_event():
     assert e["routes"][0]["km"] == 227 and e["routes"][0]["elevation_m"] == 5500
     assert e["website"].startswith("https://")
     assert e["registration_status"] == "Anmeldung noch nicht geöffnet"
+    assert e["routes"][0]["gpx"] == "https://api.radsport-events.de/api/v1/events/27015/distances/31606/gpx"
+    assert "route_url" not in e["routes"][0] and e["komoot"] is None
+
+
+def test_rse_route_links():
+    x = json.loads((FIX / "rse_event.json").read_text())
+    x["distances"][0].update(hasGpx=False, routeUrl=" https://www.komoot.com/tour/746649523 ")
+    x["distances"].append({"id": 1, "distanceKm": 50, "elevationMeters": 0, "routeUrl": "Gravel", "hasGpx": False})
+    x["komootCollectionUrl"] = "https://www.komoot.com/de-de/collection/2832506"
+    e = collect.rse_event(x)
+    assert e["routes"][0] == {"name": None, "km": 50, "elevation_m": None}
+    assert e["routes"][1]["route_url"] == "https://www.komoot.com/tour/746649523" and "gpx" not in e["routes"][1]
+    assert e["komoot"] == "https://www.komoot.com/de-de/collection/2832506"
 
 
 def test_rse_skips_mtb():
@@ -65,3 +78,26 @@ def test_dedupe_prefers_curated():
     other = {"sport": "rennrad", "date": "2027-08-29", "name": "RTF Hamburg", "source": "rad-net", "lat": 53.55, "lon": 9.99}
     out = collect.dedupe([rse, other, cur])
     assert sorted(e["source"] for e in out) == ["kuratiert", "rad-net"]
+
+
+def test_mirror_gpx(tmp_path, monkeypatch):
+    monkeypatch.setattr(collect, "GPX_DIR", tmp_path)
+    (tmp_path / "rse-999.gpx").write_text("<gpx/>")  # nicht mehr verwendet
+    (tmp_path / "eigene.gpx").write_text("<gpx/>")  # handgepflegt, bleibt
+
+    class R:
+        def __init__(self, body):
+            self.content = body
+
+    bodies = {"1": b'<?xml version="1.0"?><gpx></gpx>', "2": b"<html>Fehler</html>"}
+    monkeypatch.setattr(collect, "get", lambda url: R(bodies[url.split("/")[-2]]))
+    ev = {"routes": [
+        {"km": 100, "gpx": f"{collect.RSE_API}/events/7/distances/1/gpx"},
+        {"km": 50, "gpx": f"{collect.RSE_API}/events/7/distances/2/gpx"},
+        {"km": 20, "gpx": "gpx/eigene.gpx"},
+    ]}
+    collect.mirror_gpx([ev], 0)
+    assert ev["routes"][0]["gpx"] == "gpx/rse-1.gpx" and (tmp_path / "rse-1.gpx").exists()
+    assert "gpx" not in ev["routes"][1]
+    assert ev["routes"][2]["gpx"] == "gpx/eigene.gpx"
+    assert sorted(f.name for f in tmp_path.iterdir()) == ["eigene.gpx", "rse-1.gpx"]
