@@ -175,10 +175,11 @@ def collect_radnet(months: int, delay: float) -> list[dict]:
     end = start + dt.timedelta(days=30 * months)
     # Die Liste zeigt 25 Termine pro Seite
     rows: list[dict] = []
-    while True:
-        page = parse_radnet_list(get(radnet_list_url(start, end, len(rows))).text)
-        rows += page
-        if len(page) < 25:
+    for lstart in range(0, 5000, 25):
+        page = parse_radnet_list(get(radnet_list_url(start, end, lstart)).text)
+        new = [r for r in page if r["url"] not in {x["url"] for x in rows}]
+        rows += new
+        if len(page) < 25 or not new:
             break
         time.sleep(delay)
     log(f"rad-net: {len(rows)} Termine gelistet")
